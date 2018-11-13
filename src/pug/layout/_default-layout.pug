@@ -64,7 +64,54 @@ html(lang="ja")
 
   body
     .wrapper
+      header
+        h1: a(href="#"): img(src="img/logo.png" alt="ボールプール.com")
+        nav
+          ul
+            li: a(href="#"): img(src="img/tel_off.png" alt="0120-71-1010")
+            li: a(href="#"): img(src="img/contact_off.png" alt="0120-71-1010")
+          ul.menu
+            li: a(href="#"): img(src="img/menu_01_off.png" alt="ご利用ガイド")
+            li: a(href="#"): img(src="img/menu_02_on.png" alt="商品一覧")
+            li: a(href="#"): img(src="img/menu_03_off.png" alt="施工事例")
+            li: a(href="#"): img(src="img/menu_04_off.png" alt="よくある質問")
+            li: a(href="#"): img(src="img/menu_05_off.png" alt="特注品について")
+            li: a(href="#"): img(src="img/menu_06_off.png" alt="会社案内")
+      hr
       block content-block
 
-    // javascript
-    block javascript-block
+      footer
+        .footer-inner
+          .footer-left
+            address 〒578-0984　大阪府　東大阪市菱江2-14-16
+            h1: a(href="#"): img(src="img/logo.png" alt="ボールプール.com")
+            address 株式会社ワークス
+              br
+              | ボールプール|ボールプール用ボール専門店【店舗家具 Wism】
+          .footer-right
+            ul.footer-menu
+              li: a(href="#") ご利用ガイド
+              li: a(href="#") 商品一覧
+              li: a(href="#") 施工事例
+            ul.footer-menu
+              li: a(href="#") 特注品
+              li: a(href="#") 会社案内
+              li: a(href="#") よくある質問
+            ul.footer-menu
+              li: a(href="#") カラーチャート
+              li: a(href="#") 運営サイトのご案内
+              li: a(href="#") プライバシーポリシー
+            ul.footer-menu
+              li: a(href="#") お問い合わせ
+              li: a(href="#") スタッフ紹介
+              li
+            ul.footer-contact
+              li: a(href="#"): img(src="img/tel_off.png" alt="0120-71-1010")
+              li: a(href="#"): img(src="img/contact_off.png" alt="0120-71-1010")
+
+
+        .copy
+           | Copyright &copy; Ball pool.com. All Right Reserved.
+
+  // javascript
+  block javascript-block
