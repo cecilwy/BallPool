@@ -1,4 +1,4 @@
-kayac-html5-starter
+for BallPool
 ====
 
 ## 事前に用意するもの
