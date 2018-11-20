@@ -1,4 +1,5 @@
 <?php
+ini_set('display_errors', 1);
 $url = 'https://mat-room.com/api/itemcode/bpsa/prices/';
 $json = file_get_contents($url);
 $json = mb_convert_encoding($json, 'UTF8', 'ASCII,JIS,UTF-8,EUC-JP,SJIS-WIN');
