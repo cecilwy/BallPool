@@ -306,3 +306,7 @@ footer .footer-contact {
 footer .footer-contact li {
   float: left;
   margin-right: 10px; }
+
+@media (max-width: 768px) {
+    .item-detail {
+      text-align: left; } }

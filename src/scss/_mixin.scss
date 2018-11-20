@@ -1,0 +1,5 @@
+@mixin sp {
+  @media (max-width: ($sp_mac_width)) {
+    @content;
+  }
+}

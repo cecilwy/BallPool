@@ -7,7 +7,13 @@
   padding: 30px;
   zoom: 1;
   overflow: hidden;
-  text-align: center; }
+  text-align: center;
+
+  @include sp {
+    text-align: left;
+  };
+
+}
 
 .item-detail div.item-photo,
 .item-detail div.item-info {
