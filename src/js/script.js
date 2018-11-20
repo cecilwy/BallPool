@@ -1,5 +1,7 @@
 import { BASE_DIR } from '../constants.yml'
 import Sample from '@/lib/Sample';
+import Jquery from 'jquery';
+
 
 const sample = new Sample({
     name: 'world'

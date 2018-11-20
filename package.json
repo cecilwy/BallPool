@@ -51,5 +51,8 @@
     "ie >= 11",
     "ios >= 9",
     "android >= 4.4"
-  ]
+  ],
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
 }
