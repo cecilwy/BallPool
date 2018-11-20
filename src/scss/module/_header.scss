@@ -1,14 +1,13 @@
-
 header {
-  width: 1000px;
+  width: 960px;
   margin: auto;
   margin-top: 5px; }
 
-header h1 {
-  width: 350px;
+header #logo {
+  width: 310px;
   margin-top: 10px; }
 
-header h1,
+header #logo,
 header nav {
   float: left; }
 
@@ -22,7 +21,7 @@ header nav ul.menu {
 
 header nav ul li {
   float: left;
-  margin-right: 20px; }
+  margin-left: 20px; }
 
 hr {
   background: #f75b5b;
@@ -38,3 +37,4 @@ hr {
   width: 100%;
   padding: 0;
   margin: 0; }
+

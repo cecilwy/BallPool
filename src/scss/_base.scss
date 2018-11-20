@@ -2,3 +2,19 @@ body {
   // 文字サイズの自動調整を無効にする
   text-size-adjust: 100%;
 }
+br.clear_noie,
+div.clear_noie {
+  display:inline !important;
+  display:none;
+  clear:both;
+  line-height:0px;
+}
+br.clear_all {
+  clear:both;
+  line-height:0px;
+}
+
+a:hover{
+  transition: all .3s ease;
+  opacity: 0.7;
+}

@@ -2,7 +2,7 @@ footer {
   font-size: 14px; }
 
 footer .footer-inner {
-  width: 1000px;
+  width: 960px;
   margin: auto;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -15,11 +15,12 @@ footer address {
   padding-bottom: 5px;
   font-weight: bold; }
 
-footer div.footer-left,
-footer div.footer-right {
-  float: left; }
+footer div.footer-left{
+  float: left;
+  width: 450px;}
 
-footer div.footer-left {
+footer div.footer-right{
+  float: right;
   width: 450px; }
 
 footer .footer-menu a {

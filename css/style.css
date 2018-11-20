@@ -49,16 +49,31 @@ body {
   -webkit-text-size-adjust: 100%;
           text-size-adjust: 100%; }
 
+br.clear_noie,
+div.clear_noie {
+  display: inline !important;
+  display: none;
+  clear: both;
+  line-height: 0px; }
+
+br.clear_all {
+  clear: both;
+  line-height: 0px; }
+
+a:hover {
+  transition: all .3s ease;
+  opacity: 0.7; }
+
 header {
-  width: 1000px;
+  width: 960px;
   margin: auto;
   margin-top: 5px; }
 
-header h1 {
-  width: 350px;
+header #logo {
+  width: 310px;
   margin-top: 10px; }
 
-header h1,
+header #logo,
 header nav {
   float: left; }
 
@@ -72,7 +87,7 @@ header nav ul.menu {
 
 header nav ul li {
   float: left;
-  margin-right: 20px; }
+  margin-left: 20px; }
 
 hr {
   background: #f75b5b;
@@ -96,10 +111,15 @@ hr {
   line-height: 1.5;
   min-width: 1000px; }
 
-.content-wraper {
+#main.content-wrapper {
   background: url(/src/img/background.gif);
   background-position: top center;
   background-size: cover; }
+
+#main .content {
+  width: 960px;
+  margin: auto;
+  padding-top: 10px; }
 
 .content {
   width: 1000px;
@@ -125,6 +145,46 @@ ul.breadcrumb li:first-child:before {
 ul.breadcrumb a {
   text-decoration: none;
   color: #3a3a3a; }
+
+.head01 {
+  background: url(/src/img/ttl_01.png) center center no-repeat;
+  color: #aa1f24;
+  display: inline-block;
+  font-size: 28px;
+  font-weight: bold;
+  height: 62px;
+  text-align: center;
+  width: 438px; }
+
+.head01 span {
+  display: block;
+  padding-top: 2px; }
+
+.head02 {
+  background: url(/src/img/ttl_02.png) center center no-repeat;
+  color: #aa1f24;
+  display: inline-block;
+  font-size: 26px;
+  font-weight: bold;
+  height: 56px;
+  text-align: center;
+  width: 393px; }
+
+.head02 span {
+  display: block;
+  padding-top: 6px; }
+
+.head03 {
+  display: inline;
+  font-size: 28px;
+  font-weight: bold;
+  border-bottom: solid 8px #e5e5e5; }
+
+.head04 {
+  border-left: 5px solid #f7254c;
+  font-weight: bold;
+  font-size: 28px;
+  padding-left: 10px; }
 
 .item-detail {
   margin-top: 15px;
@@ -259,7 +319,7 @@ footer {
   font-size: 14px; }
 
 footer .footer-inner {
-  width: 1000px;
+  width: 960px;
   margin: auto;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -272,11 +332,12 @@ footer address {
   padding-bottom: 5px;
   font-weight: bold; }
 
-footer div.footer-left,
-footer div.footer-right {
-  float: left; }
-
 footer div.footer-left {
+  float: left;
+  width: 450px; }
+
+footer div.footer-right {
+  float: right;
   width: 450px; }
 
 footer .footer-menu a {

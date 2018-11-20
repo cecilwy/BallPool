@@ -4,7 +4,7 @@ $json = file_get_contents($url);
 $json = mb_convert_encoding($json, 'UTF8', 'ASCII,JIS,UTF-8,EUC-JP,SJIS-WIN');
 $arr = json_decode($json,true);
 
-$itemname = $arr['itemname'];
+$item_name = $arr['itemname'];
 $product_photo = $arr['photos'][0];
 $drawing_photo = $arr['photos'][1];
 $size = $arr['size_string'];
@@ -21,7 +21,7 @@ $count = count($price_list);
 <head>
     <meta charset="utf-8">
     <!-- meta-->
-    <title>ボールプール.com | <?= $itemname ?></title>
+    <title>ボールプール.com | <?= $item_name ?></title>
     <meta name="description" content="サイトの説明文（未提供）">
     <meta name="keywords" content="キーワード（未提供）">
     <link rel="shortcut icon" href="/favicon.ico" type="image/vnd.microsoft.icon">
@@ -29,7 +29,7 @@ $count = count($price_list);
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="format-detection" content="telephone=no">
     <!-- smartphone meta-->
-    <meta name="viewport" content="width=1000px,user-scalable=0, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width,user-scalable=0, shrink-to-fit=no">
     <link rel="apple-touch-icon" href="http://example.com/webclipicon.png">
     <!-- ogp-->
     <meta property="fb:app_id" content="99999999999">
@@ -49,7 +49,7 @@ $count = count($price_list);
     <link rel="canonical" href="http://example.com/">
     <!-- stylesheet-->
     <link href="../css/style.css" rel="stylesheet"></head>
-<body>
+<body id="item-detail">
 <div class="wrapper">
     <header>
         <div id="logo"><a href="#"><img src="../img/logo.png" alt="ボールプール.com"></a></div>
@@ -70,7 +70,7 @@ $count = count($price_list);
         <br class="clear_noie">
     </header>
     <hr>
-    <div id="main" class="content-wraper">
+    <div class="content-wrapper">
         <div class="content">
             <ul itemscope itemtype="http://schema.org/BreadcrumbList" class="breadcrumb">
                 <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="#">ボールプールドットコムTOP</a><meta itemprop="position" content="1" /></li>
@@ -81,10 +81,10 @@ $count = count($price_list);
                 <div class="item-detail">
                     <div class="item-wrap">
                         <div class="item-photo">
-                            <img src="<?= $product_photo ?>" alt="<?= $itemname ?>商品画像">
+                            <img src="<?= $product_photo ?>" alt="<?= $item_name ?>商品画像">
                         </div>
                         <div class="item-info">
-                            <h1 class="head03"><?= $itemname ?></h1>
+                            <h1 class="head03"><?= $item_name ?></h1>
                             <p>サイズ：<?= $size ?><br>値段：¥<?= number_format($dsp_price) ?>（税込）〜</p>
                             <p class="note">備考<br>※商品はボールミックスセットです。<br>お好きなカラーボール6色からお選びください</p>
                             <p class="btn01"><a href="#">ご相談・お見積もり</a></p>
