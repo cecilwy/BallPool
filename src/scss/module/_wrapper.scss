@@ -1,0 +1,36 @@
+.wrapper {
+  font-family: "\6E38\30B4\30B7\30C3\30AF\4F53", YuGothic, "\6E38\30B4\30B7\30C3\30AF", "Yu Gothic", "\30E1\30A4\30EA\30AA", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  min-width: 1000px; }
+
+.content-wraper {
+  background: url("../img/background.gif");
+  background-position: top center;
+  background-size: cover; }
+
+.content {
+  width: 1000px;
+  margin: auto;
+  padding-top: 10px; }
+
+ul.breadcrumb {
+  margin-top: 5px;
+  margin-left: 10px;
+  font-size: 14px; }
+
+ul.breadcrumb li {
+  /* liを横並び＆ブレットを消す */
+  display: inline;
+  list-style-type: none; }
+
+ul.breadcrumb li:before {
+  content: " > "; }
+
+ul.breadcrumb li:first-child:before {
+  content: ""; }
+
+ul.breadcrumb a {
+  text-decoration: none;
+  color: #3a3a3a; }

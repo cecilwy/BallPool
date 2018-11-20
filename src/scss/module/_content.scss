@@ -1,0 +1,130 @@
+.item-detail {
+  margin-top: 15px;
+  width: 960px;
+  border: solid 3px #7d7d7d;
+  border-radius: 15px;
+  background-color: #fff;
+  padding: 30px;
+  zoom: 1;
+  overflow: hidden;
+  text-align: center; }
+
+.item-detail div.item-photo,
+.item-detail div.item-info {
+  width: 50%;
+  float: left;
+  text-align: left; }
+
+.item-detail div.item-photo img{
+  width: 95%;
+}
+
+.item-detail h2 {
+  font-size: 30px;
+  font-weight: bold;
+  border-bottom: solid 8px #e5e5e5;
+  border-bottom: solid 8px #e5e5e5;
+  width: 80%; }
+
+.item-detail p {
+  margin-top: 35px;
+  font-size: 20px; }
+
+.item-detail p.quote {
+  text-align: center;
+  margin-top: 40px; }
+
+.strength {
+  padding-top: 30px;
+  clear: left; }
+
+.variation {
+  margin-top: 40px;
+  zoom: 1;
+  overflow: hidden; }
+
+.variation ul.variation-pict {
+  margin-top: 35px;
+  margin-left: 35px; }
+
+.variation ul.variation-pict li {
+  float: left;
+  margin-right: 15px; }
+
+.variation ul.variation-pict li:nth-child(5) {
+  margin-right: 0; }
+
+.drawing {
+  margin-top: 40px; }
+
+.drawing .image {
+  margin-top: 35px; }
+
+.price {
+  margin-top: 40px; }
+
+.price .table{
+  overflow-x:scroll;
+  width: 960px;
+}
+
+.price table {
+  margin: auto;
+  margin-top: 35px; }
+
+.price table, th, td {
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+  line-height: 1.5;
+  padding: 10px; }
+
+.price table th {
+  background-color: #ebebeb;
+  font-weight: bold;
+  font-size: 18px; }
+
+.price table td.bold {
+  font-weight: bold; }
+
+.price .caption {
+  width: 850px;
+  margin: auto;
+  text-align: left;
+  font-size: 15px;
+  margin-left: 50px;
+  margin-top: 10px; }
+
+.price .quote {
+  margin-top: 30px; }
+
+.outer-content {
+  width: 1000px;
+  margin: auto;
+  text-align: center;
+  margin-top: 80px; }
+
+.outer-content .color-select p,
+.outer-content .order p {
+  margin-top: 35px; }
+
+.outer-content .order {
+  margin-top: 55px; }
+
+.outer-content .back-list {
+  margin-top: 55px; }
+
+.outer-content ul.list-back {
+  margin-top: 35px;
+  display: flex;
+  justify-content: space-between; }
+
+.content-wraper .bnrs ul {
+  margin-top: 35px;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden; }
+
+.content-wraper .bnrs .quote {
+  text-align: center;
+  margin-top: 30px;
+  padding-bottom: 50px; }
