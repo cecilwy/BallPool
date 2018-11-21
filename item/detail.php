@@ -2,9 +2,9 @@
 $url = 'https://mat-room.com/api/itemcode/bpsa/prices/';
 $json = file_get_contents($url);
 $json = mb_convert_encoding($json, 'UTF8', 'ASCII,JIS,UTF-8,EUC-JP,SJIS-WIN');
-$arr = json_decode($json, true);
+$arr = json_decode($json,true);
 
-$itemname = $arr['itemname'];
+$item_name = $arr['itemname'];
 $product_photo = $arr['photos'][0];
 $drawing_photo = $arr['photos'][1];
 $size = $arr['size_string'];
@@ -71,7 +71,7 @@ $count = count($price_list);
         <br class="clear_noie">
     </header>
     <hr>
-    <div id="main" class="content-wrapper">
+    <div class="content-wrapper">
         <div class="content">
             <ul itemscope itemtype="http://schema.org/BreadcrumbList" class="breadcrumb">
                 <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item"
@@ -94,7 +94,7 @@ $count = count($price_list);
                             <img src="<?= $product_photo ?>" alt="<?= $itemname ?>商品画像">
                         </div>
                         <div class="item-info">
-                            <h1 class="head03"><?= $itemname ?></h1>
+                            <h1 class="head03">えーじー<?= $itemname ?></h1>
                             <p>サイズ：<?= $size ?><br>値段：¥<?= number_format($dsp_price) ?>（税込）〜</p>
                             <p class="note">備考<br>※商品はボールミックスセットです。<br>お好きなカラーボール6色からお選びください</p>
                             <p class="btn01"><a href="#">ご相談・お見積もり</a></p>
