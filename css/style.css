@@ -206,6 +206,11 @@ hr {
   margin: auto;
   padding-top: 10px; }
 
+.content {
+  width: 1000px;
+  margin: auto;
+  padding-top: 10px; }
+
 ul.breadcrumb {
   margin-top: 5px;
   margin-left: 10px;
@@ -349,7 +354,7 @@ ul.breadcrumb strong {
 
 .variation ul.variation-pict {
   margin-top: 35px;
-  margin-left: 35px; }
+  margin-left: 4px; }
 
 .variation ul.variation-pict li {
   float: left;
@@ -427,7 +432,7 @@ ul.breadcrumb strong {
   padding: 8px; }
 
 .outer-content {
-  width: 1000px;
+  width: 960px;
   margin: auto;
   text-align: center;
   margin-top: 80px; }
