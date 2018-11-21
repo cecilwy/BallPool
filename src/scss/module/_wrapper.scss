@@ -5,8 +5,8 @@
   line-height: 1.5;
   min-width: 1000px; }
 
-#main.content-wrapper {
-  background: url("/img/background.gif");
+.content-wrapper {
+  background: url("../img/background.gif");
   background-position: top center;
   background-size: cover; }
 
@@ -14,7 +14,6 @@
   width: 960px;
   margin: auto;
   padding-top: 10px; }
-
 
 .content {
   width: 960px;
