@@ -206,11 +206,6 @@ hr {
   margin: auto;
   padding-top: 10px; }
 
-.content {
-  width: 1000px;
-  margin: auto;
-  padding-top: 10px; }
-
 ul.breadcrumb {
   margin-top: 5px;
   margin-left: 10px;
@@ -230,6 +225,9 @@ ul.breadcrumb li:first-child:before {
 ul.breadcrumb a {
   text-decoration: none;
   color: #3a3a3a; }
+
+ul.breadcrumb strong {
+  font-weight: bold; }
 
 .head01 {
   background: url(/src/img/ttl_01.png) center center no-repeat;
