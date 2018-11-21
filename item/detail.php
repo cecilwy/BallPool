@@ -2,9 +2,9 @@
 $url = 'https://mat-room.com/api/itemcode/bpsa/prices/';
 $json = file_get_contents($url);
 $json = mb_convert_encoding($json, 'UTF8', 'ASCII,JIS,UTF-8,EUC-JP,SJIS-WIN');
-$arr = json_decode($json,true);
+$arr = json_decode($json, true);
 
-$item_name = $arr['itemname'];
+$itemname = $arr['itemname'];
 $product_photo = $arr['photos'][0];
 $drawing_photo = $arr['photos'][1];
 $size = $arr['size_string'];
@@ -21,7 +21,7 @@ $count = count($price_list);
 <head>
     <meta charset="utf-8">
     <!-- meta-->
-    <title>ボールプール.com | <?= $item_name ?></title>
+    <title>ボールプール.com | <?= $itemname ?></title>
     <meta name="description" content="サイトの説明文（未提供）">
     <meta name="keywords" content="キーワード（未提供）">
     <link rel="shortcut icon" href="/favicon.ico" type="image/vnd.microsoft.icon">
@@ -29,7 +29,7 @@ $count = count($price_list);
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="format-detection" content="telephone=no">
     <!-- smartphone meta-->
-    <meta name="viewport" content="width=device-width,user-scalable=0, shrink-to-fit=no">
+    <meta name="viewport" content="width=1000px,user-scalable=0, shrink-to-fit=no">
     <link rel="apple-touch-icon" href="http://example.com/webclipicon.png">
     <!-- ogp-->
     <meta property="fb:app_id" content="99999999999">
@@ -48,43 +48,53 @@ $count = count($price_list);
     <!-- canonical url-->
     <link rel="canonical" href="http://example.com/">
     <!-- stylesheet-->
-    <link href="../css/style.css" rel="stylesheet"></head>
-<body id="item-detail">
+    <link href="/css/style.css" rel="stylesheet">
+</head>
+<body>
 <div class="wrapper">
     <header>
-        <div id="logo"><a href="#"><img src="../img/logo.png" alt="ボールプール.com"></a></div>
+        <div id="logo"><a href="#"><img src="/img/logo.png" alt="ボールプール.com"></a></div>
         <nav>
             <ul>
-                <li><a href="#"><img src="../img/tel_off.png" alt="0120-71-1010"></a></li>
-                <li><a href="#"><img src="../img/contact_off.png" alt="0120-71-1010"></a></li>
+                <li><a href="#"><img src="/img/tel_off.png" alt="0120-71-1010"></a></li>
+                <li><a href="#"><img src="/img/contact_off.png" alt="0120-71-1010"></a></li>
             </ul>
             <ul class="menu">
-                <li><a href="#"><img src="../img/menu_01_off.png" alt="ご利用ガイド"></a></li>
-                <li><a href="#"><img src="../img/menu_02_on.png" alt="商品一覧"></a></li>
-                <li><a href="#"><img src="../img/menu_03_off.png" alt="施工事例"></a></li>
-                <li><a href="#"><img src="../img/menu_04_off.png" alt="よくある質問"></a></li>
-                <li><a href="#"><img src="../img/menu_05_off.png" alt="特注品について"></a></li>
-                <li><a href="#"><img src="../img/menu_06_off.png" alt="会社案内"></a></li>
+                <li><a href="#"><img src="/img/menu_01_off.png" alt="ご利用ガイド"></a></li>
+                <li><a href="#"><img src="/img/menu_02_on.png" alt="商品一覧"></a></li>
+                <li><a href="#"><img src="/img/menu_03_off.png" alt="施工事例"></a></li>
+                <li><a href="#"><img src="/img/menu_04_off.png" alt="よくある質問"></a></li>
+                <li><a href="#"><img src="/img/menu_05_off.png" alt="特注品について"></a></li>
+                <li><a href="#"><img src="/img/menu_06_off.png" alt="会社案内"></a></li>
             </ul>
         </nav>
         <br class="clear_noie">
     </header>
     <hr>
-    <div class="content-wrapper">
+    <div id="main" class="content-wrapper">
         <div class="content">
             <ul itemscope itemtype="http://schema.org/BreadcrumbList" class="breadcrumb">
-                <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="#">ボールプールドットコムTOP</a><meta itemprop="position" content="1" /></li>
-                <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="#">商品一覧</a><meta itemprop="position" content="2" /></li>
-                <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><strong><a itemprop="item" href="#"><?= $itemname ?></a></strong><meta itemprop="position" content="3" /></li>
+                <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item"
+                                                                                                  href="#">ボールプールドットコムTOP</a>
+                    <meta itemprop="position" content="1"/>
+                </li>
+                <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item"
+                                                                                                  href="#">商品一覧</a>
+                    <meta itemprop="position" content="2"/>
+                </li>
+                <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><strong><a
+                                itemprop="item" href="#"><?= $itemname ?></a></strong>
+                    <meta itemprop="position" content="3"/>
+                </li>
             </ul>
             <main>
                 <div class="item-detail">
                     <div class="item-wrap">
                         <div class="item-photo">
-                            <img src="<?= $product_photo ?>" alt="<?= $item_name ?>商品画像">
+                            <img src="<?= $product_photo ?>" alt="<?= $itemname ?>商品画像">
                         </div>
                         <div class="item-info">
-                            <h1 class="head03"><?= $item_name ?></h1>
+                            <h1 class="head03"><?= $itemname ?></h1>
                             <p>サイズ：<?= $size ?><br>値段：¥<?= number_format($dsp_price) ?>（税込）〜</p>
                             <p class="note">備考<br>※商品はボールミックスセットです。<br>お好きなカラーボール6色からお選びください</p>
                             <p class="btn01"><a href="#">ご相談・お見積もり</a></p>
@@ -110,7 +120,7 @@ $count = count($price_list);
                                 <img src="<?= $drawing_photo ?>">
                             </div>
                             <div class="image">
-                                <img src="img/howtouse_01.jpg" alt="各部の説明と取付け">
+                                <img src="./img/howtouse_01.jpg" alt="各部の説明と取付け">
                             </div>
                         </div>
                     </div>
@@ -131,21 +141,22 @@ $count = count($price_list);
                                     <td class="bold">Bランク</td>
                                     <td class="bold">Cランク</td>
                                     <td class="bold">Dランク</td>
-                                    <td class="bold">Eランク</td>
-                                    <td class="bold">Fランク</td>
-                                    <td class="bold">Gランク</td>
-                                    <td class="bold">Hランク</td>
-                                    <td class="bold">Iランク</td>
                                 </tr>
-                                <?php for($i = 0, $iMax = count($parts_array); $i < $iMax; $i++) { ?>
+                                <?php for ($i = 0; $i < 4; $i++) { ?>
                                     <tr>
                                         <td nowrap><?= $parts_array[$i]['itemname'] ?></td>
                                         <td><?= $parts_array[$i]['code'] ?></td>
                                         <td nowrap><?= $parts_array[$i]['size'] ?></td>
                                         <td><?= $parts_array[$i]['amount'] ?></td>
-                                        <?php foreach($parts_array[$i]['listprice_array'] as $key => $value){ ?>
+                                        <?php $j = 0; ?>
+                                        <?php foreach ($parts_array[$i]['listprice_array'] as $key => $value) { ?>
+                                            <?php
+                                            if ($j >= 4) {
+                                                break;
+                                            }
+                                            ?>
                                             <td>¥<?= number_format($value) ?></td>
-                                        <?php } ?>
+                                       <?php $j++; } ?>
                                     </tr>
                                 <?php } ?>
 
@@ -154,9 +165,15 @@ $count = count($price_list);
                                     <td></td>
                                     <td></td>
                                     <td class="bold">合計</td>
-                                    <?php foreach($price_list as $key => $value){ ?>
+                                    <?php $k = 0; ?>
+                                    <?php foreach ($price_list as $key => $value) { ?>
+                                        <?php
+                                        if ($k >= 4) {
+                                            break;
+                                        }
+                                        ?>
                                         <td>¥<?= number_format($value) ?></td>
-                                    <?php } ?>
+                                    <?php $k++; } ?>
                                 </tr>
                             </table>
                         </div>
@@ -191,12 +208,12 @@ $count = count($price_list);
         </div>
         <div class="bnrs">
             <ul class="list-slider">
-                <li><a href="#"><img src="../img/bnr_01.png" alt="ミニボールプール"></a></li>
-                <li><a href="#"><img src="../img/bnr_02.png" alt="ボールプール（中型）"></a></li>
-                <li><a href="#"><img src="../img/bnr_03.png" alt="ボールプール（大型）"></a></li>
-                <li><a href="#"><img src="../img/bnr_04.png" alt="ボールプール関連商品"></a></li>
-                <li><a href="#"><img src="../img/bnr_05.png" alt="ボールプール関連商品"></a></li>
-                <li><a href="#"><img src="../img/bnr_06.png" alt="ボールプール関連商品"></a></li>
+                <li><a href="#"><img src="/img/bnr_01.png" alt="ミニボールプール"></a></li>
+                <li><a href="#"><img src="/img/bnr_02.png" alt="ボールプール（中型）"></a></li>
+                <li><a href="#"><img src="/img/bnr_03.png" alt="ボールプール（大型）"></a></li>
+                <li><a href="#"><img src="/img/bnr_04.png" alt="ボールプール関連商品"></a></li>
+                <li><a href="#"><img src="/img/bnr_05.png" alt="ボールプール関連商品"></a></li>
+                <li><a href="#"><img src="/img/bnr_06.png" alt="ボールプール関連商品"></a></li>
             </ul>
             <p class="btn01"><a href="#">ご相談・お見積もり</a></p>
         </div>
@@ -206,9 +223,10 @@ $count = count($price_list);
     <footer>
         <div class="footer-inner">
             <div class="footer-left">
-                <h1><a href="#"><img src="../img/logo.png" alt="ボールプール.com"></a></h1>
+                <h1><a href="#"><img src="/img/logo.png" alt="ボールプール.com"></a></h1>
                 <address>〒578-0984　大阪府東大阪市菱江2-14-16<br>
-                    株式会社ワークス<br>ボールプール|ボールプール用ボール専門店【店舗家具 Wism】</address>
+                    株式会社ワークス<br>ボールプール|ボールプール用ボール専門店【店舗家具 Wism】
+                </address>
             </div>
             <div class="footer-right">
                 <ul class="footer-menu">
@@ -232,8 +250,8 @@ $count = count($price_list);
                     <li></li>
                 </ul>
                 <ul class="footer-contact">
-                    <li><a href="#"><img src="../img/tel_off.png" alt="0120-71-1010"></a></li>
-                    <li><a href="#"><img src="../img/contact_off.png" alt="0120-71-1010"></a></li>
+                    <li><a href="#"><img src="/img/tel_off.png" alt="0120-71-1010"></a></li>
+                    <li><a href="#"><img src="/img/contact_off.png" alt="0120-71-1010"></a></li>
                 </ul>
             </div>
             <br class="clear_noie">
@@ -241,6 +259,7 @@ $count = count($price_list);
         <div class="copy">Copyright &copy; Ball pool.com. All Right Reserved.</div>
     </footer>
 </div>
-<script type="text/javascript" src="./js/script.js"></script></body>
+<script type="text/javascript" src="/js/script.js"></script>
+</body>
 <!-- javascript-->
 </html>

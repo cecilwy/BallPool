@@ -115,11 +115,34 @@
 .drawing .image {
   margin-top: 35px; }
 
+.image-wrap {
+  margin-top: 30px;
+  width: 100%;
+}
+
+.image-wrap .image {
+  box-sizing: border-box;
+  max-width: 430px;
+  max-height: 430px;
+  text-align: center;
+  content: '';
+  vertical-align: middle;
+  height: 100%;
+  padding: 0 10px !important;
+  display: table-cell;
+  width: 50%;
+}
+
+.image-wrap .image img {
+  vertical-align: middle;
+  width: 100%;
+}
+
 .price {
   margin-top: 40px; }
 
 .price .table{
-  overflow-x:scroll;
+  overflow-x:auto;
   width: 960px;
 }
 

@@ -1,9 +1,11 @@
-import { BASE_DIR } from '../constants.yml'
+import {BASE_DIR} from '../constants.yml'
 import $ from 'jquery';
+import 'slick-carousel';
 
-
-
-
-$(function(){
-    alert("test");
+$(function () {
+    $('.list-slider').slick({
+        slidesToShow:5,
+        dots:false,
+        arrows:false,
+    });
 });
