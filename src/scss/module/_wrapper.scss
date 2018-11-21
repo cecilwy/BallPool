@@ -7,11 +7,17 @@
 
 #main.content-wrapper {
   background: url("/img/background.gif");
-  background-position: top center;
+  background-position: top center;…
   background-size: cover; }
 
 #main .content {
   width: 960px;
+  margin: auto;
+  padding-top: 10px; }
+
+
+.content {
+  width: 1000px;
   margin: auto;
   padding-top: 10px; }
 
