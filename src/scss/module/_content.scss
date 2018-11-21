@@ -57,7 +57,7 @@
   zoom: 1;
   overflow: hidden;
   text-align: center;
-
+  box-sizing: border-box;
   @include sp {
     text-align: left;
   };
@@ -196,13 +196,13 @@
   display: flex;
   justify-content: space-between; }
 
-.content-wraper .bnrs ul {
+.content-wrapper .bnrs ul {
   margin-top: 35px;
   display: flex;
   justify-content: space-between;
   overflow: hidden; }
 
-.content-wraper .bnrs .quote {
+.content-wrapper .bnrs .quote {
   text-align: center;
   margin-top: 30px;
   padding-bottom: 50px; }
