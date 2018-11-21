@@ -251,6 +251,6 @@ $count = count($price_list);
         <div class="copy">Copyright &copy; Ball pool.com. All Right Reserved.</div>
     </footer>
 </div>
-<script type="text/javascript" src="./js/script.js"></script></body>
+<script type="text/javascript" src="../js/script.js"></script></body>
 <!-- javascript-->
 </html>
