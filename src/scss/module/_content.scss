@@ -8,6 +8,10 @@
   height: 62px;
   text-align: center;
   width: 438px;
+
+  @include sp {
+    width: 100%;
+  };
 }
 
 .head01 span{
