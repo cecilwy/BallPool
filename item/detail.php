@@ -4,7 +4,7 @@ $json = file_get_contents($url);
 $json = mb_convert_encoding($json, 'UTF8', 'ASCII,JIS,UTF-8,EUC-JP,SJIS-WIN');
 $arr = json_decode($json,true);
 
-$item_name = $arr['itemname'];
+$itemname = $arr['itemname'];
 $product_photo = $arr['photos'][0];
 $drawing_photo = $arr['photos'][1];
 $size = $arr['size_string'];
@@ -141,11 +141,6 @@ $count = count($price_list);
                                     <td class="bold">Bランク</td>
                                     <td class="bold">Cランク</td>
                                     <td class="bold">Dランク</td>
-                                    <td class="bold">Eランク</td>
-                                    <td class="bold">Fランク</td>
-                                    <td class="bold">Gランク</td>
-                                    <td class="bold">Hランク</td>
-                                    <td class="bold">Iランク</td>
                                 </tr>
                                 <?php for ($i = 0; $i < 4; $i++) { ?>
                                     <tr>
@@ -153,9 +148,15 @@ $count = count($price_list);
                                         <td><?= $parts_array[$i]['code'] ?></td>
                                         <td nowrap><?= $parts_array[$i]['size'] ?></td>
                                         <td><?= $parts_array[$i]['amount'] ?></td>
-                                        <?php foreach($parts_array[$i]['listprice_array'] as $key => $value){ ?>
+                                        <?php $j = 0; ?>
+                                        <?php foreach ($parts_array[$i]['listprice_array'] as $key => $value) { ?>
+                                            <?php
+                                            if ($j >= 4) {
+                                                break;
+                                            }
+                                            ?>
                                             <td>¥<?= number_format($value) ?></td>
-                                        <?php } ?>
+                                        <?php $j++; } ?>
                                     </tr>
                                 <?php } ?>
 
@@ -164,9 +165,15 @@ $count = count($price_list);
                                     <td></td>
                                     <td></td>
                                     <td class="bold">合計</td>
-                                    <?php foreach($price_list as $key => $value){ ?>
+                                    <?php $k = 0; ?>
+                                    <?php foreach ($price_list as $key => $value) { ?>
+                                        <?php
+                                        if ($k >= 4) {
+                                            break;
+                                        }
+                                        ?>
                                         <td>¥<?= number_format($value) ?></td>
-                                    <?php } ?>
+                                    <?php $k++; } ?>
                                 </tr>
                             </table>
                         </div>
