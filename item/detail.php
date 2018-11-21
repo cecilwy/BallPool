@@ -141,6 +141,11 @@ $count = count($price_list);
                                     <td class="bold">Bランク</td>
                                     <td class="bold">Cランク</td>
                                     <td class="bold">Dランク</td>
+                                    <td class="bold">Eランク</td>
+                                    <td class="bold">Fランク</td>
+                                    <td class="bold">Gランク</td>
+                                    <td class="bold">Hランク</td>
+                                    <td class="bold">Iランク</td>
                                 </tr>
                                 <?php for ($i = 0; $i < 4; $i++) { ?>
                                     <tr>
@@ -148,15 +153,9 @@ $count = count($price_list);
                                         <td><?= $parts_array[$i]['code'] ?></td>
                                         <td nowrap><?= $parts_array[$i]['size'] ?></td>
                                         <td><?= $parts_array[$i]['amount'] ?></td>
-                                        <?php $j = 0; ?>
-                                        <?php foreach ($parts_array[$i]['listprice_array'] as $key => $value) { ?>
-                                            <?php
-                                            if ($j >= 4) {
-                                                break;
-                                            }
-                                            ?>
+                                        <?php foreach($parts_array[$i]['listprice_array'] as $key => $value){ ?>
                                             <td>¥<?= number_format($value) ?></td>
-                                       <?php $j++; } ?>
+                                        <?php } ?>
                                     </tr>
                                 <?php } ?>
 
@@ -165,15 +164,9 @@ $count = count($price_list);
                                     <td></td>
                                     <td></td>
                                     <td class="bold">合計</td>
-                                    <?php $k = 0; ?>
-                                    <?php foreach ($price_list as $key => $value) { ?>
-                                        <?php
-                                        if ($k >= 4) {
-                                            break;
-                                        }
-                                        ?>
+                                    <?php foreach($price_list as $key => $value){ ?>
                                         <td>¥<?= number_format($value) ?></td>
-                                    <?php $k++; } ?>
+                                    <?php } ?>
                                 </tr>
                             </table>
                         </div>
@@ -208,12 +201,12 @@ $count = count($price_list);
         </div>
         <div class="bnrs">
             <ul class="list-slider">
-                <li><a href="#"><img src="/img/bnr_01.png" alt="ミニボールプール"></a></li>
-                <li><a href="#"><img src="/img/bnr_02.png" alt="ボールプール（中型）"></a></li>
-                <li><a href="#"><img src="/img/bnr_03.png" alt="ボールプール（大型）"></a></li>
-                <li><a href="#"><img src="/img/bnr_04.png" alt="ボールプール関連商品"></a></li>
-                <li><a href="#"><img src="/img/bnr_05.png" alt="ボールプール関連商品"></a></li>
-                <li><a href="#"><img src="/img/bnr_06.png" alt="ボールプール関連商品"></a></li>
+                <li><a href="#"><img src="../img/bnr_01.png" alt="ミニボールプール"></a></li>
+                <li><a href="#"><img src="../img/bnr_02.png" alt="ボールプール（中型）"></a></li>
+                <li><a href="#"><img src="../img/bnr_03.png" alt="ボールプール（大型）"></a></li>
+                <li><a href="#"><img src="../img/bnr_04.png" alt="ボールプール関連商品"></a></li>
+                <li><a href="#"><img src="../img/bnr_05.png" alt="ボールプール関連商品"></a></li>
+                <li><a href="#"><img src="../img/bnr_06.png" alt="ボールプール関連商品"></a></li>
             </ul>
             <p class="btn01"><a href="#">ご相談・お見積もり</a></p>
         </div>
@@ -223,10 +216,9 @@ $count = count($price_list);
     <footer>
         <div class="footer-inner">
             <div class="footer-left">
-                <h1><a href="#"><img src="/img/logo.png" alt="ボールプール.com"></a></h1>
+                <h1><a href="#"><img src="../img/logo.png" alt="ボールプール.com"></a></h1>
                 <address>〒578-0984　大阪府東大阪市菱江2-14-16<br>
-                    株式会社ワークス<br>ボールプール|ボールプール用ボール専門店【店舗家具 Wism】
-                </address>
+                    株式会社ワークス<br>ボールプール|ボールプール用ボール専門店【店舗家具 Wism】</address>
             </div>
             <div class="footer-right">
                 <ul class="footer-menu">
@@ -250,8 +242,8 @@ $count = count($price_list);
                     <li></li>
                 </ul>
                 <ul class="footer-contact">
-                    <li><a href="#"><img src="/img/tel_off.png" alt="0120-71-1010"></a></li>
-                    <li><a href="#"><img src="/img/contact_off.png" alt="0120-71-1010"></a></li>
+                    <li><a href="#"><img src="../img/tel_off.png" alt="0120-71-1010"></a></li>
+                    <li><a href="#"><img src="../img/contact_off.png" alt="0120-71-1010"></a></li>
                 </ul>
             </div>
             <br class="clear_noie">
@@ -259,7 +251,6 @@ $count = count($price_list);
         <div class="copy">Copyright &copy; Ball pool.com. All Right Reserved.</div>
     </footer>
 </div>
-<script type="text/javascript" src="/js/script.js"></script>
-</body>
+<script type="text/javascript" src="./js/script.js"></script></body>
 <!-- javascript-->
 </html>
