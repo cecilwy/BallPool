@@ -12,7 +12,7 @@ const HOST = process.env.HOST || '0.0.0.0'
 const PORT = process.env.PORT || 3000
 
 const constants = readConfig(`${SRC}/constants.yml`)
-const { BASE_DIR } = constants
+const {BASE_DIR} = constants
 
 module.exports = {
     // エントリーファイル
@@ -59,7 +59,7 @@ module.exports = {
                         {
                             loader: 'sass-loader',
                             options: {
-                                includePaths: [ `${SRC}/scss` ],
+                                includePaths: [`${SRC}/scss`],
                             },
                         }
                     ]
@@ -69,19 +69,23 @@ module.exports = {
                 test: /.ya?ml$/,
                 loader: 'js-yaml-loader',
             }
-        ]
+        ],
     },
     // キャシュ有効化
     cache: true,
     // 拡張子省略時のpath解決
-    resolve: {
-        extensions: ['.js', '.json', '*'],
-        alias: {
-            '@': path.join(__dirname, SRC, 'js'),
+    resolve:
+        {
+            extensions: ['.js', '.json', '.css', '*'],
+            alias:
+                {
+                    '@':
+                        path.join(__dirname, SRC, 'js')
+                }
         }
-    },
+    ,
     plugins: [
         // style.cssを出力
         new ExtractTextPlugin('[name]')
-    ],
+    ]
 }
