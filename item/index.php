@@ -37,8 +37,8 @@
         <h1><a href="#"><img src="../img/logo.png" alt="ボールプール.com"></a></h1>
         <nav>
           <ul>
-            <li><a href="#"><img src="../img/tel_off.png" alt="0120-71-1010"></a></li>
-            <li><a href="#"><img src="../img/contact_off.png" alt="0120-71-1010"></a></li>
+            <li><a href="#"><img src="../img/tel.png" alt="0120-71-1010"></a></li>
+            <li><a href="#"><img src="../img/contact.png" alt="0120-71-1010"></a></li>
           </ul>
           <ul class="menu">
             <li><a href="#"><img src="../img/menu_01_off.png" alt="ご利用ガイド"></a></li>
@@ -156,8 +156,8 @@
               <li></li>
             </ul>
             <ul class="footer-contact">
-              <li><a href="#"><img src="../img/tel_off.png" alt="0120-71-1010"></a></li>
-              <li><a href="#"><img src="../img/contact_off.png" alt="0120-71-1010"></a></li>
+              <li><a href="#"><img src="../img/tel.png" alt="0120-71-1010"></a></li>
+              <li><a href="#"><img src="../img/contact.png" alt="0120-71-1010"></a></li>
             </ul>
           </div>
         </div>

@@ -7,9 +7,22 @@ header #logo {
   width: 310px;
   margin-top: 10px; }
 
+header #logo img{
+  width: 260px;
+  @include sp {
+    width: 420px;
+  }
+}
+
 header #logo,
 header nav {
   float: left; }
+
+header nav{
+  @include sp {
+    display: none;
+  }
+}
 
 header nav ul {
   float: right;
@@ -22,6 +35,53 @@ header nav ul.menu {
 header nav ul li {
   float: left;
   margin-left: 20px; }
+
+header nav ul.menu li a:hover{
+  opacity: 1;
+}
+
+/** SmartPhone **/
+#humberger {
+  position: fixed;
+  right: 65px;
+  top:10px;
+  height: 95px;
+  width: 95px;
+  display: inline-block;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-color: #b5b5b5;
+  display: none;
+  @include sp {
+    display: block;
+  }
+}
+
+#humberger div {
+  position: absolute;
+  left: 14px;
+  height: 7px;
+  width: 70px;
+  background-color: #eeeeee;
+  border-radius: 2px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+#humberger div:nth-of-type(1) {
+  top: 20px;
+}
+#humberger div:nth-of-type(2) {
+  top: 45px;
+}
+#humberger div:nth-of-type(3) {
+  top: 70px;
+}
+
+.modaal-content-container li{
+  text-align: center;
+  padding: 10px;
+}
+
 
 hr {
   background: #f75b5b;
@@ -38,3 +98,7 @@ hr {
   padding: 0;
   margin: 0; }
 
+
+#sp-nav{
+  display: none;
+}
