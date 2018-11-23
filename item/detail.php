@@ -51,7 +51,11 @@ $count = count($price_list);
                 <div class="item-detail">
                     <div class="item-wrap">
                         <div class="item-photo">
+                            <?php if (is_url_exist($product_photo)) { ?>
                             <img src="<?= $product_photo ?>" alt="<?= $itemname ?>商品画像">
+                            <?php }else{ ?>
+                                画像は登録されていません
+                            <?php } ?>
                         </div>
                         <div class="item-info">
                             <h1 class="head03"><?= $itemname ?></h1>
@@ -69,7 +73,11 @@ $count = count($price_list);
                         <h3 class="head02"><span>商品図面・詳細</span></h3>
                         <div class="image-wrap">
                             <div class="image">
+                                <?php if (is_url_exist($drawing_photo)) { ?>
                                 <img src="<?= $drawing_photo ?>">
+                                <?php }else{ ?>
+                                    画像は登録されていません
+                                <?php } ?>
                             </div>
                             <div class="image">
                                 <img src="./img/howtouse_01.jpg" alt="各部の説明と取付け">
@@ -166,3 +174,23 @@ $count = count($price_list);
 <script type="text/javascript" src="../js/script.js"></script></body>
 <!-- javascript-->
 </html>
+<?php
+/**
+ * 外部ファイル存在チェック関数
+ * @param $url
+ * @return bool
+ */
+function is_url_exist($url){
+    $ch = curl_init($url);
+    curl_setopt($ch, CURLOPT_NOBODY, true);
+    curl_exec($ch);
+    $code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+
+    if($code == 200){
+        $status = true;
+    }else{
+        $status = false;
+    }
+    curl_close($ch);
+    return $status;
+}
