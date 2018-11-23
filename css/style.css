@@ -234,6 +234,13 @@ hr {
 #sp-nav {
   display: none; }
 
+.modaal-fullscreen ul li {
+  width: 100%;
+  padding: 30px; }
+
+.modaal-fullscreen ul li img {
+  max-width: 100%; }
+
 .wrapper {
   font-family: "\6E38\30B4\30B7\30C3\30AF\4F53", YuGothic, "\6E38\30B4\30B7\30C3\30AF", "Yu Gothic", "\30E1\30A4\30EA\30AA", sans-serif;
   font-weight: 500;

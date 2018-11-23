@@ -41,14 +41,14 @@ if(strpos($associative_array[0]['file'],'/item/detail')) {
 <div id="sp-nav">
 <ul>
     <li><a href="#"><img class="current" src="/img/logo.png" alt="ボールプール.com"></a></li>
-    <li><a href="#"><img class="current" src="/img/menu_01_off.png" alt="ご利用ガイド"></a></li>
-    <li><a href="#"><img class="current" src="/img/menu_02_off.png" alt="商品一覧"></a></li>
-    <li><a href="#"><img class="current" src="/img/menu_03_off.png" alt="施工事例"></a></li>
-    <li><a href="#"><img class="current" src="/img/menu_04_off.png" alt="よくある質問"></a></li>
-    <li><a href="#"><img class="current" src="/img/menu_05_off.png" alt="特注品について"></a></li>
-    <li><a href="#"><img class="current" src="/img/menu_06_off.png" alt="会社案内"></a></li>
-    <li><a href="#"><img src="/img/tel.png" alt="0120-71-1010"></a></li>
-    <li><a href="#"><img src="/img/contact.png" alt="0120-71-1010"></a></li>
+    <li><a href="#"><img class="current" src="/img/menu_01_sp.png" alt="ご利用ガイド"></a></li>
+    <li><a href="#"><img class="current" src="/img/menu_02_sp.png" alt="商品一覧"></a></li>
+    <li><a href="#"><img class="current" src="/img/menu_03_sp.png" alt="施工事例"></a></li>
+    <li><a href="#"><img class="current" src="/img/menu_04_sp.png" alt="よくある質問"></a></li>
+    <li><a href="#"><img class="current" src="/img/menu_05_sp.png" alt="特注品について"></a></li>
+    <li><a href="#"><img class="current" src="/img/menu_06_sp.png" alt="会社案内"></a></li>
+    <li><a href="#"><img src="/img/tel_sp.png" alt="0120-71-1010"></a></li>
+    <li><a href="#"><img src="/img/contact_sp.png" alt="0120-71-1010"></a></li>
 </ul>
 </div>
 
