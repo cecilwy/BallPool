@@ -171,7 +171,7 @@ $count = count($price_list);
     <!--main-->
 <?php include '../template/footer.php'; ?>
 </div>
-<script type="text/javascript" src="../js/script.js"></script></body>
+<script type="text/javascript" src="/js/script.js"></script></body>
 <!-- javascript-->
 </html>
 <?php
