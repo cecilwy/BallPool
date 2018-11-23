@@ -12,6 +12,7 @@ jQuery(function () {
         slidesToShow: 5,
         dots: false,
         arrows: false,
+        autoplay:true
     });
 
     jQuery("a img").each(function () {
