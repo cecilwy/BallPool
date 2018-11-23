@@ -1,5 +1,10 @@
 footer {
-  font-size: 14px; }
+  font-size: 14px;
+  @include sp {
+    width: 100%;
+    text-align: center;
+  }
+}
 
 footer .footer-inner {
   width: 960px;
@@ -8,7 +13,12 @@ footer .footer-inner {
   padding-bottom: 15px;
   zoom: 1;
   overflow: hidden;
-  color: #333333; }
+  color: #333333;
+  @include sp {
+    width: 100%;
+    text-align: center;
+  }
+}
 
 footer address {
   padding-top: 5px;
@@ -17,11 +27,19 @@ footer address {
 
 footer div.footer-left{
   float: left;
-  width: 450px;}
+  width: 450px;
+  @include sp {
+    width: 100%;
+  }
+}
 
 footer div.footer-right{
   float: right;
-  width: 450px; }
+  width: 450px;
+  @include sp {
+    display: none;
+  }
+}
 
 footer .footer-menu a {
   text-decoration: none;
@@ -31,13 +49,19 @@ footer .copy {
   color: #fff;
   background-color: #cccccc;
   height: 20px;
-  text-align: center; }
+  text-align: center;
+  @include sp {
+    width: 100%;
+  }
+}
 
 footer .footer-menu {
   margin-top: 10px;
   width: 500px;
   clear: left;
-  font-weight: bold; }
+  font-weight: bold;
+
+}
 
 footer .footer-menu li {
   float: left;

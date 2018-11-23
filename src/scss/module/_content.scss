@@ -272,7 +272,7 @@
 
     img{
       @include sp {
-        width: 100%;
+        width: $sp_max_width - 60px;
       }
     }
 
@@ -289,6 +289,10 @@
 
   .outer-content .back-list {
     margin-top: 55px;
+    @include sp {
+      width: $sp_max_width - 60px;
+      padding: 30px;
+    }
   }
 
   .outer-content ul.list-back {
@@ -298,6 +302,7 @@
     img{
       width: 100%;
     }
+
   }
 
   .content-wrapper .bnrs ul {
