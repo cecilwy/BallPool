@@ -23,7 +23,7 @@
             </ul>
             <ul class="footer-menu">
                 <li><a href="/contact/">お問い合わせ</a></li>
-                <li><a href="https://www.tenpokagushop.com/corp/recruit/staff.html">スタッフ紹介</a></li>
+                <li><a href="https://www.tenpokagushop.com/corp/recruit/staff.html" target="_blank">スタッフ紹介</a></li>
                 <li></li>
             </ul>
             <ul class="footer-contact">
