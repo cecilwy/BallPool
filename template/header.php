@@ -23,7 +23,7 @@ $company_ext = '_off';
 
 
 //ご利用ガイド
-if(strpos($associative_array[0]['file'],'/guidance/')) {
+if(strpos($associative_array[0]['file'],'/guide/')) {
     $guidance_current = 'current';
     $guidance_ext = '_on';
 }
