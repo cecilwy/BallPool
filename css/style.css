@@ -1101,6 +1101,8 @@ footer .footer-contact li {
   transform: translate(84px, 84px) rotate(360deg) translate(70px, 0); }
 
 @media (max-width: 768px) {
+    header {
+      width: 100%; }
     header #logo img {
       width: 420px; }
   header nav {
@@ -1108,9 +1110,10 @@ footer .footer-contact li {
     #humberger {
       display: block; }
     .wrapper {
-      min-width: 768px; }
+      min-width: 100%;
+      width: 768px; }
     .content {
-      min-width: 768px; }
+      width: 100%; }
     ul.breadcrumb {
       display: none; }
     .head01 {
@@ -1138,6 +1141,21 @@ footer .footer-contact li {
     .outer-content {
       width: 100%; }
     .outer-content img {
+      width: 708px; }
+    .outer-content .back-list {
+      width: 708px;
+      padding: 30px; }
+    footer {
+      width: 100%;
+      text-align: center; }
+    footer .footer-inner {
+      width: 100%;
+      text-align: center; }
+    footer div.footer-left {
+      width: 100%; }
+    footer div.footer-right {
+      display: none; }
+    footer .copy {
       width: 100%; } }
 
 @media only screen and (min-width: 1400px) {

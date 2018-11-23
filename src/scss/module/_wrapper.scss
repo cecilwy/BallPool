@@ -6,7 +6,8 @@
   min-width: 1000px;
 
   @include sp {
-    min-width: $sp_max_width;
+    min-width:100%;
+    width: $sp_max_width;
   }
 
 }
@@ -21,7 +22,7 @@
   margin: auto;
   padding-top: 10px;
   @include sp {
-    min-width: $sp_max_width;
+    width: 100%;
   }
 }
 
