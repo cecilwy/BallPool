@@ -1,19 +1,28 @@
 <?php
+
+//メタ情報をここで設定
+$title = '';
+$keyword = '';
+$description = '';
+
 $url = 'https://mat-room.com/api/itemcode/bpsa/prices/';
 $json = file_get_contents($url);
 $json = mb_convert_encoding($json, 'UTF8', 'ASCII,JIS,UTF-8,EUC-JP,SJIS-WIN');
 $arr = json_decode($json,true);
 
 $itemname = $arr['itemname'];
+$title = $itemname;
+
 $product_photo = $arr['photos'][0];
 $drawing_photo = $arr['photos'][1];
+
+$product_code = $arr['code'];
 $size = $arr['size_string'];
 
 $price_list = $arr['listprice_array'];
-$dsp_price = $arr['listprice_array']['A'];
+$dsp_price = $arr['listprice_array']['A'];  //商品名の所に表示する金額
 $parts_array = $arr['parts_array'];
 $count = count($price_list);
-
 ?>
 
 <!DOCTYPE html>
@@ -47,22 +56,14 @@ $count = count($price_list);
                         <div class="item-info">
                             <h1 class="head03"><?= $itemname ?></h1>
                             <p>サイズ：<?= $size ?><br>値段：¥<?= number_format($dsp_price) ?>（税込）〜</p>
-                            <p class="note">備考<br>※商品はボールミックスセットです。<br>お好きなカラーボール6色からお選びください</p>
+                            <p class="note"><?php include './remarks/'.$product_code.'.php'; ?></p>
                             <p class="btn01"><a href="#">ご相談・お見積もり</a></p>
                         </div>
                     </div>
                     <div class="strength"><img src="img/strength.jpg" alt="強み"></div>
                     <div class="variation">
                         <h3 class="head02"><span>バリエーション</span></h3>
-                        <ul class="variation-pict">
-                            <li><a href="#"><img src="img/variation_picture_01.jpg" alt="バリエーション1"></a></li>
-                            <li><a href="#"><img src="img/variation_picture_02.jpg" alt="バリエーション2"></a></li>
-                            <li><a href="#"><img src="img/variation_picture_03.jpg" alt="バリエーション3"></a></li>
-                            <li><a href="#"><img src="img/variation_picture_04.jpg" alt="バリエーション4"></a></li>
-                            <li><a href="#"><img src="img/variation_picture_05.jpg" alt="バリエーション5"></a></li>
-                            <li><a href="#"><img src="img/variation_picture_06.jpg" alt="バリエーション6"></a></li>
-                            <li><a href="#"><img src="img/variation_picture_07.jpg" alt="バリエーション7"></a></li>
-                        </ul>
+                        <?php include './variations/'.$product_code.'/index.php' ?>
                     </div>
                     <div class="drawing">
                         <h3 class="head02"><span>商品図面・詳細</span></h3>
@@ -157,17 +158,7 @@ $count = count($price_list);
                 </div>
             </div>
         </div>
-        <div class="bnrs">
-            <ul class="list-slider">
-                <li><a href="#"><img src="/img/bnr_01.png" alt="ミニボールプール"></a></li>
-                <li><a href="#"><img src="/img/bnr_02.png" alt="ボールプール（中型）"></a></li>
-                <li><a href="#"><img src="/img/bnr_03.png" alt="ボールプール（大型）"></a></li>
-                <li><a href="#"><img src="/img/bnr_04.png" alt="ボールプール関連商品"></a></li>
-                <li><a href="#"><img src="/img/bnr_05.png" alt="ボールプール関連商品"></a></li>
-                <li><a href="#"><img src="/img/bnr_06.png" alt="ボールプール関連商品"></a></li>
-            </ul>
-            <p class="btn01"><a href="#">ご相談・お見積もり</a></p>
-        </div>
+        <?php include '../template/bnrs.php'; ?>
     </div>
     <!--main-->
 <?php include '../template/footer.php'; ?>

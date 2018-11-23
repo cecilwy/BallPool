@@ -275,7 +275,7 @@ ul.breadcrumb strong {
   font-weight: bold; }
 
 .head01 {
-  background: url(/src/img/ttl_01.png) center center no-repeat;
+  background: url(/img/ttl_01.png) center center no-repeat;
   color: #aa1f24;
   display: inline-block;
   font-size: 28px;
@@ -289,7 +289,7 @@ ul.breadcrumb strong {
   padding-top: 2px; }
 
 .head02 {
-  background: url(/src/img/ttl_02.png) center center no-repeat;
+  background: url(/img/ttl_02.png) center center no-repeat;
   color: #aa1f24;
   display: inline-block;
   font-size: 26px;
@@ -400,6 +400,9 @@ ul.breadcrumb strong {
   float: left;
   margin-right: 15px; }
 
+.variation ul.variation-pict li img {
+  width: 165px; }
+
 .variation ul.variation-pict li:nth-child(5) {
   margin-right: 0; }
 
@@ -491,6 +494,8 @@ ul.breadcrumb strong {
   margin-top: 35px;
   display: flex;
   justify-content: space-between; }
+  .outer-content ul.list-back img {
+    width: 100%; }
 
 .content-wrapper .bnrs ul {
   margin-top: 35px;
@@ -1128,7 +1133,11 @@ footer .footer-contact li {
     margin-left: 0; }
     .strength img {
       width: 100%; }
+    .variation ul.variation-pict li:nth-child(5) {
+      margin-right: 15px; }
     .outer-content {
+      width: 100%; }
+    .outer-content img {
       width: 100%; } }
 
 @media only screen and (min-width: 1400px) {

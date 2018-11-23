@@ -7,11 +7,9 @@
     height: 62px;
     text-align: center;
     width: 438px;
-
     @include sp {
       width: 100%;
     }
-  ;
   }
 
   .head01 span {
@@ -171,8 +169,16 @@
     margin-right: 15px;
   }
 
+  .variation ul.variation-pict li img{
+    width: 165px;
+  }
+
+
   .variation ul.variation-pict li:nth-child(5) {
     margin-right: 0;
+    @include sp {
+      margin-right: 15px;
+    }
   }
 
   .drawing {

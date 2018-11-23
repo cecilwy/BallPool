@@ -72,13 +72,13 @@
             <div class="variation">
               <h3><img src="img/ttl_variation.png" alt="バリエーション"></h3>
               <ul class="variation-pict">
-                <li><a href="#"><img src="img/variation_picture_01.jpg" alt="バリエーション1"></a></li>
-                <li><a href="#"><img src="img/variation_picture_02.jpg" alt="バリエーション2"></a></li>
-                <li><a href="#"><img src="img/variation_picture_03.jpg" alt="バリエーション3"></a></li>
-                <li><a href="#"><img src="img/variation_picture_04.jpg" alt="バリエーション4"></a></li>
-                <li><a href="#"><img src="img/variation_picture_05.jpg" alt="バリエーション5"></a></li>
-                <li><a href="#"><img src="img/variation_picture_06.jpg" alt="バリエーション6"></a></li>
-                <li><a href="#"><img src="img/variation_picture_07.jpg" alt="バリエーション7"></a></li>
+                <li><a href="#"><img src="variations/bpsa/img/v_01.jpg" alt="バリエーション1"></a></li>
+                <li><a href="#"><img src="variations/bpsa/img/v_02.jpg" alt="バリエーション2"></a></li>
+                <li><a href="#"><img src="variations/bpsa/img/v_03.jpg" alt="バリエーション3"></a></li>
+                <li><a href="#"><img src="variations/bpsa/img/v_04.jpg" alt="バリエーション4"></a></li>
+                <li><a href="#"><img src="variations/bpsa/img/v_05.jpg" alt="バリエーション5"></a></li>
+                <li><a href="#"><img src="variations/bpsa/img/v_06.jpg" alt="バリエーション6"></a></li>
+                <li><a href="#"><img src="variations/bpsa/img/v_07.jpg" alt="バリエーション7"></a></li>
               </ul>
             </div>
             <div class="drawing">
