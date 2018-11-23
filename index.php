@@ -15,16 +15,6 @@ $description = '';
     <?php include './template/header.php' ?>
     <div class="content-wrapper">
         <div class="content">
-            <ul itemscope itemtype="http://schema.org/BreadcrumbList" class="breadcrumb">
-                <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-                    <a itemprop="item" href="#">ボールプールドットコムTOP</a>
-                    <meta itemprop="position" content="1"/>
-                </li>
-                <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-                    <strong><a itemprop="item" href="#"><?= $title ?></a></strong>
-                    <meta itemprop="position" content="3"/>
-                </li>
-            </ul>
             <main>
 
 

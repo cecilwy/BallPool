@@ -539,6 +539,9 @@ footer .footer-inner {
   overflow: hidden;
   color: #333333; }
 
+footer #footer-logo img {
+  width: 310px; }
+
 footer address {
   padding-top: 5px;
   padding-bottom: 5px;

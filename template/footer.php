@@ -1,7 +1,7 @@
 <footer>
     <div class="footer-inner">
         <div class="footer-left">
-            <h1><a href="#"><img src="../img/logo.png" alt="ボールプール.com"></a></h1>
+            <div id="footer-logo"><a href="#"><img src="../img/logo.png" alt="ボールプール.com"></a></div>
             <address>〒578-0984　大阪府東大阪市菱江2-14-16<br>
                 株式会社ワークス<br>ボールプール|ボールプール用ボール専門店【店舗家具 Wism】</address>
         </div>
