@@ -1,11 +1,12 @@
 import {BASE_DIR} from '../constants.yml'
 import $ from 'jquery';
-import 'slick-carousel';
 
 const jQuery = require('jquery');
 window.jQuery = jQuery;
 
 const modaal = require('modaal');
+const slickcarousel = require('slick-carousel');
+
 
 $(function () {
     $('.list-slider').slick({

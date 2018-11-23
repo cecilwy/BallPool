@@ -512,6 +512,9 @@ ul.breadcrumb strong {
 .slick-slide {
   width: 369px !important; }
 
+.content-wrapper .bnrs ul {
+  height: 196px; }
+
 footer {
   font-size: 14px; }
 
@@ -1099,10 +1102,34 @@ footer .footer-contact li {
     display: none; }
     #humberger {
       display: block; }
+    .wrapper {
+      min-width: 768px; }
+    .content {
+      min-width: 768px; }
+    ul.breadcrumb {
+      display: none; }
     .head01 {
       width: 100%; }
     .item-detail {
-      text-align: left; } }
+      width: 708px;
+      margin-left: 30px; }
+    .item-detail div.item-photo,
+    .item-info {
+      display: block; }
+    .item-info {
+      width: 100%;
+      margin-top: 20px;
+      padding-left: 0; }
+    .item-detail div.item-photo {
+      width: 100%; }
+  .item-detail div.item-photo {
+    max-width: 100%;
+    border: none;
+    margin-left: 0; }
+    .strength img {
+      width: 100%; }
+    .outer-content {
+      width: 100%; } }
 
 @media only screen and (min-width: 1400px) {
   .modaal-video-container {

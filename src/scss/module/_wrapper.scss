@@ -3,7 +3,13 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  min-width: 1000px; }
+  min-width: 1000px;
+
+  @include sp {
+    min-width: $sp_max_width;
+  }
+
+}
 
 .content-wrapper {
   background: url("/img/background.gif");
@@ -13,12 +19,20 @@
 .content {
   width: 960px;
   margin: auto;
-  padding-top: 10px; }
+  padding-top: 10px;
+  @include sp {
+    min-width: $sp_max_width;
+  }
+}
 
 ul.breadcrumb {
   margin-top: 5px;
   margin-left: 10px;
-  font-size: 14px; }
+  font-size: 14px;
+  @include sp {
+    display: none;
+  }
+}
 
 ul.breadcrumb li {
   /* liを横並び＆ブレットを消す */

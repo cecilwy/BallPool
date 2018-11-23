@@ -40,6 +40,7 @@ if(strpos($associative_array[0]['file'],'/item/detail')) {
 
 <div id="sp-nav">
 <ul>
+    <li><a href="#"><img class="current" src="/img/logo.png" alt="ボールプール.com"></a></li>
     <li><a href="#"><img class="current" src="/img/menu_01_off.png" alt="ご利用ガイド"></a></li>
     <li><a href="#"><img class="current" src="/img/menu_02_off.png" alt="商品一覧"></a></li>
     <li><a href="#"><img class="current" src="/img/menu_03_off.png" alt="施工事例"></a></li>
