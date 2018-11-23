@@ -12,7 +12,8 @@ jQuery(function () {
         slidesToShow: 5,
         dots: false,
         arrows: false,
-        autoplay:true
+        autoplay:true,
+        infinite: true,
     });
 
     jQuery("a img").each(function () {
@@ -41,5 +42,10 @@ jQuery(function () {
     });
 
     jQuery(".modal-image").modaal({type:'image'});
+
+    jQuery(window).resize(function() {
+        jQuery('.list-slider').slick('resize');
+    });
+
 
 });
