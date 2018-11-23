@@ -162,17 +162,31 @@
   .variation ul.variation-pict {
     margin-top: 35px;
     margin-left: 4px;
+    @include sp {
+      margin-left:35px;
+    }
   }
 
   .variation ul.variation-pict li {
     float: left;
     margin-right: 15px;
+    @include sp {
+      width: 30%;
+      margin-right: 2%;
+    }
   }
 
   .variation ul.variation-pict li img{
     width: 165px;
+    @include sp {
+      width: 100%;
+    }
   }
-
+  .variation ul.variation-pict li:nth-child(3) {
+    @include sp {
+      margin-right: 0;
+    }
+  }
 
   .variation ul.variation-pict li:nth-child(5) {
     margin-right: 0;
@@ -219,6 +233,12 @@
   .price .table {
     overflow-x: auto;
     width: 960px;
+
+    @include sp {
+      width: auto;
+      overflow-x: scroll;
+    }
+
   }
 
   .price table {
