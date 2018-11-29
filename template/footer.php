@@ -12,12 +12,12 @@
                 <li><a href="/case/">施工事例</a></li>
             </ul>
             <ul class="footer-menu">
-                <li><a href="/custom_order/">特注品</a></li>
+                <li><a href="/custom_order/">特注品について</a></li>
                 <li><a href="/company/">会社案内</a></li>
                 <li><a href="/qa/">よくある質問</a></li>
             </ul>
             <ul class="footer-menu">
-                <li><a href="/qa/">カラーチャート</a></li>
+                <li><a href="/qa/">カラー・素材表</a></li>
                 <li><a href="/sites/">運営サイトのご案内</a></li>
                 <li><a href="/privacy/">プライバシーポリシー</a></li>
             </ul>
