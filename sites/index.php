@@ -1,7 +1,7 @@
 <?php
 
 //メタ情報をここで設定
-$title = 'プライバシーポリシー';
+$title = '運営サイトのご案内';
 $keyword = '';
 $description = '';
 
@@ -29,6 +29,7 @@ $description = '';
 
 
             </main>
+
         </div>
         <?php include '../template/bnrs.php'; ?>
     </div>

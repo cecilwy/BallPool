@@ -1,7 +1,7 @@
 <?php
 
 //メタ情報をここで設定
-$title = 'プライバシーポリシー';
+$title = 'ご利用ガイド';
 $keyword = '';
 $description = '';
 

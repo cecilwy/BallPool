@@ -1,5 +1,5 @@
   .head01 {
-    background: url(../img/ttl_01.png) center center no-repeat;
+    background: url(/img/ttl_01.png) center center no-repeat;
     color: #aa1f24;
     display: inline-block;
     font-size: 28px;
@@ -7,11 +7,9 @@
     height: 62px;
     text-align: center;
     width: 438px;
-
     @include sp {
       width: 100%;
     }
-  ;
   }
 
   .head01 span {
@@ -20,7 +18,7 @@
   }
 
   .head02 {
-    background: url(../img/ttl_02.png) center center no-repeat;
+    background: url(/img/ttl_02.png) center center no-repeat;
     color: #aa1f24;
     display: inline-block;
     font-size: 26px;
@@ -67,20 +65,29 @@
     text-align: center;
     box-sizing: border-box;
     @include sp {
-      text-align: left;
+      width: $sp_max_width - 60px;
+      margin-left: 30px;
     }
-  ;
-
   }
 
   .item-detail div.item-photo,
   .item-info{
     display: table-cell;
-    width: 50%;}
+    width: 50%;
+    @include sp {
+      display: block;
+    }
+  }
 
   .item-info{
     padding-left: 20px;
-    text-align: left;}
+    text-align: left;
+    @include sp {
+      width: 100%;
+      margin-top: 20px;
+      padding-left: 0;
+    }
+  }
 
   .item-detail div.item-photo{
     max-width: 430px;
@@ -91,8 +98,18 @@
     vertical-align: middle;
     height: 100%;
     width: 0;
-    margin-left: -0.3em;}
-
+    margin-left: -0.3em;
+    @include sp {
+      width: 100%;
+    }
+  }
+  .item-detail div.item-photo{
+    @include sp {
+      max-width: 100%;
+      border: none;
+      margin-left: 0;
+    }
+  }
   .item-detail div.item-photo img{
     vertical-align: middle;
     width: 100%;}
@@ -125,9 +142,15 @@
   .variation ul.variation-pict {
     margin-top: 35px;
     margin-left: 4px;}
+
   .strength {
     padding-top: 30px;
     clear: left;
+    img{
+      @include sp {
+        width: 100%;
+      }
+    }
   }
 
   .variation {
@@ -139,15 +162,37 @@
   .variation ul.variation-pict {
     margin-top: 35px;
     margin-left: 4px;
+    @include sp {
+      margin-left:35px;
+    }
   }
 
   .variation ul.variation-pict li {
     float: left;
     margin-right: 15px;
+    @include sp {
+      width: 30%;
+      margin-right: 2%;
+    }
+  }
+
+  .variation ul.variation-pict li img{
+    width: 165px;
+    @include sp {
+      width: 100%;
+    }
+  }
+  .variation ul.variation-pict li:nth-child(3) {
+    @include sp {
+      margin-right: 0;
+    }
   }
 
   .variation ul.variation-pict li:nth-child(5) {
     margin-right: 0;
+    @include sp {
+      margin-right: 15px;
+    }
   }
 
   .drawing {
@@ -188,6 +233,12 @@
   .price .table {
     overflow-x: auto;
     width: 960px;
+
+    @include sp {
+      width: auto;
+      overflow-x: scroll;
+    }
+
   }
 
   .price table {
@@ -234,6 +285,17 @@
     margin: auto;
     text-align: center;
     margin-top: 80px;
+
+    @include sp {
+      width: 100%;
+    }
+
+    img{
+      @include sp {
+        width: $sp_max_width - 60px;
+      }
+    }
+
   }
 
   .outer-content .color-select p,
@@ -247,12 +309,20 @@
 
   .outer-content .back-list {
     margin-top: 55px;
+    @include sp {
+      width: $sp_max_width - 60px;
+      padding: 30px;
+    }
   }
 
   .outer-content ul.list-back {
     margin-top: 35px;
     display: flex;
     justify-content: space-between;
+    img{
+      width: 100%;
+    }
+
   }
 
   .content-wrapper .bnrs ul {

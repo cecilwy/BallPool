@@ -1,76 +1,36 @@
 <?php
+
+//メタ情報をここで設定
+$title = '';
+$keyword = '';
+$description = '';
+
 $url = 'https://mat-room.com/api/itemcode/bpsa/prices/';
 $json = file_get_contents($url);
 $json = mb_convert_encoding($json, 'UTF8', 'ASCII,JIS,UTF-8,EUC-JP,SJIS-WIN');
 $arr = json_decode($json,true);
 
-$item_name = $arr['itemname'];
+$itemname = $arr['itemname'];
+$title = $itemname;
+
 $product_photo = $arr['photos'][0];
 $drawing_photo = $arr['photos'][1];
+
+$product_code = $arr['code'];
 $size = $arr['size_string'];
 
 $price_list = $arr['listprice_array'];
-$dsp_price = $arr['listprice_array']['A'];
+$dsp_price = $arr['listprice_array']['A'];  //商品名の所に表示する金額
 $parts_array = $arr['parts_array'];
 $count = count($price_list);
-
 ?>
 
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-    <meta charset="utf-8">
-    <!-- meta-->
-    <title>ボールプール.com | <?= $itemname ?></title>
-    <meta name="description" content="サイトの説明文（未提供）">
-    <meta name="keywords" content="キーワード（未提供）">
-    <link rel="shortcut icon" href="/favicon.ico" type="image/vnd.microsoft.icon">
-    <link rel="icon" href="/favicon.ico" type="image/vnd.microsoft.icon">
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-    <meta name="format-detection" content="telephone=no">
-    <!-- smartphone meta-->
-    <meta name="viewport" content="width=1000px,user-scalable=0, shrink-to-fit=no">
-    <link rel="apple-touch-icon" href="http://example.com/webclipicon.png">
-    <!-- ogp-->
-    <meta property="fb:app_id" content="99999999999">
-    <meta property="og:url" content="http://example.com/">
-    <meta property="og:image" content="http://example.com/ogp.jpg">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="ボールプール.com">
-    <meta property="og:site_name" content="ボールプール.com">
-    <meta property="og:description" content="サイトの説明文（未提供）">
-    <meta property="og:locale" content="ja_JP">
-    <!-- twitter card-->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:title" content="ボールプール.com">
-    <meta property="twitter:description" content="サイトの説明文（未提供）">
-    <meta property="twitter:image" content="http://example.com/ogp.jpg">
-    <!-- canonical url-->
-    <link rel="canonical" href="http://example.com/">
-    <!-- stylesheet-->
-    <link href="/css/style.css" rel="stylesheet">
-</head>
+<?php include '../template/meta.php'; ?>
 <body>
 <div class="wrapper">
-    <header>
-        <div id="logo"><a href="#"><img src="/img/logo.png" alt="ボールプール.com"></a></div>
-        <nav>
-            <ul>
-                <li><a href="#"><img src="/img/tel_off.png" alt="0120-71-1010"></a></li>
-                <li><a href="#"><img src="/img/contact_off.png" alt="0120-71-1010"></a></li>
-            </ul>
-            <ul class="menu">
-                <li><a href="#"><img src="/img/menu_01_off.png" alt="ご利用ガイド"></a></li>
-                <li><a href="#"><img src="/img/menu_02_on.png" alt="商品一覧"></a></li>
-                <li><a href="#"><img src="/img/menu_03_off.png" alt="施工事例"></a></li>
-                <li><a href="#"><img src="/img/menu_04_off.png" alt="よくある質問"></a></li>
-                <li><a href="#"><img src="/img/menu_05_off.png" alt="特注品について"></a></li>
-                <li><a href="#"><img src="/img/menu_06_off.png" alt="会社案内"></a></li>
-            </ul>
-        </nav>
-        <br class="clear_noie">
-    </header>
-    <hr>
+<?php include '../template/header.php' ?>
     <div class="content-wrapper">
         <div class="content">
             <ul itemscope itemtype="http://schema.org/BreadcrumbList" class="breadcrumb">
@@ -91,33 +51,33 @@ $count = count($price_list);
                 <div class="item-detail">
                     <div class="item-wrap">
                         <div class="item-photo">
+                            <?php if (is_url_exist($product_photo)) { ?>
                             <img src="<?= $product_photo ?>" alt="<?= $itemname ?>商品画像">
+                            <?php }else{ ?>
+                                画像は登録されていません
+                            <?php } ?>
                         </div>
                         <div class="item-info">
                             <h1 class="head03"><?= $itemname ?></h1>
                             <p>サイズ：<?= $size ?><br>値段：¥<?= number_format($dsp_price) ?>（税込）〜</p>
-                            <p class="note">備考<br>※商品はボールミックスセットです。<br>お好きなカラーボール6色からお選びください</p>
+                            <p class="note"><?php include './remarks/'.$product_code.'.php'; ?></p>
                             <p class="btn01"><a href="#">ご相談・お見積もり</a></p>
                         </div>
                     </div>
                     <div class="strength"><img src="img/strength.jpg" alt="強み"></div>
                     <div class="variation">
                         <h3 class="head02"><span>バリエーション</span></h3>
-                        <ul class="variation-pict">
-                            <li><a href="#"><img src="img/variation_picture_01.jpg" alt="バリエーション1"></a></li>
-                            <li><a href="#"><img src="img/variation_picture_02.jpg" alt="バリエーション2"></a></li>
-                            <li><a href="#"><img src="img/variation_picture_03.jpg" alt="バリエーション3"></a></li>
-                            <li><a href="#"><img src="img/variation_picture_04.jpg" alt="バリエーション4"></a></li>
-                            <li><a href="#"><img src="img/variation_picture_05.jpg" alt="バリエーション5"></a></li>
-                            <li><a href="#"><img src="img/variation_picture_06.jpg" alt="バリエーション6"></a></li>
-                            <li><a href="#"><img src="img/variation_picture_07.jpg" alt="バリエーション7"></a></li>
-                        </ul>
+                        <?php include './variations/'.$product_code.'/index.php' ?>
                     </div>
                     <div class="drawing">
                         <h3 class="head02"><span>商品図面・詳細</span></h3>
                         <div class="image-wrap">
                             <div class="image">
+                                <?php if (is_url_exist($drawing_photo)) { ?>
                                 <img src="<?= $drawing_photo ?>">
+                                <?php }else{ ?>
+                                    画像は登録されていません
+                                <?php } ?>
                             </div>
                             <div class="image">
                                 <img src="./img/howtouse_01.jpg" alt="各部の説明と取付け">
@@ -141,11 +101,6 @@ $count = count($price_list);
                                     <td class="bold">Bランク</td>
                                     <td class="bold">Cランク</td>
                                     <td class="bold">Dランク</td>
-                                    <td class="bold">Eランク</td>
-                                    <td class="bold">Fランク</td>
-                                    <td class="bold">Gランク</td>
-                                    <td class="bold">Hランク</td>
-                                    <td class="bold">Iランク</td>
                                 </tr>
                                 <?php for ($i = 0; $i < 4; $i++) { ?>
                                     <tr>
@@ -153,9 +108,15 @@ $count = count($price_list);
                                         <td><?= $parts_array[$i]['code'] ?></td>
                                         <td nowrap><?= $parts_array[$i]['size'] ?></td>
                                         <td><?= $parts_array[$i]['amount'] ?></td>
-                                        <?php foreach($parts_array[$i]['listprice_array'] as $key => $value){ ?>
+                                        <?php $j = 0; ?>
+                                        <?php foreach ($parts_array[$i]['listprice_array'] as $key => $value) { ?>
+                                            <?php
+                                            if ($j >= 4) {
+                                                break;
+                                            }
+                                            ?>
                                             <td>¥<?= number_format($value) ?></td>
-                                        <?php } ?>
+                                        <?php $j++; } ?>
                                     </tr>
                                 <?php } ?>
 
@@ -164,9 +125,15 @@ $count = count($price_list);
                                     <td></td>
                                     <td></td>
                                     <td class="bold">合計</td>
-                                    <?php foreach($price_list as $key => $value){ ?>
+                                    <?php $k = 0; ?>
+                                    <?php foreach ($price_list as $key => $value) { ?>
+                                        <?php
+                                        if ($k >= 4) {
+                                            break;
+                                        }
+                                        ?>
                                         <td>¥<?= number_format($value) ?></td>
-                                    <?php } ?>
+                                    <?php $k++; } ?>
                                 </tr>
                             </table>
                         </div>
@@ -199,6 +166,7 @@ $count = count($price_list);
                 </div>
             </div>
         </div>
+<<<<<<< HEAD
         <div class="bnrs">
             <ul class="list-slider">
                 <li><a href="/item/bpm4000hu.php"><img src="../img/bnr_big_04.png" alt="円型ボールプール"></a></li>
@@ -249,7 +217,35 @@ $count = count($price_list);
         </div>
         <div class="copy">Copyright &copy; Ball pool.com. All Right Reserved.</div>
     </footer>
+=======
+        <?php include '../template/bnrs.php'; ?>
+    </div>
+    <!--main-->
+<?php include '../template/footer.php'; ?>
+>>>>>>> origin/master
 </div>
-<script type="text/javascript" src="./js/script.js"></script></body>
+<script type="text/javascript" src="/js/script.js"></script>
+<?php include '../template/analytics.php' ?>
+</body>
 <!-- javascript-->
 </html>
+<?php
+/**
+ * 外部ファイル存在チェック関数
+ * @param $url
+ * @return bool
+ */
+function is_url_exist($url){
+    $ch = curl_init($url);
+    curl_setopt($ch, CURLOPT_NOBODY, true);
+    curl_exec($ch);
+    $code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+
+    if($code == 200){
+        $status = true;
+    }else{
+        $status = false;
+    }
+    curl_close($ch);
+    return $status;
+}
