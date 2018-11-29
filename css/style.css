@@ -668,8 +668,7 @@ iframe {
 #sites h1 {
   margin: auto;
   margin-top: 10px;
-  text-align: center;
-  padding: 20px; }
+  text-align: center; }
 
 #sites .site-group {
   clear: both;

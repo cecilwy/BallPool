@@ -86,7 +86,6 @@ iframe{
     margin: auto;
     margin-top: 10px;
     text-align: center;
-    padding: 20px;
     img {
       @include sp {
         width: 100%;
@@ -109,7 +108,7 @@ iframe{
       width: 50%;
       float: left;
       table {
-        text-align: left;
+        text-align: left;z
         td {
           border: none;
           vertical-align: middle;
