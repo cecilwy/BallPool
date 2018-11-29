@@ -608,6 +608,7 @@ footer .footer-contact li {
   text-align: center;
   box-sizing: border-box; }
 
+#contact h1,
 #privacy h1,
 #company h1 {
   margin: auto;
@@ -618,12 +619,14 @@ footer .footer-contact li {
   margin-top: 20px;
   margin-bottom: 20px; }
 
+#contact table,
 #privacy table,
 #company table {
   margin-top: 20px;
   width: 100%;
   text-align: left; }
 
+#contact table th,
 #privacy table th,
 #company table th {
   background-color: #ebebeb;
@@ -643,6 +646,7 @@ iframe {
   overflow: hidden;
   width: 100%; }
 
+#contact p,
 #privacy p {
   padding-top: 20px;
   text-align: left;
@@ -1240,9 +1244,11 @@ iframe {
     .box {
       width: 708px;
       margin-left: 30px; }
+    #contact h1,
     #privacy h1,
     #company h1 {
       padding: 20px; }
+    #contact h1 img,
     #privacy h1 img,
     #company h1 img {
       width: 100%; }
