@@ -1,0 +1,49 @@
+#company h1 {
+  margin: auto;
+  margin-top: 10px;
+  text-align: center;
+  padding: 20px;
+
+  img {
+    @include sp {
+      width: 100%;
+    }
+  }
+}
+
+.wide_photo {
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  img {
+    @include sp {
+      width: 100%;
+    }
+  }
+}
+
+#company table {
+  margin-top: 20px;
+  width: 100%;
+  text-align: left;
+}
+
+#company table th {
+  background-color: #ebebeb;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+iframe{
+  width: 100%;
+  height: 450px;
+  margin-bottom: 0;
+}
+
+.map{
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  overflow: hidden;
+  width: 100%;
+}

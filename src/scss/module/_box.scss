@@ -1,0 +1,16 @@
+.box {
+  margin-top: 15px;
+  width: 960px;
+  border: solid 3px #7d7d7d;
+  border-radius: 15px;
+  background-color: #fff;
+  padding: 30px;
+  zoom: 1;
+  overflow: hidden;
+  text-align: center;
+  box-sizing: border-box;
+  @include sp {
+    width: $sp_max_width - 60px;
+    margin-left: 30px;
+  }
+}

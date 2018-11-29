@@ -48,7 +48,7 @@ $count = count($price_list);
                 </li>
             </ul>
             <main>
-                <div class="item-detail">
+                <div class="item-detail box">
                     <div class="item-wrap">
                         <div class="item-photo">
                             <?php if (is_url_exist($product_photo)) { ?>
