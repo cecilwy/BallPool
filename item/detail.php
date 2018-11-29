@@ -166,10 +166,63 @@ $count = count($price_list);
                 </div>
             </div>
         </div>
+<<<<<<< HEAD
+        <div class="bnrs">
+            <ul class="list-slider">
+                <li><a href="/item/bpm4000hu.php"><img src="../img/bnr_big_04.png" alt="円型ボールプール"></a></li>
+                <li><a href="/item/bpbn.php"><img src="../img/bnr_mini_01.png" alt="ミニボールプール"></a></li>
+                <li><a href="/item/bpsc.php"><img src="../img/bnr_basic_03.png" alt="ボールプールCセット"></a></li>
+                <li><a href="/item/bpsd2c.php"><img src="../img/bnr_big_03.png" alt="滑り台2個・クライミングセット"></a></li>
+                <li><a href="/item/bp2s.php"><img src="../img/bnr_mini_03.png" alt="2段ミニボールプールセット"></a></li>
+                <li><a href="/item/bpsa.php"><img src="../img/bnr_basic_01.png" alt="ボールプールAセット"></a></li>
+            </ul>
+        </div>
+    </div>
+    <!--main-->
+
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-left">
+                <h1><a href="#"><img src="../img/logo.png" alt="ボールプール.com"></a></h1>
+                <address>〒578-0984　大阪府東大阪市菱江2-14-16<br>
+                    株式会社ワークス<br>ボールプール|ボールプール用ボール専門店【店舗家具 Wism】</address>
+            </div>
+            <div class="footer-right">
+                <ul class="footer-menu">
+                    <li><a href="/guide/">ご利用ガイド</a></li>
+                    <li><a href="/item/">商品一覧</a></li>
+                    <li><a href="/case/">施工事例</a></li>
+                </ul>
+                <ul class="footer-menu">
+                    <li><a href="/customer_order/">特注品</a></li>
+                    <li><a href="/company/">会社案内</a></li>
+                    <li><a href="/qa/">よくある質問</a></li>
+                </ul>
+                <ul class="footer-menu">
+                    <li><a href="/color/">カラー・素材表</a></li>
+                    <li><a href="/guidance/">運営サイトのご案内</a></li>
+                    <li><a href="/privacy/">プライバシーポリシー</a></li>
+                </ul>
+                <ul class="footer-menu">
+                    <li><a href="/contact/">お問い合わせ</a></li>
+                    <li><a href="https://www.tenpokagushop.com/corp/recruit/staff.html" target="_blank">スタッフ紹介</a></li>
+                    <li></li>
+                </ul>
+                <ul class="footer-contact">
+                    <li><a href="#"><img src="../img/tel_off.png" alt="0120-71-1010"></a></li>
+                    <li><a href="#"><img src="../img/contact_off.png" alt="0120-71-1010"></a></li>
+                </ul>
+            </div>
+            <br class="clear_noie">
+        </div>
+        <div class="copy">Copyright &copy; Ball pool.com. All Right Reserved.</div>
+    </footer>
+=======
         <?php include '../template/bnrs.php'; ?>
     </div>
     <!--main-->
 <?php include '../template/footer.php'; ?>
+>>>>>>> origin/master
 </div>
 <script type="text/javascript" src="/js/script.js"></script>
 <?php include '../template/analytics.php' ?>
