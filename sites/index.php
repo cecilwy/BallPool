@@ -35,7 +35,8 @@ $description = '';
                         <div class="one-site">
                             <table>
                                 <tr>
-                                    <td><a href="https://www.wism-chair.com/" target="_blank"><img src="img/sites_pict1.jpg" alt="WISM"/></a></td>
+                                    <td><a href="//www.wism-chair.com/" target="_blank"><img src="img/sites_pict1.jpg"
+                                                                                             alt="WISM"/></a></td>
                                     <td>WISM</td>
                                 </tr>
                             </table>
@@ -43,7 +44,8 @@ $description = '';
                         <div class="one-site">
                             <table>
                                 <tr>
-                                    <td><img src="img/sites_pict2.jpg" alt="店舗家具ショップ"/></td>
+                                    <td><a href="//www.tenpokagushop.com/wism/" target="_blank"><img
+                                                src="img/sites_pict2.jpg" alt="店舗家具ショップ"/></a></td>
                                     <td>店舗家具ショップ</td>
                                 </tr>
                             </table>
@@ -55,7 +57,8 @@ $description = '';
                         <div class="one-site">
                             <table>
                                 <tr>
-                                    <td><a href="https://www.benchsheet.com/" target="_blank" ><img src="img/sites_pict3.jpg" alt="ベンチシートプロショップ"/></a></td>
+                                    <td><a href="https://www.benchsheet.com/" target="_blank"><img
+                                                    src="img/sites_pict3.jpg" alt="ベンチシートプロショップ"/></a></td>
                                     <td>ベンチシートプロショップ</td>
                                 </tr>
                             </table>
@@ -63,7 +66,8 @@ $description = '';
                         <div class="one-site">
                             <table>
                                 <tr>
-                                    <td><img src="img/sites_pict4.jpg" alt="ベンチシートドットコム"/></td>
+                                    <td><a href="//www.benchsheet.com" target="_blank"><img src="img/sites_pict4.jpg"
+                                                                                            alt="ベンチシートドットコム"/></a></td>
                                     <td>ベンチシートドットコム</td>
                                 </tr>
                             </table>
@@ -71,8 +75,10 @@ $description = '';
                         <div class="one-site">
                             <table>
                                 <tr>
-                                    <td><img src="img/sites_pict5.jpg" alt="ベンチシートドット来いドットコム"/></td>
-                                    <td>ベンチシート<br />どっと来いドットコム</td>
+                                    <td><a href="//www.gyoumuyousofa.com" target="_blank"><img src="img/sites_pict5.jpg"
+                                                                                               alt="ベンチシートドット来いドットコム"/></a>
+                                    </td>
+                                    <td>ベンチシート<br/>どっと来いドットコム</td>
                                 </tr>
                             </table>
                         </div>
@@ -91,7 +97,8 @@ $description = '';
                         <div class="one-site">
                             <table>
                                 <tr>
-                                    <td><img src="img/sites_pict7.jpg" alt="キッズコーナー遊び場"/></td>
+                                    <td><a href="//www.kodomoplayground.com"><img src="img/sites_pict7.jpg"
+                                                                                  alt="キッズコーナー遊び場"/></a></td>
                                     <td>キッズコーナー遊び場</td>
                                 </tr>
                             </table>
@@ -99,7 +106,8 @@ $description = '';
                         <div class="one-site">
                             <table>
                                 <tr>
-                                    <td><img src="img/sites_pict8.jpg" alt="子どもプレイグランド"/></td>
+                                    <td><a href="//www.kodomoplayground.com"><img src="img/sites_pict8.jpg"
+                                                                                  alt="子どもプレイグランド"/></a></td>
                                     <td>子どもプレイグランド</td>
                                 </tr>
                             </table>

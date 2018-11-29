@@ -37,7 +37,7 @@ $description = '';
                     <table>
                         <tr>
                             <th>社名</th>
-                            <td>株式会社ワークス( <a href="#" target="_blank">ホームページ</a>)</td>
+                            <td>株式会社ワークス( <a href="//www.tenpokagushop.com/corp/" target="_blank">ホームページ</a>)</td>
                         </tr>
 
                         <tr>
