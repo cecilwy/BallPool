@@ -665,6 +665,32 @@ iframe {
   font-size: 14px;
   margin-top: 10px; }
 
+#sites h1 {
+  margin: auto;
+  margin-top: 10px;
+  text-align: center;
+  padding: 20px; }
+
+#sites .site-group {
+  clear: both;
+  overflow: hidden;
+  margin-top: 15px; }
+  #sites .site-group h3 {
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-left: 5px solid #f7254c;
+    padding-left: 9px;
+    margin-bottom: 5px; }
+  #sites .site-group .one-site {
+    width: 50%;
+    float: left; }
+    #sites .site-group .one-site table {
+      text-align: left; }
+      #sites .site-group .one-site table td {
+        border: none;
+        vertical-align: middle; }
+
 /*!
 	Modaal - accessible modals - v0.4.4
 	by Humaan, for all humans.
@@ -1247,6 +1273,8 @@ iframe {
     #company h1 img {
       width: 100%; }
     .wide_photo img {
+      width: 100%; }
+    #sites h1 img {
       width: 100%; } }
 
 @media only screen and (min-width: 1400px) {
