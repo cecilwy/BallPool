@@ -1,8 +1,12 @@
+#privacy h1,
 #company h1 {
   margin: auto;
   margin-top: 10px;
   text-align: center;
-  padding: 20px;
+
+  @include sp {
+    padding: 20px;
+  }
 
   img {
     @include sp {
@@ -21,17 +25,18 @@
     }
   }
 }
-
+#privacy table,
 #company table {
   margin-top: 20px;
   width: 100%;
   text-align: left;
 }
-
+#privacy table th,
 #company table th {
   background-color: #ebebeb;
   font-weight: bold;
   white-space: nowrap;
+  padding: 20px;
 }
 
 iframe{
@@ -46,4 +51,31 @@ iframe{
   margin-top: 20px;
   overflow: hidden;
   width: 100%;
+}
+
+
+#privacy p{
+  padding-top: 20px;
+  text-align: left;
+  font-size: 14px;
+}
+
+#privacy dt{
+  border-left: solid 5px #f7254c;
+  font-size: 22px;
+  padding-left: 8px;
+  font-weight: bold;
+  box-sizing: content-box;
+  margin-top: 30px;
+}
+
+#privacy dt,
+#privacy dd{
+  font-size: 22px;
+  text-align: left;
+}
+
+#privacy dd{
+  font-size: 14px;
+  margin-top: 10px;
 }

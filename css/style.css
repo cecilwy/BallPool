@@ -608,25 +608,28 @@ footer .footer-contact li {
   text-align: center;
   box-sizing: border-box; }
 
+#privacy h1,
 #company h1 {
   margin: auto;
   margin-top: 10px;
-  text-align: center;
-  padding: 20px; }
+  text-align: center; }
 
 .wide_photo {
   margin-top: 20px;
   margin-bottom: 20px; }
 
+#privacy table,
 #company table {
   margin-top: 20px;
   width: 100%;
   text-align: left; }
 
+#privacy table th,
 #company table th {
   background-color: #ebebeb;
   font-weight: bold;
-  white-space: nowrap; }
+  white-space: nowrap;
+  padding: 20px; }
 
 iframe {
   width: 100%;
@@ -639,6 +642,28 @@ iframe {
   margin-top: 20px;
   overflow: hidden;
   width: 100%; }
+
+#privacy p {
+  padding-top: 20px;
+  text-align: left;
+  font-size: 14px; }
+
+#privacy dt {
+  border-left: solid 5px #f7254c;
+  font-size: 22px;
+  padding-left: 8px;
+  font-weight: bold;
+  box-sizing: content-box;
+  margin-top: 30px; }
+
+#privacy dt,
+#privacy dd {
+  font-size: 22px;
+  text-align: left; }
+
+#privacy dd {
+  font-size: 14px;
+  margin-top: 10px; }
 
 /*!
 	Modaal - accessible modals - v0.4.4
@@ -1215,6 +1240,10 @@ iframe {
     .box {
       width: 708px;
       margin-left: 30px; }
+    #privacy h1,
+    #company h1 {
+      padding: 20px; }
+    #privacy h1 img,
     #company h1 img {
       width: 100%; }
     .wide_photo img {

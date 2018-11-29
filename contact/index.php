@@ -1,9 +1,39 @@
 <?php
+ini_set('display_errors','1');
+$subject = "タイトル";
 
-//メタ情報をここで設定
-$title = 'お問い合わせ';
-$keyword = '';
-$description = '';
+$file_path = "../img/bnr_01.png";
+//ファイル名
+$file = "test.png";
+
+$body = "--__BOUNDARY__\n";
+$body .= "Content-Type: text/plain; charset=\"ISO-2022-JP\"\n\n";
+$body .= 'メール本文' . "\n";
+$body .= "--__BOUNDARY__\n";
+
+//添付ファイル設定
+$body .= "Content-Type: application/octet-stream; name=\"{$file}\"\n";
+$body .= "Content-Disposition: attachment; filename=\"{$file}\"\n";
+$body .= "Content-Transfer-Encoding: base64\n";
+$body .= "\n";
+$body .= chunk_split(base64_encode(file_get_contents($file_path)));
+$body .= "--__BOUNDARY__\n";
+
+$title = "お問い合わせ";
+
+mb_language("Ja") ;
+mb_internal_encoding("UTF-8");
+
+$header = "MIME-Version: 1.0\n";
+$header .= "Content-Transfer-Encoding: 7bit\n";
+$header .= "Content-Type: text/plain; charset=ISO-2022-JP\n";
+$header .= "Message-Id: <" . md5(uniqid(microtime())) . "@overwrite.jp>\n";
+$header .= "from: sakoda@overwrite.jp\n";
+$header .= "Reply-To: sakoda@overwrite.jp\n";
+$header .= "Return-Path:sakoda@overwrite.jp\n";
+$header .= "X-Mailer: PHP/". phpversion();
+
+mb_send_mail("sakoda@overwrite.jp", $subject, $body, $header, "-f sakoda@overwrite.jp");
 
 ?>
 
@@ -40,3 +70,6 @@ $description = '';
 </body>
 <!-- javascript-->
 </html>
+
+
+
