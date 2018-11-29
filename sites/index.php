@@ -35,7 +35,7 @@ $description = '';
                         <div class="one-site">
                             <table>
                                 <tr>
-                                    <td><img src="img/sites_pict1.jpg" alt="WISM"/></td>
+                                    <td><a href="https://www.wism-chair.com/" target="_blank"><img src="img/sites_pict1.jpg" alt="WISM"/></a></td>
                                     <td>WISM</td>
                                 </tr>
                             </table>
@@ -55,7 +55,7 @@ $description = '';
                         <div class="one-site">
                             <table>
                                 <tr>
-                                    <td><img src="img/sites_pict3.jpg" alt="ベンチシートプロショップ"/></td>
+                                    <td><a href="https://www.benchsheet.com/" target="_blank" ><img src="img/sites_pict3.jpg" alt="ベンチシートプロショップ"/></a></td>
                                     <td>ベンチシートプロショップ</td>
                                 </tr>
                             </table>
