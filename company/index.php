@@ -28,7 +28,7 @@ $description = '';
             <main>
                 <h1><img src="img/header.png" alt="会社概要"/></h1>
                 <div class="box">
-                    <h2 class="head02"><span>会社概要</span></h2>
+                    <h2 class="head01"><span>会社概要</span></h2>
 
                     <div class="wide_photo">
                         <img src="img/company_pict.jpg" alt="会社写真"/>
@@ -94,17 +94,16 @@ $description = '';
                 </div>
 
                 <div class="box">
-                    <h2 class="head02"><span>アクセス</span></h2>
+                    <h2 class="head01"><span>アクセス</span></h2>
                     <div class="map">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.149549707498!2d135.60975041523156!3d34.676174880440804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6001206e67c8e573%3A0x841a8a261b2eb96a!2z44CSNTc4LTA5ODQg5aSn6Ziq5bqc5p2x5aSn6Ziq5biC6I-x5rGf77yS5LiB55uu77yR77yU4oiS77yR77yW!5e0!3m2!1sja!2sjp!4v1543457800441"
-                                frameborder="0" style="border:0" allowfullscreen></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6562.309024737287!2d135.61143276889447!3d34.676049618198796!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf7d4fd0b81a8dc54!2z5qCq5byP5Lya56S-44Ov44O844Kv44K5!5e0!3m2!1sja!2sus!4v1413531749205" frameborder="0" style="border:0"></iframe>
                     </div>
                 </div>
 
 
 
                 <div class="box">
-                    <h2 class="head02"><span>沿革</span></h2>
+                    <h2 class="head01"><span>沿革</span></h2>
 
                     <table>
                         <tr>
