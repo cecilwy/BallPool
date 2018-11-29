@@ -201,14 +201,13 @@ $count = count($price_list);
         </div>
         <div class="bnrs">
             <ul class="list-slider">
-                <li><a href="#"><img src="../img/bnr_01.png" alt="ミニボールプール"></a></li>
-                <li><a href="#"><img src="../img/bnr_02.png" alt="ボールプール（中型）"></a></li>
-                <li><a href="#"><img src="../img/bnr_03.png" alt="ボールプール（大型）"></a></li>
-                <li><a href="#"><img src="../img/bnr_04.png" alt="ボールプール関連商品"></a></li>
-                <li><a href="#"><img src="../img/bnr_05.png" alt="ボールプール関連商品"></a></li>
-                <li><a href="#"><img src="../img/bnr_06.png" alt="ボールプール関連商品"></a></li>
+                <li><a href="/item/bpm4000hu.php"><img src="../img/bnr_big_04.png" alt="円型ボールプール"></a></li>
+                <li><a href="/item/bpbn.php"><img src="../img/bnr_mini_01.png" alt="ミニボールプール"></a></li>
+                <li><a href="/item/bpsc.php"><img src="../img/bnr_basic_03.png" alt="ボールプールCセット"></a></li>
+                <li><a href="/item/bpsd2c.php"><img src="../img/bnr_big_03.png" alt="滑り台2個・クライミングセット"></a></li>
+                <li><a href="/item/bp2s.php"><img src="../img/bnr_mini_03.png" alt="2段ミニボールプールセット"></a></li>
+                <li><a href="/item/bpsa.php"><img src="../img/bnr_basic_01.png" alt="ボールプールAセット"></a></li>
             </ul>
-            <p class="btn01"><a href="#">ご相談・お見積もり</a></p>
         </div>
     </div>
     <!--main-->
@@ -222,23 +221,23 @@ $count = count($price_list);
             </div>
             <div class="footer-right">
                 <ul class="footer-menu">
-                    <li><a href="#">ご利用ガイド</a></li>
-                    <li><a href="#">商品一覧</a></li>
-                    <li><a href="#">施工事例</a></li>
+                    <li><a href="/guide/">ご利用ガイド</a></li>
+                    <li><a href="/item/">商品一覧</a></li>
+                    <li><a href="/case/">施工事例</a></li>
                 </ul>
                 <ul class="footer-menu">
-                    <li><a href="#">特注品</a></li>
-                    <li><a href="#">会社案内</a></li>
-                    <li><a href="#">よくある質問</a></li>
+                    <li><a href="/customer_order/">特注品</a></li>
+                    <li><a href="/company/">会社案内</a></li>
+                    <li><a href="/qa/">よくある質問</a></li>
                 </ul>
                 <ul class="footer-menu">
-                    <li><a href="#">カラーチャート</a></li>
-                    <li><a href="#">運営サイトのご案内</a></li>
-                    <li><a href="#">プライバシーポリシー</a></li>
+                    <li><a href="/color/">カラー・素材表</a></li>
+                    <li><a href="/guidance/">運営サイトのご案内</a></li>
+                    <li><a href="/privacy/">プライバシーポリシー</a></li>
                 </ul>
                 <ul class="footer-menu">
-                    <li><a href="#">お問い合わせ</a></li>
-                    <li><a href="#">スタッフ紹介</a></li>
+                    <li><a href="/contact/">お問い合わせ</a></li>
+                    <li><a href="https://www.tenpokagushop.com/corp/recruit/staff.html" target="_blank">スタッフ紹介</a></li>
                     <li></li>
                 </ul>
                 <ul class="footer-contact">
