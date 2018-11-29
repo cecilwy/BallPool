@@ -83,3 +83,43 @@ iframe{
   font-size: 14px;
   margin-top: 10px;
 }
+
+
+#sites {
+  h1 {
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    padding: 20px;
+    img {
+      @include sp {
+        width: 100%;
+      }
+    }
+  }
+  .site-group {
+    clear: both;
+    overflow: hidden;
+    margin-top: 15px;
+    h3 {
+      text-align: left;
+      font-size: 1.5rem;
+      font-weight: bold;
+      border-left: 5px solid #f7254c;
+      padding-left: 9px;
+      margin-bottom: 5px;
+    }
+    .one-site{
+      width: 50%;
+      float: left;
+      table {
+        text-align: left;
+        td {
+          border: none;
+          vertical-align: middle;
+        }
+      }
+    }
+  }
+}
+
