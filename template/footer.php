@@ -7,7 +7,7 @@
         </div>
         <div class="footer-right">
             <ul class="footer-menu">
-                <li><a href=/guide/">ご利用ガイド</a></li>
+                <li><a href="/guide/">ご利用ガイド</a></li>
                 <li><a href="/item/">商品一覧</a></li>
                 <li><a href="/case/">施工事例</a></li>
             </ul>
@@ -18,17 +18,17 @@
             </ul>
             <ul class="footer-menu">
                 <li><a href="/qa/">カラーチャート</a></li>
-                <li><a href=/sites/">運営サイトのご案内</a></li>
+                <li><a href="/sites/">運営サイトのご案内</a></li>
                 <li><a href="/privacy/">プライバシーポリシー</a></li>
             </ul>
             <ul class="footer-menu">
                 <li><a href="/contact/">お問い合わせ</a></li>
-                <li><a href="https://www.tenpokagushop.com/corp/recruit/staff.html" target="_blank">スタッフ紹介</a></li>
+                <li><a href="//www.tenpokagushop.com/corp/recruit/staff.html" target="_blank">スタッフ紹介</a></li>
                 <li></li>
             </ul>
             <ul class="footer-contact">
-                <li><a href="tel:0120-71-1010"><img src="../img/tel.png" alt="0120-71-1010"></a></li>
-                <li><a href="/contact/"><img src="../img/contact.png" alt="0120-71-1010"></a></li>
+                <li><a href="tel:0120-71-1010"><img src="/img/tel.png" alt="0120-71-1010"></a></li>
+                <li><a href="/contact/"><img src="/img/contact.png" alt="0120-71-1010"></a></li>
             </ul>
         </div>
         <br class="clear_noie">
