@@ -694,6 +694,10 @@ iframe {
         border: none;
         vertical-align: middle; }
 
+#company #enkaku a {
+  text-decoration: none;
+  color: #000; }
+
 /*!
 	Modaal - accessible modals - v0.4.4
 	by Humaan, for all humans.
