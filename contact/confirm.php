@@ -24,108 +24,89 @@ $title = "お問い合わせ";
                 <h1><img src="img/header.png" /></h1>
                 <div class="box">
                     <h2 class="head01">お問い合わせ</h2>
-                    <p>商品に関することやカスタムオーダーのご依頼、納期のご相談などお気軽にお問い合わせください。<br />
-                        以下のお見積りフォームに必要事項をご記入の上、ご送信ください。自動返信にて内容確認のメールをお送りいたします。<br /><br />
+                    <p>ご入力内容を確認してください。</p>
 
-                        お急ぎの場合や、万が一メールが届かなかった場合は072-961-0081までお電話ください。(営業時間9:00～18:00)<br />
-                        張地サンプルのご依頼・お見積り依頼の場合、張地の名称(プレザント：PL06など)をご記載ください。</p>
-
-                    <form method="POST" action="confirm.php" enctype="multipart/form-data">
+                    <form method="POST" action="completion.php" enctype="multipart/form-data">
                         <table>
                             <tr>
                                 <th>お名前<span class="required">必須</span></th>
-                                <td><input type="text" name="name" required /></td>
+                                <td><input type="text" name="name" readonly="readonly" value="<?= $_POST['name']; ?>" /></td>
                             </tr>
 
                             <tr>
                                 <th>フリガナ</th>
-                                <td><input type="text" name="furigana" /></td>
+                                <td><input type="text" name="furigana" readonly="readonly" value="<?= $_POST['furigana']; ?>" /></td>
                             </tr>
 
                             <tr>
                                 <th>会社名</th>
-                                <td><input type="text" name="company_name" /></td>
+                                <td><input type="text" name="company_name" readonly="readonly" value="<?= $_POST['company_name']; ?>" /></td>
                             </tr>
 
                             <tr>
                                 <th>メールアドレス<span class="required">必須</span></th>
-                                <td><input type="email" name="email" required /></td>
+                                <td><input type="email" name="email" readonly="readonly" value="<?= $_POST['email']; ?>" /></td>
                             </tr>
 
                             <tr>
                                 <th>メールアドレス<span class="small">（確認）</span><span class="required">必須</span></th>
-                                <td><input type="email" name="email_confirm" required /></td>
+                                <td><input type="email" name="email_confirm" readonly="readonly" value="<?= $_POST['email_confirm']; ?>" /></td>
                             </tr>
 
                             <tr>
                                 <th>電話番号<span class="required">必須</span></th>
-                                <td><input type="text" name="tel" required /></td>
+                                <td><input type="text" name="tel" readonly="readonly" value="<?= $_POST['tel']; ?>" /></td>
                             </tr>
 
                             <tr>
                                 <th>FAX番号</th>
-                                <td><input type="text" name="fax" /></td>
+                                <td><input type="text" name="fax" readonly="readonly" value="<?= $_POST['fax']; ?>" /></td>
                             </tr>
 
                             <tr>
                                 <th>郵便番号</th>
-                                <td><input type="text" name="zip" /></td>
+                                <td><input type="text" name="zip" readonly="readonly" value="<?= $_POST['zip']; ?>" /></td>
                             </tr>
 
                             <tr>
                                 <th>お届け先住所<span class="required">必須</span></th>
-                                <td><input type="text" name="address" required /></td>
+                                <td><input type="text" name="address" readonly="readonly" value="<?= $_POST['address']; ?>" /></td>
                             </tr>
 
                             <tr>
                                 <th>会社所在地<span class="small">（異なる場合のみ）</span></th>
-                                <td><input type="text" name="company_address" /></td>
+                                <td><input type="text" name="company_address" readonly="readonly" value="<?= $_POST['company_address']; ?>" /></td>
                             </tr>
 
                             <tr>
                                 <th>ご希望の納期</th>
-                                <td><input type="date" name="delivery_date" /></td>
+                                <td><input type="date" name="delivery_date" readonly="readonly" value="<?= $_POST['delivery_date']; ?>" /></td>
                             </tr>
 
                             <tr>
                                 <th>お問い合わせ・ご要望<span class="required">必須</span></th>
-                                <td><textarea name="body"required ></textarea></td>
+                                <td><textarea name="body"><?= $_POST['body']; ?></textarea></td>
                             </tr>
 
                             <tr>
                                 <th>添付ファイル1</th>
-                                <td>
-                                    <label>
-                                        <span type="button" class="btn-file">ファイルを選択</span>
-                                        <input id="file1" type="file" name="file1" />
-                                    </label>
-                                </td>
+                                <td><?= $_FILES['file1']['name']; ?></td>
                             </tr>
 
                             <tr>
                                 <th>添付ファイル2</th>
-                                <td>
-                                    <label>
-                                        <span type="button" class="btn-file">ファイルを選択</span>
-                                        <input id="file2" type="file" name="file2" />
-                                    </label>
-                                </td>
+                                <td><?= $_FILES['file2']['name']; ?></td>
                             </tr>
 
                             <tr>
                                 <th>添付ファイル3</th>
-                                <td>
-                                    <label>
-                                        <span type="button" class="btn-file">ファイルを選択</span>
-                                        <input id="file3" type="file" name="file3" />
-                                    </label>
-                                </td>
+                                <td><?= $_FILES['file3']['name']; ?></td>
                             </tr>
                         </table>
 
                         <div class="form-btn">
-                            <button class="btn-clear" type="reset">クリア</button>
-                            <button class="btn-submit" type="submit">ご入力内容の確認</button>
+                            <button class="btn-clear" type="reset" onclick="history.back()">再入力</button>
+                            <button class="btn-submit" type="submit">ご入力内容の送信</button>
                         </div>
 
                     </form>
@@ -161,29 +142,6 @@ $title = "お問い合わせ";
 </div>
 <script type="text/javascript" src="/js/script.js"></script>
 <?php include '../template/analytics.php' ?>
-<script type="text/javascript">
-    var file1 = document.getElementById('file1');
-    var file2 = document.getElementById('file2');
-    var file3 = document.getElementById('file3');
-    file1.onchange = function()
-    {
-        var text = this.value.replace('C:\\fakepath\\', '');
-        var text_node = document.createTextNode(text);
-        this.parentNode.parentNode.appendChild(text_node);
-    };
-    file2.onchange = function()
-    {
-        var text = this.value.replace('C:\\fakepath\\', '');
-        var text_node = document.createTextNode(text);
-        this.parentNode.parentNode.appendChild(text_node);
-    };
-    file3.onchange = function()
-    {
-        var text = this.value.replace('C:\\fakepath\\', '');
-        var text_node = document.createTextNode(text);
-        this.parentNode.parentNode.appendChild(text_node);
-    };
-</script>
 </body>
 <!-- javascript-->
 </html>
