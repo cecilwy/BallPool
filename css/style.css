@@ -696,6 +696,9 @@ iframe {
       #sites .site-group .one-site table td {
         border: none;
         vertical-align: middle; }
+        #sites .site-group .one-site table td a {
+          text-decoration: none;
+          color: #000; }
 
 #company #enkaku a {
   text-decoration: none;
