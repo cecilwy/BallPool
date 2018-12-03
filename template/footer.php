@@ -35,3 +35,4 @@
     </div>
     <div class="copy">Copyright &copy; Ball pool.com. All Right Reserved.</div>
 </footer>
+

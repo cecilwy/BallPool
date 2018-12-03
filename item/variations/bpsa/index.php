@@ -1,6 +1,6 @@
 <ul class="variation-pict">
 <?php
-    $target_dir = './variations/' . $arr['code'] . '/img/';
+    $target_dir = '/item/variations/' . $arr['code'] . '/img/';
     $num = 1;
     foreach (glob($target_dir . '{*.gif,*.jpg,*.png}', GLOB_BRACE) as $file) {
         if (is_file($file)) {
