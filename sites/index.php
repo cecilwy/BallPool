@@ -44,8 +44,8 @@ $description = '';
                         <div class="one-site">
                             <table>
                                 <tr>
-                                    <td><a href="//www.tenpokagushop.com/wism/" target="_blank"><img
-                                                src="img/sites_pict2.jpg" alt="店舗家具ショップ"/></a></td>
+                                    <td><a href="//www.tenpokagushop.com/wism/" target="_blank">
+                                            <img src="img/sites_pict2.jpg" alt="店舗家具ショップ"/></a></td>
                                     <td>店舗家具ショップ</td>
                                 </tr>
                             </table>
@@ -57,8 +57,8 @@ $description = '';
                         <div class="one-site">
                             <table>
                                 <tr>
-                                    <td><a href="https://www.benchsheet.com/" target="_blank"><img
-                                                    src="img/sites_pict3.jpg" alt="ベンチシートプロショップ"/></a></td>
+                                    <td><a href="https://www.benchsheet.com/" target="_blank">
+                                            <img src="img/sites_pict3.jpg" alt="ベンチシートプロショップ"/></a></td>
                                     <td>ベンチシートプロショップ</td>
                                 </tr>
                             </table>
@@ -66,8 +66,8 @@ $description = '';
                         <div class="one-site">
                             <table>
                                 <tr>
-                                    <td><a href="//www.benchsheet.com" target="_blank"><img src="img/sites_pict4.jpg"
-                                                                                            alt="ベンチシートドットコム"/></a></td>
+                                    <td><a href="//www.benchsheet.com" target="_blank">
+                                            <img src="img/sites_pict4.jpg" alt="ベンチシートドットコム"/></a></td>
                                     <td>ベンチシートドットコム</td>
                                 </tr>
                             </table>
@@ -97,8 +97,8 @@ $description = '';
                         <div class="one-site">
                             <table>
                                 <tr>
-                                    <td><a href="//www.kodomoplayground.com"><img src="img/sites_pict7.jpg"
-                                                                                  alt="キッズコーナー遊び場"/></a></td>
+                                    <td><a href="//www.kodomoplayground.com" target="_blank">
+                                            <img src="img/sites_pict7.jpg" alt="キッズコーナー遊び場"/></a></td>
                                     <td>キッズコーナー遊び場</td>
                                 </tr>
                             </table>
@@ -106,8 +106,11 @@ $description = '';
                         <div class="one-site">
                             <table>
                                 <tr>
-                                    <td><a href="//www.kodomoplayground.com"><img src="img/sites_pict8.jpg"
-                                                                                  alt="子どもプレイグランド"/></a></td>
+                                    <td>
+                                        <a href="//www.kodomoplayground.com" target="_blank">
+                                            <img src="img/sites_pict8.jpg" alt="子どもプレイグランド"/>
+                                        </a>
+                                    </td>
                                     <td>子どもプレイグランド</td>
                                 </tr>
                             </table>
@@ -115,7 +118,11 @@ $description = '';
                         <div class="one-site">
                             <table>
                                 <tr>
-                                    <td><img src="img/sites_pict9.jpg" alt="子どもプレイグランド"/></td>
+                                    <td>
+                                        <a href="//kodomoplayground.com/" target="_blank">
+                                            <img src="img/sites_pict9.jpg" alt="子どもプレイグランド"/>
+                                        </a>
+                                    </td>
                                     <td>子どもプレイグランド</td>
                                 </tr>
                             </table>
@@ -127,7 +134,11 @@ $description = '';
                         <div class="one-site">
                             <table>
                                 <tr>
-                                    <td><img src="img/sites_pict10.jpg" alt="テーブル店舗ドットコム"/></td>
+                                    <td>
+                                        <a href="//www.tabletenpo.com/" target="_blank">
+                                            <img src="img/sites_pict10.jpg" alt="テーブル店舗ドットコム"/>
+                                        </a>
+                                    </td>
                                     <td>テーブル店舗ドットコム</td>
                                 </tr>
                             </table>
@@ -135,7 +146,9 @@ $description = '';
                         <div class="one-site">
                             <table>
                                 <tr>
-                                    <td><img src="img/sites_pict11.jpg" alt="テーブルナビ"/></td>
+                                    <td>
+                                        <a href="//www.table-navi.com/" target="_blank">
+                                        <img src="img/sites_pict11.jpg" alt="テーブルナビ"/></a></td>
                                     <td>テーブルナビ</td>
                                 </tr>
                             </table>
@@ -147,7 +160,11 @@ $description = '';
                         <div class="one-site">
                             <table>
                                 <tr>
-                                    <td><img src="img/sites_pict12.jpg" alt="椅子の張り替えドットコム"/></td>
+                                    <td>
+                                        <a href="//www.isunoharikae.com/" target="_blank">
+                                            <img src="img/sites_pict12.jpg" alt="椅子の張り替えドットコム"/>
+                                        </a>
+                                    </td>
                                     <td>椅子の張り替えドットコム</td>
                                 </tr>
                             </table>
@@ -155,7 +172,8 @@ $description = '';
                         <div class="one-site">
                             <table>
                                 <tr>
-                                    <td><img src="img/sites_pict13.jpg" alt="張り替え太郎"/></td>
+                                    <td><a href="//www.harikaetaro.com/" target="_blank">
+                                            <img src="img/sites_pict13.jpg" alt="張り替え太郎"/></a></td>
                                     <td>張り替え太郎</td>
                                 </tr>
                             </table>
@@ -163,7 +181,10 @@ $description = '';
                         <div class="one-site">
                             <table>
                                 <tr>
-                                    <td><img src="img/sites_pict14.jpg" alt="椅子の張り地ドットコム"/></td>
+                                    <td><a href="//isunohariji.com/" target="_blank">
+                                            <img src="img/sites_pict14.jpg" alt="椅子の張り地ドットコム"/>
+                                        </a>
+                                    </td>
                                     <td>椅子の張り地ドットコム</td>
                                 </tr>
                             </table>
