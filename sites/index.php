@@ -28,10 +28,10 @@ $description = '';
             <main>
                 <h1><img src="img/header.jpg" alt="運営サイトのご案内"/></h1>
                 <div class="box">
-                    <h2 class="head01"><span>運営サイトのご案内</span></h2>
+                    <h1 class="head01"><span>運営サイトのご案内</span></h1>
 
                     <div class="site-group">
-                        <h3>総合販売</h3>
+                        <h2>総合販売</h2>
                         <div class="one-site">
                             <table>
                                 <tr>
@@ -53,7 +53,7 @@ $description = '';
                     </div>
 
                     <div class="site-group">
-                        <h3>ベンチソファ</h3>
+                        <h2>ベンチソファ</h2>
                         <div class="one-site">
                             <table>
                                 <tr>
@@ -93,7 +93,7 @@ $description = '';
                     </div>
 
                     <div class="site-group">
-                        <h3>キッズコーナー</h3>
+                        <h2>キッズコーナー</h2>
                         <div class="one-site">
                             <table>
                                 <tr>
@@ -123,7 +123,7 @@ $description = '';
                     </div>
 
                     <div class="site-group">
-                        <h3>業務用テーブル</h3>
+                        <h2>業務用テーブル</h2>
                         <div class="one-site">
                             <table>
                                 <tr>
@@ -143,7 +143,7 @@ $description = '';
                     </div>
 
                     <div class="site-group">
-                        <h3>椅子の張り替え・その他</h3>
+                        <h2>椅子の張り替え・その他</h2>
                         <div class="one-site">
                             <table>
                                 <tr>

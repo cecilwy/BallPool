@@ -503,6 +503,9 @@ ul.breadcrumb strong {
   margin-top: 30px;
   padding-bottom: 50px; }
 
+.header {
+  margin-top: 15px; }
+
 .bnrs {
   zoom: 1;
   overflow: hidden;
@@ -678,7 +681,7 @@ iframe {
   clear: both;
   overflow: hidden;
   margin-top: 15px; }
-  #sites .site-group h3 {
+  #sites .site-group h2 {
     text-align: left;
     font-size: 1.5rem;
     font-weight: bold;
