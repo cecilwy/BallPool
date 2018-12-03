@@ -67,7 +67,7 @@ $count = count($price_list);
                     <div class="strength"><img src="img/strength.jpg" alt="強み"></div>
                     <div class="variation">
                         <h3 class="head02"><span>バリエーション</span></h3>
-                        <?php include './variations/'.$product_code.'/index.php' ?>
+                        <?php include '/item/variations/'.$product_code.'/index.php' ?>
                     </div>
                     <div class="drawing">
                         <h3 class="head02"><span>商品図面・詳細</span></h3>
