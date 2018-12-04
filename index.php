@@ -35,20 +35,20 @@ $description = '';
                     <ul>
                         <li>
                             <img src="img/top/category-01.jpg" alt="ミニボールプール"/>
-                            <p>テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                            <p>省スペースのキッズコーナー向きの小さめボールプール。</p>
                         </li>
                         <li>
                             <img src="img/top/category-02.jpg" alt="ミニボールプール"/>
-                            <p>テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                            <p>中規模キッズコーナーの目玉アイテムにぴったりなサイズ感のボールプール。</p>
                         </li>
 
                         <li>
                             <img src="img/top/category-03.jpg" alt="ミニボールプール"/>
-                            <p>テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                            <p>大型のキッズコーナーに映える、子供たちに大人気のボールプール。</p>
                         </li>
                         <li>
                             <img src="img/top/category-04.jpg" alt="ミニボールプール"/>
-                            <p>テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                            <p>ボールプール用ボールやメンテナンス用品などを取り揃えています。</p>
                         </li>
 
                     </ul>
@@ -59,11 +59,9 @@ $description = '';
 
             <div class="outer-content">
                 <div class="color-select">
-                    <h2 class="head01"><span>生地・カラーを選ぶ</span></h2>
                     <p><a href="#"><img src="/item//img/color_bnr.png" alt="ご相談・お見積もり"></a></p>
                 </div>
                 <div class="order">
-                    <h2 class="head01"><span>特注品のご案内</span></h2>
                     <p><a href="#"><img src="/item/img/order_bnr.gif" alt="特注品のご案内誘導画像"></a></p>
                 </div>
 
