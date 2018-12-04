@@ -23,6 +23,12 @@ $price_list = $arr['listprice_array'];
 $dsp_price = $arr['listprice_array']['A'];  //商品名の所に表示する金額
 $parts_array = $arr['parts_array'];
 $count = count($price_list);
+
+$myPath = __FILE__;             //  /home/php/basic/test.php
+$rpath = realpath($myPath);     //  $rpath => '/home/php/basic/test.php'
+
+echo $myPath;
+
 ?>
 
 <!DOCTYPE html>
@@ -38,12 +44,12 @@ $count = count($price_list);
                                                                                                   href="#">ボールプールドットコムTOP</a>
                     <meta itemprop="position" content="1"/>
                 </li>
-                <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item"
-                                                                                                  href="#">商品一覧</a>
+                <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                    <a itemprop="item" href="#">商品一覧</a>
                     <meta itemprop="position" content="2"/>
                 </li>
-                <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><strong><a
-                                itemprop="item" href="#"><?= $itemname ?></a></strong>
+                <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                    <strong><a itemprop="item" href="#"><?= $itemname ?></a></strong>
                     <meta itemprop="position" content="3"/>
                 </li>
             </ul>
