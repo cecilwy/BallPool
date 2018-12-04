@@ -1,3 +1,32 @@
+<?php
+$json = file_get_contents($url);
+$json = mb_convert_encoding($json, 'UTF8', 'ASCII,JIS,UTF-8,EUC-JP,SJIS-WIN');
+$arr = json_decode($json,true);
+
+$itemname = $arr['itemname'];
+$title = $itemname;
+
+//ない場合があるみたい
+if(isset($arr['photos'][0])){
+    $product_photo = $arr['photos'][0];
+}
+//ない場合があるみたい
+if(isset($arr['photos'][1])) {
+    $drawing_photo = $arr['photos'][1];
+}
+$product_code = $arr['code'];
+$size = $arr['size_string'];
+
+$price_list = $arr['listprice_array'];
+$dsp_price = $arr['listprice_array']['A'];  //商品名の所に表示する金額
+
+if(isset($arr['parts_array'])) {
+    $parts_array = $arr['parts_array'];
+}
+$count = count($price_list);
+
+?>
+
 <!DOCTYPE html>
 <html lang="ja">
 <?php include '../../template/meta.php'; ?>
@@ -33,15 +62,24 @@
                         <div class="item-info">
                             <h1 class="head03"><?= $itemname ?></h1>
                             <p>サイズ：<?= $size ?><br>値段：¥<?= number_format($dsp_price) ?>（税込）〜</p>
-                            <p class="note"><?php include './remarks/'.$product_code.'.php'; ?></p>
+
+                            <p class="note"><?php include $myPath.'/remarks/index.php'; ?></p>
+
+
                             <p class="btn01"><a href="#">ご相談・お見積もり</a></p>
                         </div>
                     </div>
                     <div class="strength"><img src="/item/img/strength.jpg" alt="強み"></div>
+
+                    <?php
+                    $file_path = $myPath.'/variation/index.php';
+                    if(file_exists($file_path)){
+                    ?>
                     <div class="variation">
                         <h3 class="head02"><span>バリエーション</span></h3>
-                        <?php include $myPath.'/variations/index.php' ?>
+                        <?php include $myPath.'/variation/index.php' ?>
                     </div>
+                    <?php } ?>
                     <div class="drawing">
                         <h3 class="head02"><span>商品図面・詳細</span></h3>
                         <div class="image-wrap">
@@ -53,14 +91,13 @@
                                 <?php } ?>
                             </div>
                             <div class="image">
-                                <?php if (is_url_exist($drawing_photo)) { ?>
-                                    <img src="<?= $drawing_photo ?>">
-                                <?php }else{ ?>
-                                    商品図面画像は登録されていません
-                                <?php } ?>
+                                <img src="img/construction.jpg" />
                             </div>
                         </div>
                     </div>
+
+
+                    <?php if(isset($parts_array)){ ?>
                     <div class="price">
                         <h3 class="head02"><span>セット内訳・価格</span></h3>
                         <div class="table">
@@ -127,8 +164,9 @@
                             <li>※この商品にはボールは含まれておりません。お見積もり時にボール有無をご指定ください。カラーボールに関しては<a href="#">こちら</a></li>
                             <li>※パーツのみをお求めの際は上記セット内訳の商品名・品番をお見積もりフォームにご入力ください。</li>
                         </ul>
-                        <p class="btn01"><a href="#">ご相談・お見積もり</a></p>
                     </div>
+                    <?php } ?>
+                    <p class="btn01"><a href="#">ご相談・お見積もり</a></p>
                 </div>
             </main>
             <div class="outer-content">
@@ -161,3 +199,25 @@
 </body>
 <!-- javascript-->
 </html>
+<?php
+
+/**
+ * 外部ファイル存在チェック関数
+ * @param $url
+ * @return bool
+ */
+function is_url_exist($url){
+    $ch = curl_init($url);
+    curl_setopt($ch, CURLOPT_NOBODY, true);
+    curl_exec($ch);
+    $code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+
+    if($code == 200){
+        $status = true;
+    }else{
+        $status = false;
+    }
+    curl_close($ch);
+    return $status;
+}
+
