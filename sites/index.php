@@ -72,9 +72,9 @@ $canonical = 'https://www.ball-pool.com/sites/';
                         <div class="one-site">
                             <table>
                                 <tr>
-                                    <td><a href="//www.benchsheet.com" target="_blank">
+                                    <td><a href="//boxsofa.com/" target="_blank">
                                             <img src="img/sites_pict4.jpg" alt="ベンチシートドットコム"/></a></td>
-                                    <td><a href="//www.benchsheet.com" target="_blank">ベンチシートドットコム</a></td>
+                                    <td><a href="//boxsofa.com/" target="_blank">ベンチシートドットコム</a></td>
                                 </tr>
                             </table>
                         </div>
@@ -110,11 +110,11 @@ $canonical = 'https://www.ball-pool.com/sites/';
                             <table>
                                 <tr>
                                     <td>
-                                        <a href="//www.kodomoplayground.com" target="_blank">
+                                        <a href="//www.kidscornerasobiba.com/" target="_blank">
                                             <img src="img/sites_pict7.jpg" alt="キッズコーナー遊び場"/>
                                         </a>
                                     </td>
-                                    <td><a href="//www.kodomoplayground.com" target="_blank">キッズコーナー遊び場</a></td>
+                                    <td><a href="//www.kidscornerasobiba.com/" target="_blank">キッズコーナー遊び場</a></td>
                                 </tr>
                             </table>
                         </div>
@@ -134,11 +134,11 @@ $canonical = 'https://www.ball-pool.com/sites/';
                             <table>
                                 <tr>
                                     <td>
-                                        <a href="//kodomoplayground.com/" target="_blank">
-                                            <img src="img/sites_pict9.jpg" alt="子どもプレイグランド"/>
+                                        <a href="//www.coto-kito.com/" target="_blank">
+                                            <img src="img/sites_pict9.jpg" alt="コトキト"/>
                                         </a>
                                     </td>
-                                    <td><a href="//kodomoplayground.com/" target="_blank">子どもプレイグランド</a></td>
+                                    <td><a href="//www.coto-kito.com/" target="_blank">コトキト</a></td>
                                 </tr>
                             </table>
                         </div>
