@@ -1,10 +1,10 @@
 <?php
 
 //メタ情報をここで設定
-$title = '運営サイトのご案内';
-$keyword = '';
+$title = '運営サイトのご案内/ボールプール製作/ボールプール用ボール専門店【PONCHACCHA】';
+$keyword = 'ボールプール，ボールプール用ボール，カラーボール，製造，販売，特注，オーダーメイド，専門店，ポンチャッチャ，業務用，運営サイト，業務用家具，キッズコーナー，ベンチシート，';
 $description = '';
-
+$canonical = 'https://www.ball-pool.com/sites/';
 ?>
 
 <!DOCTYPE html>
@@ -26,7 +26,6 @@ $description = '';
                 </li>
             </ul>
             <main>
-                <h1><img src="img/header.jpg" alt="運営サイトのご案内"/></h1>
                 <div class="box">
                     <h1 class="head01"><span>運営サイトのご案内</span></h1>
 

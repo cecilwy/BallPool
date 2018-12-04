@@ -26,7 +26,7 @@
     <meta property="twitter:description" content="サイトの説明文（未提供）">
     <meta property="twitter:image" content="http://example.com/ogp.jpg">
     <!-- canonical url-->
-    <link rel="canonical" href="http://example.com/">
+    <link rel="canonical" href="<?= $canonical ?>">
     <!-- stylesheet-->
     <link href="/css/style.css" rel="stylesheet">
 </head>
