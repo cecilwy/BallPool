@@ -59,8 +59,8 @@
 
     ul li{
       float: left;
-      width: 48%;
-      margin-right: 16px;
+      width: 50%;
+      margin-right: 0px;
       margin-bottom: 20px;
 
       @include sp {
@@ -76,6 +76,7 @@
 
       p{
         text-align: left;
+        margin-left: 10px;
       }
     }
     ul li:nth-child(2){

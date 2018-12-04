@@ -826,8 +826,8 @@ iframe {
     margin-top: 20px; }
   #top div.box ul li {
     float: left;
-    width: 48%;
-    margin-right: 16px;
+    width: 50%;
+    margin-right: 0px;
     margin-bottom: 20px; }
     #top div.box ul li p {
       text-align: left; }
