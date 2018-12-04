@@ -1425,7 +1425,8 @@ iframe {
   #top h1 img {
     width: 100%; }
     #top section#about {
-      width: 100%; }
+      width: 100%;
+      padding: 0; }
       #top section#about p {
         width: 90%;
         margin: auto;
