@@ -40,7 +40,7 @@
                     <div class="strength"><img src="/item/img/strength.jpg" alt="強み"></div>
                     <div class="variation">
                         <h3 class="head02"><span>バリエーション</span></h3>
-                        <?php include $myPath.'/variations/'.$product_code.'/index.php' ?>
+                        <?php include $myPath.'/variations/index.php' ?>
                     </div>
                     <div class="drawing">
                         <h3 class="head02"><span>商品図面・詳細</span></h3>
