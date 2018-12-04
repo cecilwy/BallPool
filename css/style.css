@@ -520,7 +520,8 @@ ul.breadcrumb strong {
   height: 196px; }
 
 footer {
-  font-size: 14px; }
+  font-size: 14px;
+  line-height: 16px; }
 
 footer .footer-inner {
   width: 960px;
