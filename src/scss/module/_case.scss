@@ -1,0 +1,56 @@
+#case {
+
+  h1 {
+    img {
+      @include sp {
+        width: 100%;
+      }
+  }
+  }
+
+  .box {
+    .items {
+      display: table;
+      width: 100%;
+      margin-top: 35px;
+
+      img{
+        width: 445px;
+      }
+
+      h2,p{
+        text-align: left;
+      }
+      h2{
+        font-size:22px;
+        font-weight: bold;
+        span{
+          font-size:16px;
+        }
+      }
+      .r-txt{
+        font-size:12px;
+        margin-top: 20px;
+        padding-left:25px;
+      }
+      .l-txt{
+        font-size:12px;
+        margin-top: 20px;
+        padding-right:25px;
+      }
+    }
+    .item {
+      display: table-cell;
+      vertical-align: middle;
+
+      @include sp {
+        display: block;
+        width: 100%;
+        margin: 0!important;
+        padding: 0!important;
+        margin-bottom: 20px!important;
+      }
+
+    }
+  }
+}

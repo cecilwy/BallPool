@@ -5,7 +5,7 @@ $title = '';
 $keyword = '';
 $description = '';
 
-$url = 'https://mat-room.com/api/itemcode/ball/prices/';
+$url = 'https://mat-room.com/api/itemcode/ball11/prices/';
 $json = file_get_contents($url);
 $json = mb_convert_encoding($json, 'UTF8', 'ASCII,JIS,UTF-8,EUC-JP,SJIS-WIN');
 $arr = json_decode($json,true);

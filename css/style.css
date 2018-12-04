@@ -829,6 +829,32 @@ iframe {
 #top .outer-content .box {
   margin-top: 60px; }
 
+#case .box .items {
+  display: table;
+  width: 100%;
+  margin-top: 35px; }
+  #case .box .items img {
+    width: 445px; }
+  #case .box .items h2, #case .box .items p {
+    text-align: left; }
+  #case .box .items h2 {
+    font-size: 22px;
+    font-weight: bold; }
+    #case .box .items h2 span {
+      font-size: 16px; }
+  #case .box .items .r-txt {
+    font-size: 12px;
+    margin-top: 20px;
+    padding-left: 25px; }
+  #case .box .items .l-txt {
+    font-size: 12px;
+    margin-top: 20px;
+    padding-right: 25px; }
+
+#case .box .item {
+  display: table-cell;
+  vertical-align: middle; }
+
 /*!
 	Modaal - accessible modals - v0.4.4
 	by Humaan, for all humans.
@@ -1438,7 +1464,15 @@ iframe {
       #top div.box ul li {
         width: 100%; }
       #top div.box ul li img {
-        width: 100%; } }
+        width: 100%; }
+  #case h1 img {
+    width: 100%; }
+    #case .box .item {
+      display: block;
+      width: 100%;
+      margin: 0 !important;
+      padding: 0 !important;
+      margin-bottom: 20px !important; } }
 
 @media only screen and (min-width: 1400px) {
   .modaal-video-container {
