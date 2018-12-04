@@ -13,10 +13,11 @@ $description = '';
 <body id="top">
 <div class="wrapper">
     <?php include './template/header.php' ?>
+
     <div class="content-wrapper">
+        <main>
+        <h1><img src="img/top/mv.jpg" alt="ボールプールの特注・製作・販売の専門サイト"/></h1>
         <div class="content">
-            <main>
-                <h1><img src="img/top/mv.jpg" alt="ボールプールの特注・製作・販売の専門サイト"/></h1>
 
 
                 <section id="about">
@@ -25,7 +26,7 @@ $description = '';
                         <p>ボールプールは、サイドガードに囲まれた中にカラフルなボールプール用ボールが満たされたものです。小さな子供のための遊びや運動の場として使用されています。<br/><br/>
                             ボールプールはショッピングセンター、イベント会場、遊園地、アミューズメント施設、ファストフードレストラン、大小のゲームセンター、託児所などで設置されています。また小さなものはご家庭用としても使用できますし、ボールプール用のボールを入れなければキッズコーナーとしてもご利用できます。<br/><br/>
                             最近ではボールプールカフェなどの店舗も大人気です。安心感があるので、読書をしたり、睡眠をとったりされています。大人数人が入るのに十分な大きさがあります。</p>
-                        <p><img src="img/top/about-photo.png" alt=""/></p>
+                        <p class="photo"><img src="img/top/about-photo.png" alt=""/></p>
                     </div>
                 </section>
 

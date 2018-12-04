@@ -794,6 +794,10 @@ iframe {
   padding-top: 7px;
   font-size: 22px; }
 
+#top h1 {
+  width: 999px;
+  margin: auto; }
+
 #top .content {
   padding-top: 0; }
 
@@ -802,10 +806,13 @@ iframe {
   text-align: center;
   background-color: rgba(255, 255, 255, 0.8);
   opacity: 0.8;
+  margin: auto;
   margin-top: 30px;
   padding: 45px;
   zoom: 1;
   overflow: hidden; }
+  #top section#about .photo {
+    margin-left: 0; }
   #top section#about p {
     float: left;
     width: 50%;
@@ -1449,8 +1456,8 @@ iframe {
           width: 100%; }
         #contact .contact-btn-wrapper .contact-btn .contact-btn-inner img {
           width: 98%; }
-  #top h1 img {
-    width: 100%; }
+    #top h1 img {
+      width: 100%; }
     #top section#about {
       width: 100%;
       padding: 0;
