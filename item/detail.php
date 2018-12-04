@@ -24,8 +24,7 @@ $dsp_price = $arr['listprice_array']['A'];  //商品名の所に表示する金�
 $parts_array = $arr['parts_array'];
 $count = count($price_list);
 
-$myPath = __FILE__;             //  /home/php/basic/test.php
-$rpath = realpath($myPath);     //  $rpath => '/home/php/basic/test.php'
+$myPath = dirname(__FILE__);
 
 echo $myPath;
 
@@ -40,8 +39,8 @@ echo $myPath;
     <div class="content-wrapper">
         <div class="content">
             <ul itemscope itemtype="http://schema.org/BreadcrumbList" class="breadcrumb">
-                <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item"
-                                                                                                  href="#">ボールプールドットコムTOP</a>
+                <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                    <a itemprop="item" href="#">ボールプールドットコムTOP</a>
                     <meta itemprop="position" content="1"/>
                 </li>
                 <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
@@ -73,7 +72,7 @@ echo $myPath;
                     <div class="strength"><img src="img/strength.jpg" alt="強み"></div>
                     <div class="variation">
                         <h3 class="head02"><span>バリエーション</span></h3>
-                        <?php include '/item/variations/'.$product_code.'/index.php' ?>
+                        <?php include $myPath.'variations/'.$product_code.'/index.php' ?>
                     </div>
                     <div class="drawing">
                         <h3 class="head02"><span>商品図面・詳細</span></h3>
