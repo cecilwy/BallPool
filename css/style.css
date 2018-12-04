@@ -251,7 +251,8 @@ hr {
 .content-wrapper {
   background: url("/img/background.gif");
   background-position: top center;
-  background-size: cover; }
+  background-size: cover;
+  padding-bottom: 35px; }
 
 .content {
   width: 960px;
