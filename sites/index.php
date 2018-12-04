@@ -21,7 +21,7 @@ $canonical = 'https://www.ball-pool.com/sites/';
                     <meta itemprop="position" content="1"/>
                 </li>
                 <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-                    <strong><a itemprop="item" href="#"><?= $title ?></a></strong>
+                    <strong><a itemprop="item" href="#">運営サイトのご案内</a></strong>
                     <meta itemprop="position" content="3"/>
                 </li>
             </ul>
