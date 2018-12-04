@@ -830,7 +830,8 @@ iframe {
     margin-right: 0px;
     margin-bottom: 20px; }
     #top div.box ul li p {
-      text-align: left; }
+      text-align: left;
+      margin-left: 10px; }
   #top div.box ul li:nth-child(2) {
     margin-right: 0; }
 
