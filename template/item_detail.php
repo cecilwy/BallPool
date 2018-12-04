@@ -135,11 +135,11 @@
                 <div class="color-select">
                     <h2 class="head01"><span>生地・カラーを選ぶ</span></h2>
                     <p><a href="#"><img src="/item//img/color_bnr.png" alt="ご相談・お見積もり"></a></p>
-                </div>
-                <div class="order">
-                    <h2 class="head01"><span>特注品のご案内</span></h2>
-                    <p><a href="#"><img src="/item/img/order_bnr.gif" alt="特注品のご案内誘導画像"></a></p>
-                </div>
+            </div>
+            <div class="order">
+                <h2 class="head01"><span>特注品のご案内</span></h2>
+                <p><a href="#"><img src="/item/img/order_bnr.gif" alt="特注品のご案内誘導画像"></a></p>
+            </div>
                 <div class="back-list">
                     <h2 class="head01"><span>商品一覧へ戻る</span></h2>
                     <ul class="list-back">

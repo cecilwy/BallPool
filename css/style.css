@@ -793,6 +793,42 @@ iframe {
   padding-top: 7px;
   font-size: 22px; }
 
+#top .content {
+  padding-top: 0; }
+
+#top section#about {
+  width: 910px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  opacity: 0.8;
+  margin-top: 30px;
+  padding: 45px;
+  zoom: 1;
+  overflow: hidden; }
+  #top section#about p {
+    float: left;
+    width: 50%;
+    text-align: left;
+    margin-top: 25px; }
+
+#top div.box {
+  zoom: 1;
+  overflow: hidden; }
+  #top div.box ul {
+    margin-top: 20px; }
+  #top div.box ul li {
+    float: left;
+    width: 48%;
+    margin-right: 16px;
+    margin-bottom: 20px; }
+    #top div.box ul li p {
+      text-align: left; }
+  #top div.box ul li:nth-child(2) {
+    margin-right: 0; }
+
+#top .outer-content .box {
+  margin-top: 60px; }
+
 /*!
 	Modaal - accessible modals - v0.4.4
 	by Humaan, for all humans.
@@ -1385,7 +1421,21 @@ iframe {
         #contact .contact-btn-wrapper .contact-btn .contact-btn-inner {
           width: 100%; }
         #contact .contact-btn-wrapper .contact-btn .contact-btn-inner img {
-          width: 98%; } }
+          width: 98%; }
+  #top h1 img {
+    width: 100%; }
+    #top section#about {
+      width: 100%; }
+      #top section#about p {
+        width: 90%;
+        margin: auto;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px; }
+      #top div.box ul li {
+        width: 100%; }
+      #top div.box ul li img {
+        width: 100%; } }
 
 @media only screen and (min-width: 1400px) {
   .modaal-video-container {

@@ -26,7 +26,6 @@ $description = '';
                 </li>
             </ul>
             <main>
-            <div class="header"><img src="img/header.png" alt="プライバシーポリシー" /></div>
                 <div id="box">
                     <div class="box">
                         <h1 class="head01"><span>プライバシーポリシー</span></h1>

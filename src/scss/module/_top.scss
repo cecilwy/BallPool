@@ -1,0 +1,84 @@
+#top{
+
+  h1{
+    img{
+      @include sp {
+        width: 100%;
+      }
+    }
+  }
+
+  .content{
+    padding-top: 0;
+  }
+
+  section#about{
+    width: 910px;
+    text-align: center;
+    background-color: rgba(255,255,255,0.8);
+    opacity: 0.8;
+    margin-top: 30px;
+    padding: 45px;
+    zoom:1;
+    overflow: hidden;
+    @include sp {
+      width: 100%;
+    }
+    p{
+      float: left;
+      width: 50%;
+      text-align: left;
+      margin-top: 25px;
+      @include sp {
+        width: 90%;
+        margin: auto;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+
+  div.box{
+    zoom:1;
+    overflow: hidden;
+
+    ul{
+      margin-top: 20px;
+    }
+
+    ul li{
+      float: left;
+      width: 48%;
+      margin-right: 16px;
+      margin-bottom: 20px;
+
+      @include sp {
+        width: 100%;
+      }
+
+      img{
+        @include sp {
+          width: 100%;
+        }
+      }
+
+
+      p{
+        text-align: left;
+      }
+    }
+    ul li:nth-child(2){
+      margin-right: 0;
+    }
+
+  }
+
+  .outer-content{
+    .box{
+      margin-top: 60px;
+    }
+  }
+
+
+}
