@@ -1,28 +1,31 @@
-#top{
+#top {
 
-  h1{
+  h1 {
     width: 999px;
     margin: auto;
-    img{
+    @include sp {
+      width: 100%;
+    }
+    img {
       @include sp {
         width: 100%;
       }
     }
   }
 
-  .content{
+  .content {
     padding-top: 0;
   }
 
-  section#about{
+  section#about {
     width: 870px;
     text-align: center;
-    background-color: rgba(255,255,255,0.8);
+    background-color: rgba(255, 255, 255, 0.8);
     opacity: 0.8;
     margin: auto;
     margin-top: 45px;
     padding: 45px;
-    zoom:1;
+    zoom: 1;
     overflow: hidden;
     @include sp {
       width: 100%;
@@ -30,11 +33,12 @@
       padding-top: 30px;
       text-align: center;
     }
-    .photo{
-      margin-left:0;
+
+    .photo {
+      margin-left: 0;
     }
 
-    p{
+    p {
       float: left;
       width: 50%;
       text-align: left;
@@ -49,15 +53,16 @@
     }
   }
 
-  div.box{
-    zoom:1;
+  div.box {
+    zoom: 1;
     overflow: hidden;
     margin-top: 45px;
-    ul{
+
+    ul {
       margin-top: 20px;
     }
 
-    ul li{
+    ul li {
       float: left;
       width: 50%;
       margin-right: 0px;
@@ -67,26 +72,27 @@
         width: 100%;
       }
 
-      img{
+      img {
         @include sp {
           width: 100%;
         }
       }
 
 
-      p{
+      p {
         text-align: left;
         margin-left: 10px;
       }
     }
-    ul li:nth-child(2){
+
+    ul li:nth-child(2) {
       margin-right: 0;
     }
 
   }
 
-  .outer-content{
-    .box{
+  .outer-content {
+    .box {
       margin-top: 60px;
     }
   }
