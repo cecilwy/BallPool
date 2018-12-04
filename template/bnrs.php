@@ -7,5 +7,4 @@
         <li><a href="#"><img src="/img/bnr_05.png" alt="２段ミニボールプールセット"></a></li>
         <li><a href="#"><img src="/img/bnr_06.png" alt="ボールプールAセット"></a></li>
     </ul>
-    <p class="btn01"><a href="#">ご相談・お見積もり</a></p>
 </div>
