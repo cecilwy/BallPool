@@ -96,9 +96,9 @@ $description = '';
                 </div>
 
             </div>
-
-        </div>
         <?php include './template/bnrs.php'; ?>
+        </div>
+
     </div>
     <!--main-->
     <?php include './template/footer.php'; ?>
