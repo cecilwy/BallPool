@@ -1426,9 +1426,11 @@ iframe {
     width: 100%; }
     #top section#about {
       width: 100%;
-      padding: 0; }
+      padding: 0;
+      padding-top: 30px;
+      text-align: center; }
       #top section#about p {
-        width: 90%;
+        width: 100%;
         margin: auto;
         text-align: center;
         margin-top: 20px;
