@@ -1,7 +1,7 @@
 <?php
 
 //メタ情報をここで設定
-$title = 'カラーチャート';
+$title = 'カラー・素材表';
 $keyword = '';
 $description = '';
 
@@ -38,29 +38,29 @@ $description = '';
 
                 <ul class="buttons">
                     <li>
-                        <button>推奨張地</button>
+                        <a href="#recommend"><button>推奨張地</button></a>
                     </li>
                     <li>
-                        <button>Aランク</button>
+                        <a href="#a-rank"><button>Aランク</button></a>
                     </li>
                     <li>
-                        <button>Bランク</button>
+                        <a href="#b-rank"><button>Bランク</button></a>
                     </li>
                     <li>
-                        <button>Cランク</button>
+                        <a href="#c-rank"><button>Cランク</button></a>
                     </li>
                     <li>
-                        <button>Dランク</button>
+                        <a href="#d-rank"><button>Dランク</button></a>
                     </li>
                 </ul>
 
                 <div class="box">
-                    <h2 class="head01">推奨張地</h2>
+                    <h2 class="head01" id="recommend">推奨張地</h2>
                     <h3>マシュマロポップ</h3>
                     <table>
                         <tr>
                             <td>メーカー：サンゲツ</td>
-                            <td>お子様にも安心・安全のノンフタル酸ビニールレザー。</td>
+                            <td>お子様にも安心・安全のノンフタル酸ビニールレザー</td>
                         </tr>
                         <tr>
                             <td>張り生地ランク：Cランク</td>
@@ -80,7 +80,7 @@ $description = '';
                             while (($file = readdir($handle)) !== false) {
                                 if (filetype($path = $target_dir . $file) == "file") {
                                     $product_name = explode(".",$file);
-                                    echo '<li><a href="'.$target_dir.$file.'" class="modal-image" rel="gallery"><img src="'.$target_dir.$file.'" alt="'.$product_name[0].'" /></a><p>'.$product_name[0].'</p></li>';
+                                    echo '<li><a href="'.$target_dir.$file.'" class="modal-image" rel="gallery01"><img src="'.$target_dir.$file.'" alt="'.$product_name[0].'" /></a><p>'.$product_name[0].'</p></li>';
 
                                 }
                             }
@@ -91,7 +91,7 @@ $description = '';
 
 
                 <div class="box">
-                    <h2 class="head01">Aランク</h2>
+                    <h2 class="head01" id="a-rank">Aランク</h2>
                     <h3>プレサント</h3>
                     <table>
                         <tr>
@@ -116,7 +116,7 @@ $description = '';
                             while (($file = readdir($handle)) !== false) {
                                 if (filetype($path = $target_dir . $file) == "file") {
                                     $product_name = explode(".",$file);
-                                    echo '<li><a href="'.$target_dir.$file.'" class="modal-image" rel="gallery"><img src="'.$target_dir.$file.'" alt="'.$product_name[0].'" /></a><p>'.$product_name[0].'</p></li>';
+                                    echo '<li><a href="'.$target_dir.$file.'" class="modal-image" rel="gallery02"><img src="'.$target_dir.$file.'" alt="'.$product_name[0].'" /></a><p>'.$product_name[0].'</p></li>';
 
                                 }
                             }
@@ -129,7 +129,7 @@ $description = '';
                     <table>
                         <tr>
                             <td>メーカー：シンコール</td>
-                            <td>落ち着きのある色合いの合皮レザー。</td>
+                            <td>落ち着きのある色合いの合皮レザー</td>
                         </tr>
                         <tr>
                             <td>張り生地ランク：Aランク</td>
@@ -149,7 +149,7 @@ $description = '';
                             while (($file = readdir($handle)) !== false) {
                                 if (filetype($path = $target_dir . $file) == "file") {
                                     $product_name = explode(".",$file);
-                                    echo '<li><a href="'.$target_dir.$file.'" class="modal-image" rel="gallery"><img src="'.$target_dir.$file.'" alt="'.$product_name[0].'" /></a><p>'.$product_name[0].'</p></li>';
+                                    echo '<li><a href="'.$target_dir.$file.'" class="modal-image" rel="gallery03"><img src="'.$target_dir.$file.'" alt="'.$product_name[0].'" /></a><p>'.$product_name[0].'</p></li>';
 
                                 }
                             }
@@ -162,7 +162,7 @@ $description = '';
 
 
                 <div class="box">
-                    <h2 class="head01">Bランク</h2>
+                    <h2 class="head01" id="b-rank">Bランク</h2>
                     <h3>ニュートップ</h3>
                     <table>
                         <tr>
@@ -187,7 +187,7 @@ $description = '';
                             while (($file = readdir($handle)) !== false) {
                                 if (filetype($path = $target_dir . $file) == "file") {
                                     $product_name = explode(".",$file);
-                                    echo '<li><a href="'.$target_dir.$file.'" class="modal-image" rel="gallery"><img src="'.$target_dir.$file.'" alt="'.$product_name[0].'" /></a><p>'.$product_name[0].'</p></li>';
+                                    echo '<li><a href="'.$target_dir.$file.'" class="modal-image" rel="gallery04"><img src="'.$target_dir.$file.'" alt="'.$product_name[0].'" /></a><p>'.$product_name[0].'</p></li>';
 
                                 }
                             }
@@ -198,7 +198,7 @@ $description = '';
                 </div>
 
                 <div class="box">
-                    <h2 class="head01">Cランク</h2>
+                    <h2 class="head01" id="c-rank">Cランク</h2>
                     <h3>ガードナー</h3>
                     <table>
                         <tr>
@@ -223,7 +223,7 @@ $description = '';
                             while (($file = readdir($handle)) !== false) {
                                 if (filetype($path = $target_dir . $file) == "file") {
                                     $product_name = explode(".",$file);
-                                    echo '<li><a href="'.$target_dir.$file.'" class="modal-image" rel="gallery"><img src="'.$target_dir.$file.'" alt="'.$product_name[0].'" /></a><p>'.$product_name[0].'</p></li>';
+                                    echo '<li><a href="'.$target_dir.$file.'" class="modal-image" rel="gallery05"><img src="'.$target_dir.$file.'" alt="'.$product_name[0].'" /></a><p>'.$product_name[0].'</p></li>';
 
                                 }
                             }
@@ -235,7 +235,7 @@ $description = '';
                     <table>
                         <tr>
                             <td>メーカー：シンコール</td>
-                            <td>完成品防炎認定を取得している合皮レザー</td>
+                            <td>小児科でも使用される動物柄入りの合皮レザー</td>
                         </tr>
                         <tr>
                             <td>張り生地ランク：Cランク</td>
@@ -255,7 +255,7 @@ $description = '';
                             while (($file = readdir($handle)) !== false) {
                                 if (filetype($path = $target_dir . $file) == "file") {
                                     $product_name = explode(".",$file);
-                                    echo '<li><a href="'.$target_dir.$file.'" class="modal-image" rel="gallery"><img src="'.$target_dir.$file.'" alt="'.$product_name[0].'" /></a><p>'.$product_name[0].'</p></li>';
+                                    echo '<li><a href="'.$target_dir.$file.'" class="modal-image" rel="gallery06"><img src="'.$target_dir.$file.'" alt="'.$product_name[0].'" /></a><p>'.$product_name[0].'</p></li>';
 
                                 }
                             }
@@ -289,7 +289,7 @@ $description = '';
                             while (($file = readdir($handle)) !== false) {
                                 if (filetype($path = $target_dir . $file) == "file") {
                                     $product_name = explode(".",$file);
-                                    echo '<li><a href="'.$target_dir.$file.'" class="modal-image" rel="gallery"><img src="'.$target_dir.$file.'" alt="'.$product_name[0].'" /></a><p>'.$product_name[0].'</p></li>';
+                                    echo '<li><a href="'.$target_dir.$file.'" class="modal-image" rel="gallery07"><img src="'.$target_dir.$file.'" alt="'.$product_name[0].'" /></a><p>'.$product_name[0].'</p></li>';
 
                                 }
                             }
@@ -301,7 +301,7 @@ $description = '';
 
 
                 <div class="box">
-                    <h2 class="head01">Dランク</h2>
+                    <h2 class="head01" id="d-rank">Dランク</h2>
                     <h3>ターポリン</h3>
                     <table>
                         <tr>
@@ -326,7 +326,7 @@ $description = '';
                             while (($file = readdir($handle)) !== false) {
                                 if (filetype($path = $target_dir . $file) == "file") {
                                     $product_name = explode(".",$file);
-                                    echo '<li><a href="'.$target_dir.$file.'" class="modal-image" rel="gallery"><img src="'.$target_dir.$file.'" alt="'.$product_name[0].'" /></a><p>'.$product_name[0].'</p></li>';
+                                    echo '<li><a href="'.$target_dir.$file.'" class="modal-image" rel="gallery08"><img src="'.$target_dir.$file.'" alt="'.$product_name[0].'" /></a><p>'.$product_name[0].'</p></li>';
 
                                 }
                             }
@@ -334,6 +334,28 @@ $description = '';
                         ?>
                     </ul>
                 </div>
+
+                <div class="box">
+                    <h2 class="head01 adjust">電話・メールでのお問い合わせ</h2>
+                    <p>ボールプールドットコムのご購入商品およびご利用方法につきましては下記、電話またはメールよりお問い合わせ下さい。<br />
+                        尚、等お問い合わせ窓口はボールプールドットコムに関する専用窓口です。</p>
+
+                    <div class="contact-btn-wrapper">
+                        <div class="contact-btn">
+                            <div class="contact-btn-inner">
+                                <a href="tel:0120-71-1010"><img src="/contact/img/btn_tel.png" alt="電話（フリーダイヤル）でのお問い合わせ 0120-71-1010" /></a>
+                                <p>※受付時間(月～日):09:00～18:00 夏期休業、年末年始はお休みさせていただきます。</p>
+                            </div>
+                        </div>
+                        <div class="contact-btn">
+                            <div class="contact-btn-inner">
+                                <a href="#"><img src="/contact/img/btn_email.png" alt="メールでのお問い合わせ" /></a>
+                                <p>※お問い合わせいただきました順にご対応をさせていただきますが、対応までお時間をいただく場合もございます。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
 
             </main>
         </div>

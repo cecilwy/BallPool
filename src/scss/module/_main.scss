@@ -225,33 +225,4 @@ iframe{
     }
   }
 
-  .contact-btn-wrapper {
-    overflow: hidden;
-    margin: 30px 0 20px 0;
-    .contact-btn {
-      float: left;
-      width: 50%;
-      .contact-btn-inner {
-        width: 432px;
-        margin: auto;
-        p {
-          padding-top: 0;
-        }
-        @include sp {
-          width: 100%;
-        }
-        img {
-          @include sp {
-            width: 98%;
-          }
-        }
-      }
-    }
-  }
-
-  .head01.adjust {
-    box-sizing: border-box;
-    padding-top: 7px;
-    font-size: 22px;
-  }
 }
