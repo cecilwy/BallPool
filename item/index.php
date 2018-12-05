@@ -41,20 +41,20 @@ $description = '';
 
                     <ul class="items">
                         <li>
-                            <a href="#"><img src="img/bnr_mini_01.jpg" alt="ミニ ボールプール"/></a>
+                            <a href="/item/bpbn/"><img src="img/bnr_mini_01.jpg" alt="ミニ ボールプール"/></a>
                             <h3>ミニ ボールプール</h3>
                             <h4>W:1400 D:1400 H:350</h4>
                             <h5>￥90,290～</h5>
                         </li>
                         <li>
-                            <a href="#"><img src="img/bnr_mini_02.jpg" alt="ボールプール カメさんセット"/></a>
+                            <a href="/item/bpkn/"><img src="img/bnr_mini_02.jpg" alt="ボールプール カメさんセット"/></a>
                             <h3>ボールプール カメさんセット</h3>
                             <h4>W:1400 D:1400 H:350</h4>
                             <h5>￥90,290～</h5>
 
                         </li>
                         <li>
-                            <a href="#"><img src="img/bnr_mini_03.jpg" alt="2段ボールプール"/></a>
+                            <a href="/item/bp2s/"><img src="img/bnr_mini_03.jpg" alt="2段ボールプール"/></a>
                             <h3>2段ボールプール</h3>
                             <h4>W:1600 D:1600 H:400</h4>
                             <h5>￥121,250～</h5>
@@ -67,20 +67,20 @@ $description = '';
                     <h2 class="head02" id="middle">ベーシックボールプール</h2>
                     <ul class="items">
                         <li>
-                            <a href="#"><img src="img/bnr_basic_01.jpg" alt="ボールプールAセット"/></a>
+                            <a href="/item/bpsa"><img src="img/bnr_basic_01.jpg" alt="ボールプールAセット"/></a>
                             <h3>ボールプールAセット</h3>
                             <h4>W:2700 D:1800 H:450</h4>
                             <h5>￥267,850～</h5>
                         </li>
                         <li>
-                            <a href="#"><img src="img/bnr_basic_02.jpg" alt="ボールプールBセット"/></a>
+                            <a href="/item/bpsb"><img src="img/bnr_basic_02.jpg" alt="ボールプールBセット"/></a>
                             <h3>ボールプールBセット</h3>
                             <h4>W:1800 D:1800 H:450</h4>
                             <h5>￥267,850～</h5>
 
                         </li>
                         <li>
-                            <a href="#"><img src="img/bnr_basic_03.jpg" alt="ボールプールCセット"/></a>
+                            <a href="/item/bpsc"><img src="img/bnr_basic_03.jpg" alt="ボールプールCセット"/></a>
                             <h3>ボールプールCセット</h3>
                             <h4>W:2200 D:2200 H:450</h4>
                             <h5>￥239,900～</h5>
@@ -92,33 +92,33 @@ $description = '';
                     <h2 class="head02" id="big">大型ボールプール</h2>
                     <ul class="items">
                         <li>
-                            <a href="#"><img src="img/bnr_big_01.jpg" alt="滑り台2個セット"/></a>
+                            <a href="/item/bpsd2/"><img src="img/bnr_big_01.jpg" alt="滑り台2個セット"/></a>
                             <h3>滑り台2個セット</h3>
                             <h4>W:4000 D:2000 H:800</h4>
                             <h5>￥445,720～</h5>
                         </li>
                         <li>
-                            <a href="#"><img src="img/bnr_big_02.jpg" alt="滑り台・クライミングセット"/></a>
+                            <a href="/item/bpsdc/"><img src="img/bnr_big_02.jpg" alt="滑り台・クライミングセット"/></a>
                             <h3>滑り台・クライミングセット</h3>
                             <h4>W:4000 D:2000 H:800</h4>
                             <h5>￥450,780～</h5>
 
                         </li>
                         <li>
-                            <a href="#"><img src="img/bnr_big_03.jpg" alt="滑り台2個・クライミングセット"/></a>
+                            <a href="/item/bpsd2c/"><img src="img/bnr_big_03.jpg" alt="滑り台2個・クライミングセット"/></a>
                             <h3>滑り台2個・クライミングセット</h3>
                             <h4>W:4000 D:2000 H:800</h4>
                             <h5>￥616,860～</h5>
                         </li>
                         <li>
-                            <a href="#"><img src="img/bnr_big_04.jpg" alt="円型ボールプール"/></a>
+                            <a href="/item/bpm4000hu/"><img src="img/bnr_big_04.jpg" alt="円型ボールプール"/></a>
                             <h3>円型ボールプール</h3>
                             <h4>W:4000 D:4000 H:600</h4>
                             <h5>￥610,980～</h5>
 
                         </li>
                         <li>
-                            <a href="#"><img src="img/bnr_big_05.jpg" alt="半円ボールプール"/></a>
+                            <a href="/item/bpmh4000hu/"><img src="img/bnr_big_05.jpg" alt="半円ボールプール"/></a>
                             <h3>半円ボールプール</h3>
                             <h4>W:4000 D:2000 H:600</h4>
                             <h5>￥305,720～</h5>
@@ -130,56 +130,56 @@ $description = '';
                     <h2 class="head02" id="other">ボールプール関連商品</h2>
                     <ul class="items items_three">
                         <li>
-                            <a href="#"><img src="img/bnr_others_01.png" alt="ボールプールAセット"/></a>
+                            <a href="/item/ball/"><img src="img/bnr_others_01.png" alt="ボールプールAセット"/></a>
                             <h3>カラーボール単色</h3>
                             <h5>￥11,930～</h5>
                         </li>
                         <li>
-                            <a href="#"><img src="img/bnr_others_02.png" alt="ボールプールBセット"/></a>
+                            <a href="/item/mball/"><img src="img/bnr_others_02.png" alt="ボールプールBセット"/></a>
                             <h3>カラーボールミックス</h3>
                             <h5>￥11,930～</h5>
 
                         </li>
                         <li>
-                            <a href="#"><img src="img/bnr_others_03.png" alt="カメさんセット"/></a>
+                            <a href="/item/bpks/"><img src="img/bnr_others_03.png" alt="カメさんセット"/></a>
                             <h3>カメさんセット</h3>
                             <h5>￥616,860～</h5>
                         </li>
                         <li>
-                            <a href="#"><img src="img/bnr_others_04.png" alt="ボールプールBセット"/></a>
+                            <a href="/item/bpy-1/"><img src="img/bnr_others_04.png" alt="ボールプールBセット"/></a>
                             <h3>四角遊具</h3>
                             <h5>￥610,980～</h5>
 
                         </li>
                         <li>
-                            <a href="#"><img src="img/bnr_others_05.png" alt="三角遊具"/></a>
+                            <a href="/item/bpy-2/"><img src="img/bnr_others_05.png" alt="三角遊具"/></a>
                             <h3>三角遊具</h3>
                             <h5>￥305,720～</h5>
                         </li>
 
 
                         <li>
-                            <a href="#"><img src="img/bnr_others_06.png" alt="丸型遊具"/></a>
+                            <a href="/item/bpy-3/"><img src="img/bnr_others_06.png" alt="丸型遊具"/></a>
                             <h3>丸型遊具</h3>
                             <h5>￥305,720～</h5>
                         </li>
                         <li>
-                            <a href="#"><img src="img/bnr_others_07.png" alt="ひょうたん型遊具"/></a>
+                            <a href="/item/bpy-4/"><img src="img/bnr_others_07.png" alt="ひょうたん型遊具"/></a>
                             <h3>ひょうたん型遊具</h3>
                             <h5>￥305,720～</h5>
                         </li>
                         <li>
-                            <a href="#"><img src="img/bnr_others_09.png" alt="入口マット"/></a>
+                            <a href="/item/as1/"><img src="img/bnr_others_09.png" alt="入り口マット"/></a>
                             <h3>入口マット</h3>
                             <h5>￥305,720～</h5>
                         </li>
                         <li>
-                            <a href="#"><img src="img/bnr_others_10.png" alt="入口マット"/></a>
-                            <h3>入口マット</h3>
+                            <a href="/item/mrc1/"><img src="img/bnr_others_10.png" alt="魔りょくりーん"/></a>
+                            <h3>魔りょくりーん</h3>
                             <h5>￥305,720～</h5>
                         </li>
                         <li>
-                            <a href="#"><img src="img/bnr_others_11.png" alt="半円ボールプール"/></a>
+                            <a href="/item/rkg1/"><img src="img/bnr_others_11.png" alt="半円ボールプール"/></a>
                             <h3>半円ボールプール</h3>
                             <h5>￥305,720～</h5>
                         </li>
