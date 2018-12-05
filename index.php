@@ -35,20 +35,20 @@ $description = '';
 
                     <ul>
                         <li>
-                            <img src="img/top/category-01.jpg" alt="ミニボールプール"/>
+                            <a href="item/#mini"><img src="img/top/category-01.jpg" alt="ミニボールプール"/></a>
                             <p>省スペースのキッズコーナー向きの小さめボールプール。</p>
                         </li>
                         <li>
-                            <img src="img/top/category-02.jpg" alt="ミニボールプール"/>
+                            <a href="item/#middle"><img src="img/top/category-02.jpg" alt="ミニボールプール"/></a>
                             <p>中規模キッズコーナーの目玉アイテムにぴったりなサイズ感のボールプール。</p>
                         </li>
 
                         <li>
-                            <img src="img/top/category-03.jpg" alt="ミニボールプール"/>
+                            <a href="item/#big"><img src="img/top/category-03.jpg" alt="ミニボールプール"/></a>
                             <p>大型のキッズコーナーに映える、子供たちに大人気のボールプール。</p>
                         </li>
                         <li>
-                            <img src="img/top/category-04.jpg" alt="ミニボールプール"/>
+                            <a href="item/#other"><img src="img/top/category-04.jpg" alt="ミニボールプール"/></a>
                             <p>ボールプール用ボールやメンテナンス用品などを取り揃えています。</p>
                         </li>
 
@@ -60,10 +60,10 @@ $description = '';
 
             <div class="outer-content">
                 <div class="color-select">
-                    <p><a href="#"><img src="/item//img/color_bnr.png" alt="ご相談・お見積もり"></a></p>
+                    <p><a href="color/"><img src="/item//img/color_bnr.png" alt="ご相談・お見積もり"></a></p>
                 </div>
                 <div class="order">
-                    <p><a href="#"><img src="/item/img/order_bnr.gif" alt="特注品のご案内誘導画像"></a></p>
+                    <p><a href="custom_order/"><img src="/item/img/order_bnr.gif" alt="特注品のご案内誘導画像"></a></p>
                 </div>
 
 
@@ -73,32 +73,29 @@ $description = '';
                     <ul>
                         <li>
                             <a href="#">
-                                <img src="img/top/flow-01.gif" />
+                                <img src="/img/top/flow-01.gif" />
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <img src="img/top/flow-02.gif" />
+                                <img src="/img/top/flow-02.gif" />
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <img src="img/top/flow-03.gif" />
+                                <img src="/img/top/flow-03.gif" />
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <img src="img/top/flow-04.gif" />
+                                <img src="/img/top/flow-04.gif" />
                             </a>
                         </li>
                     </ul>
-
                 </div>
-
             </div>
         <?php include './template/bnrs.php'; ?>
         </div>
-
     </div>
     <!--main-->
     <?php include './template/footer.php'; ?>
