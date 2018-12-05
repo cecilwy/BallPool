@@ -963,6 +963,47 @@ iframe {
   padding-top: 7px;
   font-size: 22px; }
 
+#items .back-list {
+  text-align: center; }
+  #items .back-list h1 {
+    margin: auto; }
+
+#items h2 {
+  padding-top: 10px; }
+
+#items .items {
+  margin-top: 20px;
+  line-height: 24px;
+  text-align: left; }
+  #items .items li {
+    width: 50%;
+    /* 未対応ブラウザ用フォールバック */
+    text-align: center;
+    float: left;
+    margin-bottom: 40px; }
+  #items .items h3, #items .items h4, #items .items h5 {
+    text-align: left; }
+  #items .items h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px; }
+  #items .items h4 {
+    font-size: 18px; }
+  #items .items h5 {
+    font-size: 24px;
+    color: #ff0000;
+    font-weight: bold; }
+
+#items .items_three li {
+  width: 33.33333%;
+  /* 未対応ブラウザ用フォールバック */
+  width: calc(100% / 3);
+  margin-bottom: 10px;
+  text-align: center; }
+
+#items .items_three h3, #items .items_three h4, #items .items_three h5 {
+  text-align: center; }
+
 /*!
 	Modaal - accessible modals - v0.4.4
 	by Humaan, for all humans.
