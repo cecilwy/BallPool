@@ -1,25 +1,19 @@
 <?php
-
 //メタ情報をここで設定
 $title = '';
 $keyword = '';
 $description = '';
-
 ?>
-
 <!DOCTYPE html>
 <html lang="ja">
 <?php include './template/meta.php'; ?>
 <body id="top">
 <div class="wrapper">
     <?php include './template/header.php' ?>
-
     <div class="content-wrapper">
         <main>
         <h1><img src="img/top/mv.jpg" alt="ボールプールの特注・製作・販売の専門サイト"/></h1>
         <div class="content">
-
-
                 <section id="about">
                     <h2 class="head01">ボールプールとは</h2>
                     <div>
