@@ -5,8 +5,7 @@ $keyword = '';
 $description = '';
 $canonical = '';
 
-
-$url = 'https://mat-room.com/api/itemcode/bpknbp2s/prices/';
+$url = 'https://mat-room.com/api/itemcode/bp2s/prices/';
 $myPath = dirname(__FILE__);
 
 include '../../template/item_detail.php';
