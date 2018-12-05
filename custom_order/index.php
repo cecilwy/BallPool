@@ -17,7 +17,7 @@ $description = '';
         <div class="content">
             <ul itemscope itemtype="http://schema.org/BreadcrumbList" class="breadcrumb">
                 <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-                    <a itemprop="item" href="#">ボールプールドットコムTOP</a>
+                    <a itemprop="item" href="/">ボールプールドットコムTOP</a>
                     <meta itemprop="position" content="1"/>
                 </li>
                 <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
