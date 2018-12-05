@@ -28,7 +28,7 @@
             </ul>
             <ul class="footer-contact">
                 <li><a href="tel:0120-71-1010"><img src="/img/tel.png" alt="0120-71-1010"></a></li>
-                <li><a href="/contact/"><img src="/img/contact.png" alt="0120-71-1010"></a></li>
+                <li><a href="https://systemsofa.com/MailSystem/user/?reffere=ball-pool.com" target="_blank"><img src="/img/contact.png" alt="0120-71-1010"></a></li>
             </ul>
         </div>
         <br class="clear_noie">

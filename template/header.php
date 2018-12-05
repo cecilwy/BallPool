@@ -96,7 +96,7 @@ if(strpos($associative_array[0]['file'],'/company/')) {
     <li><a href="/custom_order/"><img class="current" src="/img/menu_05_sp.png" alt="特注品について"></a></li>
     <li><a href="/company/"><img class="current" src="/img/menu_06_sp.png" alt="会社案内"></a></li>
     <li><a href="tel:0120-71-1010"><img src="/img/tel_sp.png" alt="0120-71-1010"></a></li>
-    <li><a href="/contact/"><img src="/img/contact_sp.png" alt="0120-71-1010"></a></li>
+    <li><a href="https://systemsofa.com/MailSystem/user/?reffere=ball-pool.com" target="_blank"><img src="/img/contact_sp.png" alt="0120-71-1010"></a></li>
 </ul>
 </div>
 
