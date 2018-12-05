@@ -130,12 +130,12 @@ $description = '';
                     <h2 class="head02" id="other">ボールプール関連商品</h2>
                     <ul class="items items_three">
                         <li>
-                            <a href="/item/ball/"><img src="img/bnr_others_01.png" alt="ボールプールAセット"/></a>
+                            <a href="/item/ball11/"><img src="img/bnr_others_01.png" alt="ボールプールAセット"/></a>
                             <h3>カラーボール単色</h3>
                             <h5>￥11,930～</h5>
                         </li>
                         <li>
-                            <a href="/item/mball/"><img src="img/bnr_others_02.png" alt="ボールプールBセット"/></a>
+                            <a href="/item/ball20/"><img src="img/bnr_others_02.png" alt="ボールプールBセット"/></a>
                             <h3>カラーボールミックス</h3>
                             <h5>￥11,930～</h5>
 
