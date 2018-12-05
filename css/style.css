@@ -928,6 +928,13 @@ iframe {
   border-style: none;
   border-radius: 5px; }
 
+#color table ul li {
+  width: 80px;
+  float: left;
+  margin-right: 10px; }
+  #color table ul li img {
+    width: 100%; }
+
 #color .item li {
   width: 20%;
   float: left;
