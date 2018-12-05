@@ -12,7 +12,7 @@
                 <li><a href="/case/">施工事例</a></li>
             </ul>
             <ul class="footer-menu">
-                <li><a href="/css/custom_order/">特注品について</a></li>
+                <li><a href="/custom_order/">特注品について</a></li>
                 <li><a href="/company/">会社案内</a></li>
                 <li><a href="/qa/">よくある質問</a></li>
             </ul>
