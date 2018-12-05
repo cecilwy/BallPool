@@ -38,19 +38,29 @@ $description = '';
 
                 <ul class="buttons">
                     <li>
-                        <a href="#recommend"><button>推奨張地</button></a>
+                        <a href="#recommend">
+                            <button>推奨張地</button>
+                        </a>
                     </li>
                     <li>
-                        <a href="#a-rank"><button>Aランク</button></a>
+                        <a href="#a-rank">
+                            <button>Aランク</button>
+                        </a>
                     </li>
                     <li>
-                        <a href="#b-rank"><button>Bランク</button></a>
+                        <a href="#b-rank">
+                            <button>Bランク</button>
+                        </a>
                     </li>
                     <li>
-                        <a href="#c-rank"><button>Cランク</button></a>
+                        <a href="#c-rank">
+                            <button>Cランク</button>
+                        </a>
                     </li>
                     <li>
-                        <a href="#d-rank"><button>Dランク</button></a>
+                        <a href="#d-rank">
+                            <button>Dランク</button>
+                        </a>
                     </li>
                 </ul>
 
@@ -64,7 +74,25 @@ $description = '';
                         </tr>
                         <tr>
                             <td>張り生地ランク：Cランク</td>
-                            <td rowspan="2"><img src="img/a_rank/function.gif" alt="機能"/></td>
+                            <td rowspan="2">
+                                <ul class="icon_box">
+                                    <li class="toolchip" data-tooltip="水や中性洗剤で汚れの落ちやすい商品を示すマークです。"
+                                        style="cursor: pointer;"><img src="./img/icons/cloth_icon_08.gif"
+                                                                      alt="お手入れ楽々　簡単ケア"></li>
+                                    <li class="toolchip" data-tooltip="抗菌加工で表面に付着した菌の繁殖を抑えられる商品を示すマークです。"
+                                        style="cursor: pointer;"><img src="./img/icons/cloth_icon_05.gif"
+                                                                      alt="抗菌　菌の増殖を防ぐ"></li>
+                                    <li class="toolchip" data-tooltip="アルコール系薬剤のメンテナンスに強い商品を示すマークです。"
+                                        style="cursor: pointer;"><img src="./img/icons/cloth_icon_06.gif"
+                                                                      alt="耐アルコール　消毒可能"></li>
+                                    <li class="toolchip" data-tooltip="塩素系薬剤のメンテナンスに強い商品を示すマークです。"
+                                        style="cursor: pointer;"><img src="./img/icons/cloth_icon_04.gif"
+                                                                      alt="漂白OK　消毒可能"></li>
+                                    <li class="toolchip" data-tooltip="防炎協会認定のJIS1091難燃テストに合格した商品を示すマークです。"
+                                        style="cursor: pointer;"><img src="./img/icons/cloth_icon_01.gif"
+                                                                      alt="難燃　燃えにくい"></li>
+                                </ul>
+                            </td>
                         </tr>
                         <tr>
                             <td>全12色</td>
@@ -79,8 +107,8 @@ $description = '';
                         if (is_dir($target_dir) && $handle = opendir($target_dir)) {
                             while (($file = readdir($handle)) !== false) {
                                 if (filetype($path = $target_dir . $file) == "file") {
-                                    $product_name = explode(".",$file);
-                                    echo '<li><a href="'.$target_dir.$file.'" class="modal-image" rel="gallery01"><img src="'.$target_dir.$file.'" alt="'.$product_name[0].'" /></a><p>'.$product_name[0].'</p></li>';
+                                    $product_name = explode(".", $file);
+                                    echo '<li><a href="' . $target_dir . $file . '" class="modal-image" rel="gallery01"><img src="' . $target_dir . $file . '" alt="' . $product_name[0] . '" /></a><p>' . $product_name[0] . '</p></li>';
 
                                 }
                             }
@@ -100,7 +128,20 @@ $description = '';
                         </tr>
                         <tr>
                             <td>張り生地ランク：Aランク</td>
-                            <td rowspan="2"><img src="img/a_rank/function.gif" alt="機能"/></td>
+                            <td rowspan="2">
+                                <ul class="icon_box">
+                                    <li class="toolchip" data-tooltip="水や中性洗剤で汚れの落ちやすい商品を示すマークです。"
+                                        style="cursor: pointer;"><img src="./img/icons/cloth_icon_08.gif"
+                                                                      alt="お手入れ楽々　簡単ケア"></li>
+                                    <li class="toolchip" data-tooltip="衣料や鞄の粗悪な染料の移行を防ぐ商品を示すマークです。"
+                                        style="cursor: pointer;"><img src="./img/icons/cloth_icon_12.gif"
+                                                                      alt="耐移行　色移りしにくい"></li>
+                                    <li class="toolchip" data-tooltip="防炎協会認定のJIS1091難燃テストに合格した商品を示すマークです。"
+                                        style="cursor: pointer;"><img src="./img/icons/cloth_icon_01.gif"
+                                                                      alt="難燃　燃えにくい"></li>
+                                </ul>
+
+                            </td>
                         </tr>
                         <tr>
                             <td>全46色</td>
@@ -115,8 +156,8 @@ $description = '';
                         if (is_dir($target_dir) && $handle = opendir($target_dir)) {
                             while (($file = readdir($handle)) !== false) {
                                 if (filetype($path = $target_dir . $file) == "file") {
-                                    $product_name = explode(".",$file);
-                                    echo '<li><a href="'.$target_dir.$file.'" class="modal-image" rel="gallery02"><img src="'.$target_dir.$file.'" alt="'.$product_name[0].'" /></a><p>'.$product_name[0].'</p></li>';
+                                    $product_name = explode(".", $file);
+                                    echo '<li><a href="' . $target_dir . $file . '" class="modal-image" rel="gallery02"><img src="' . $target_dir . $file . '" alt="' . $product_name[0] . '" /></a><p>' . $product_name[0] . '</p></li>';
 
                                 }
                             }
@@ -133,7 +174,22 @@ $description = '';
                         </tr>
                         <tr>
                             <td>張り生地ランク：Aランク</td>
-                            <td rowspan="2"><img src="img/a_rank/function.gif" alt="機能"/></td>
+                            <td rowspan="2">
+                                <ul class="icon_box">
+                                    <li class="toolchip" data-tooltip="汚れが付きにくく、落としやすい加工を施している商品を示すマークです。"
+                                        style="cursor: pointer;"><img src="./img/icons/cloth_icon_11.gif"
+                                                                      alt="防汚　汚れにくい"></li>
+                                    <li class="toolchip" data-tooltip="塩素系薬剤のメンテナンスに強い商品を示すマークです。"
+                                        style="cursor: pointer;"><img src="./img/icons/cloth_icon_04.gif"
+                                                                      alt="漂白OK　消毒可能"></li>
+                                    <li class="toolchip" data-tooltip="抗菌加工で表面に付着した菌の繁殖を抑えられる商品を示すマークです。"
+                                        style="cursor: pointer;"><img src="./img/icons/cloth_icon_05.gif"
+                                                                      alt="抗菌　菌の増殖を防ぐ"></li>
+                                    <li class="toolchip" data-tooltip="アルコール系薬剤のメンテナンスに強い商品を示すマークです。"
+                                        style="cursor: pointer;"><img src="./img/icons/cloth_icon_06.gif"
+                                                                      alt="耐アルコール　消毒可能"></li>
+                                </ul>
+                            </td>
                         </tr>
                         <tr>
                             <td>全34色</td>
@@ -148,8 +204,8 @@ $description = '';
                         if (is_dir($target_dir) && $handle = opendir($target_dir)) {
                             while (($file = readdir($handle)) !== false) {
                                 if (filetype($path = $target_dir . $file) == "file") {
-                                    $product_name = explode(".",$file);
-                                    echo '<li><a href="'.$target_dir.$file.'" class="modal-image" rel="gallery03"><img src="'.$target_dir.$file.'" alt="'.$product_name[0].'" /></a><p>'.$product_name[0].'</p></li>';
+                                    $product_name = explode(".", $file);
+                                    echo '<li><a href="' . $target_dir . $file . '" class="modal-image" rel="gallery03"><img src="' . $target_dir . $file . '" alt="' . $product_name[0] . '" /></a><p>' . $product_name[0] . '</p></li>';
 
                                 }
                             }
@@ -171,7 +227,24 @@ $description = '';
                         </tr>
                         <tr>
                             <td>張り生地ランク：Bランク</td>
-                            <td rowspan="2"><img src="img/a_rank/function.gif" alt="機能"/></td>
+                            <td rowspan="2">
+                                <ul class="icon_box">
+                                    <li class="toolchip" data-tooltip="汚れが付きにくく、落としやすい加工を施している商品を示すマークです。"
+                                        style="cursor: pointer;"><img src="./img/icons/cloth_icon_11.gif"
+                                                                      alt="防汚　汚れにくい"></li>
+                                    <li class="toolchip" data-tooltip="表面でアルコールの影響が受けにくくなっている商品を示すマークです。"
+                                        style="cursor: pointer;"><img src="./img/icons/cloth_icon_13.gif"
+                                                                      alt="準耐アルコール　消毒可能"></li>
+                                    <li class="toolchip" data-tooltip="塩素系薬剤のメンテナンスに強い商品を示すマークです。"
+                                        style="cursor: pointer;"><img src="./img/icons/cloth_icon_04.gif"
+                                                                      alt="漂白OK　消毒可能"></li>
+                                    <li class="toolchip" data-tooltip="衣料や鞄の粗悪な染料の移行を防ぐ商品を示すマークです。"
+                                        style="cursor: pointer;"><img src="./img/icons/cloth_icon_12.gif"
+                                                                      alt="耐移行　色移りしにくい"></li>
+                                    <li class="toolchip" data-tooltip="鉛・水銀・カドミウム・六価クロム・ポリ臭化ビフェニール、ポリ臭化ジフェニルエーテルを使用していない商品を示すマークです。"><img src="./img/icons/cloth_icon_10.gif" alt="6有害物質不使用　安心・安全"></li>
+                                </ul>
+
+                            </td>
                         </tr>
                         <tr>
                             <td>全25色</td>
@@ -186,8 +259,8 @@ $description = '';
                         if (is_dir($target_dir) && $handle = opendir($target_dir)) {
                             while (($file = readdir($handle)) !== false) {
                                 if (filetype($path = $target_dir . $file) == "file") {
-                                    $product_name = explode(".",$file);
-                                    echo '<li><a href="'.$target_dir.$file.'" class="modal-image" rel="gallery04"><img src="'.$target_dir.$file.'" alt="'.$product_name[0].'" /></a><p>'.$product_name[0].'</p></li>';
+                                    $product_name = explode(".", $file);
+                                    echo '<li><a href="' . $target_dir . $file . '" class="modal-image" rel="gallery04"><img src="' . $target_dir . $file . '" alt="' . $product_name[0] . '" /></a><p>' . $product_name[0] . '</p></li>';
 
                                 }
                             }
@@ -207,7 +280,13 @@ $description = '';
                         </tr>
                         <tr>
                             <td>張り生地ランク：Cランク</td>
-                            <td rowspan="2"><img src="img/a_rank/function.gif" alt="機能"/></td>
+                            <td rowspan="2">
+                                <ul class="icon_box">
+                                    <li class="toolchip" data-tooltip="防炎試験に合格可能な商品を示すマークです。" style="cursor: pointer;"><img src="./img/icons/cloth_icon_14.gif" alt="防炎　燃えにくい"></li>
+                                    <li class="toolchip" data-tooltip="表面でアルコールの影響が受けにくくなっている商品を示すマークです。" style="cursor: pointer;"><img src="./img/icons/cloth_icon_13.gif" alt="準耐アルコール　消毒可能"></li>
+                                    <li class="toolchip" data-tooltip="塩素系薬剤のメンテナンスに強い商品を示すマークです。" style="cursor: pointer;"><img src="./img/icons/cloth_icon_04.gif" alt="漂白OK　消毒可能"></li>
+                                    <li class="toolchip" data-tooltip="鉛・水銀・カドミウム・六価クロム・ポリ臭化ビフェニール、ポリ臭化ジフェニルエーテルを使用していない商品を示すマークです。" style="cursor: pointer;"><img src="./img/icons/cloth_icon_10.gif" alt="6有害物質不使用　安心・安全"></li>
+                                </ul></td>
                         </tr>
                         <tr>
                             <td>全9色</td>
@@ -222,8 +301,8 @@ $description = '';
                         if (is_dir($target_dir) && $handle = opendir($target_dir)) {
                             while (($file = readdir($handle)) !== false) {
                                 if (filetype($path = $target_dir . $file) == "file") {
-                                    $product_name = explode(".",$file);
-                                    echo '<li><a href="'.$target_dir.$file.'" class="modal-image" rel="gallery05"><img src="'.$target_dir.$file.'" alt="'.$product_name[0].'" /></a><p>'.$product_name[0].'</p></li>';
+                                    $product_name = explode(".", $file);
+                                    echo '<li><a href="' . $target_dir . $file . '" class="modal-image" rel="gallery05"><img src="' . $target_dir . $file . '" alt="' . $product_name[0] . '" /></a><p>' . $product_name[0] . '</p></li>';
 
                                 }
                             }
@@ -239,7 +318,14 @@ $description = '';
                         </tr>
                         <tr>
                             <td>張り生地ランク：Cランク</td>
-                            <td rowspan="2"><img src="img/a_rank/function.gif" alt="機能"/></td>
+                            <td rowspan="2">
+                                <ul class="icon_box">
+                                    <li class="toolchip" data-tooltip="汚れが付きにくく、落としやすい加工を施している商品を示すマークです。" style="cursor: pointer;"><img src="./img/icons/cloth_icon_11.gif" alt="防汚　汚れにくい"></li>
+                                    <li class="toolchip" data-tooltip="表面でアルコールの影響が受けにくくなっている商品を示すマークです。" style="cursor: pointer;"><img src="./img/icons/cloth_icon_13.gif" alt="準耐アルコール　消毒可能"></li>
+                                    <li class="toolchip" data-tooltip="塩素系薬剤のメンテナンスに強い商品を示すマークです。" style="cursor: pointer;"><img src="./img/icons/cloth_icon_04.gif" alt="漂白OK　消毒可能"></li>
+                                    <li class="toolchip" data-tooltip="防炎協会認定のJIS1091難燃テストに合格した商品を示すマークです。" style="cursor: pointer;"><img src="./img/icons/cloth_icon_01.gif" alt="難燃　燃えにくい"></li>
+                                </ul>
+                            </td>
                         </tr>
                         <tr>
                             <td>全9色</td>
@@ -254,15 +340,14 @@ $description = '';
                         if (is_dir($target_dir) && $handle = opendir($target_dir)) {
                             while (($file = readdir($handle)) !== false) {
                                 if (filetype($path = $target_dir . $file) == "file") {
-                                    $product_name = explode(".",$file);
-                                    echo '<li><a href="'.$target_dir.$file.'" class="modal-image" rel="gallery06"><img src="'.$target_dir.$file.'" alt="'.$product_name[0].'" /></a><p>'.$product_name[0].'</p></li>';
+                                    $product_name = explode(".", $file);
+                                    echo '<li><a href="' . $target_dir . $file . '" class="modal-image" rel="gallery06"><img src="' . $target_dir . $file . '" alt="' . $product_name[0] . '" /></a><p>' . $product_name[0] . '</p></li>';
 
                                 }
                             }
                         }
                         ?>
                     </ul>
-
 
 
                     <h3>デコア</h3>
@@ -273,7 +358,14 @@ $description = '';
                         </tr>
                         <tr>
                             <td>張り生地ランク：Cランク</td>
-                            <td rowspan="2"><img src="img/a_rank/function.gif" alt="機能"/></td>
+                            <td rowspan="2">
+                                <ul class="icon_box">
+                                    <li class="toolchip" data-tooltip="鉛・水銀・カドミウム・六価クロム・ポリ臭化ビフェニール、ポリ臭化ジフェニルエーテルを使用していない商品を示すマークです。" style="cursor: pointer;"><img src="./img/icons/cloth_icon_10.gif" alt="6有害物質不使用　安心・安全"></li>
+                                    <li class="toolchip" data-tooltip="表面でアルコールの影響が受けにくくなっている商品を示すマークです。" style="cursor: pointer;"><img src="./img/icons/cloth_icon_13.gif" alt="準耐アルコール　消毒可能"></li>
+                                    <li class="toolchip" data-tooltip="塩素系薬剤のメンテナンスに強い商品を示すマークです。" style="cursor: pointer;"><img src="./img/icons/cloth_icon_04.gif" alt="漂白OK　消毒可能"></li>
+                                    <li class="toolchip" data-tooltip="防炎協会認定のJIS1091難燃テストに合格した商品を示すマークです。" style="cursor: pointer;"><img src="./img/icons/cloth_icon_01.gif" alt="難燃　燃えにくい"></li>
+                                </ul>
+                            </td>
                         </tr>
                         <tr>
                             <td>全7色</td>
@@ -288,8 +380,8 @@ $description = '';
                         if (is_dir($target_dir) && $handle = opendir($target_dir)) {
                             while (($file = readdir($handle)) !== false) {
                                 if (filetype($path = $target_dir . $file) == "file") {
-                                    $product_name = explode(".",$file);
-                                    echo '<li><a href="'.$target_dir.$file.'" class="modal-image" rel="gallery07"><img src="'.$target_dir.$file.'" alt="'.$product_name[0].'" /></a><p>'.$product_name[0].'</p></li>';
+                                    $product_name = explode(".", $file);
+                                    echo '<li><a href="' . $target_dir . $file . '" class="modal-image" rel="gallery07"><img src="' . $target_dir . $file . '" alt="' . $product_name[0] . '" /></a><p>' . $product_name[0] . '</p></li>';
 
                                 }
                             }
@@ -310,7 +402,11 @@ $description = '';
                         </tr>
                         <tr>
                             <td>張り生地ランク：Dランク</td>
-                            <td rowspan="2"><img src="img/a_rank/function.gif" alt="機能"/></td>
+                            <td rowspan="2">
+                                <ul class="icon_box">
+                                    <li class="toolchip" data-tooltip="防炎協会認定のJIS1091難燃テストに合格した商品を示すマークです。" style="cursor: pointer;"><img src="./img/icons/cloth_icon_01.gif" alt="難燃　燃えにくい"></li>
+                                </ul>
+                            </td>
                         </tr>
                         <tr>
                             <td>全12色</td>
@@ -325,8 +421,8 @@ $description = '';
                         if (is_dir($target_dir) && $handle = opendir($target_dir)) {
                             while (($file = readdir($handle)) !== false) {
                                 if (filetype($path = $target_dir . $file) == "file") {
-                                    $product_name = explode(".",$file);
-                                    echo '<li><a href="'.$target_dir.$file.'" class="modal-image" rel="gallery08"><img src="'.$target_dir.$file.'" alt="'.$product_name[0].'" /></a><p>'.$product_name[0].'</p></li>';
+                                    $product_name = explode(".", $file);
+                                    echo '<li><a href="' . $target_dir . $file . '" class="modal-image" rel="gallery08"><img src="' . $target_dir . $file . '" alt="' . $product_name[0] . '" /></a><p>' . $product_name[0] . '</p></li>';
 
                                 }
                             }
@@ -334,29 +430,7 @@ $description = '';
                         ?>
                     </ul>
                 </div>
-
-                <div class="box">
-                    <h2 class="head01 adjust">電話・メールでのお問い合わせ</h2>
-                    <p>ボールプールドットコムのご購入商品およびご利用方法につきましては下記、電話またはメールよりお問い合わせ下さい。<br />
-                        尚、等お問い合わせ窓口はボールプールドットコムに関する専用窓口です。</p>
-
-                    <div class="contact-btn-wrapper">
-                        <div class="contact-btn">
-                            <div class="contact-btn-inner">
-                                <a href="tel:0120-71-1010"><img src="/contact/img/btn_tel.png" alt="電話（フリーダイヤル）でのお問い合わせ 0120-71-1010" /></a>
-                                <p>※受付時間(月～日):09:00～18:00 夏期休業、年末年始はお休みさせていただきます。</p>
-                            </div>
-                        </div>
-                        <div class="contact-btn">
-                            <div class="contact-btn-inner">
-                                <a href="#"><img src="/contact/img/btn_email.png" alt="メールでのお問い合わせ" /></a>
-                                <p>※お問い合わせいただきました順にご対応をさせていただきますが、対応までお時間をいただく場合もございます。</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
+                <?php include '../template/contactbox.php'; ?>
             </main>
         </div>
         <?php include '../template/bnrs.php'; ?>
