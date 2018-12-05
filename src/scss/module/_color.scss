@@ -67,6 +67,44 @@
     margin-top: 20px;
   }
 
+  .buttons{
+    margin-top: 35px;
+  }
+  .buttons li{
+    width : 33.33333% ; /* 未対応ブラウザ用フォールバック */
+    width : -webkit-calc(100% / 3) ;
+    width : calc(100% / 3) ;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  button{
+    /* 文字サイズを1.4emに指定 */
+    font-size: 1.4em;
+
+    width: 80%;
+    margin: auto;
+    /* 文字の太さをboldに指定 */
+    font-weight: bold;
+
+    /* 縦方向に10px、
+     * 横方向に30pxの余白を指定 */
+    padding: 10px 30px;
+
+    /* 背景色を濃い青色に指定 */
+    background-color: #0046a5;
+
+    /* 文字色を白色に指定 */
+    color: #fff;
+
+    /* ボーダーをなくす */
+    border-style: none;
+
+    border-radius: 5px;
+
+  }
+
+
   .item li {
     width: 20%;
     float: left;
@@ -78,6 +116,10 @@
     }
     img{
       width: 160px;
+      @include sp {
+        width: 80%;
+      }
+
     }
   }
 }
