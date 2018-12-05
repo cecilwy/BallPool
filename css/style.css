@@ -483,14 +483,14 @@ ul.breadcrumb strong {
 .outer-content .order {
   margin-top: 55px; }
 
-.outer-content .back-list {
+.back-list {
   margin-top: 55px; }
 
-.outer-content ul.list-back {
+ul.list-back {
   margin-top: 35px;
   display: flex;
   justify-content: space-between; }
-  .outer-content ul.list-back img {
+  ul.list-back img {
     width: 100%; }
 
 .content-wrapper .bnrs ul {
@@ -1423,7 +1423,7 @@ iframe {
       width: 100%; }
     .outer-content img {
       width: 708px; }
-    .outer-content .back-list {
+    .back-list {
       width: 708px;
       padding: 30px; }
     footer {

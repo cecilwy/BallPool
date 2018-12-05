@@ -292,7 +292,7 @@
     margin-top: 55px;
   }
 
-  .outer-content .back-list {
+  .back-list {
     margin-top: 55px;
     @include sp {
       width: $sp_max_width - 60px;
@@ -300,7 +300,7 @@
     }
   }
 
-  .outer-content ul.list-back {
+  ul.list-back {
     margin-top: 35px;
     display: flex;
     justify-content: space-between;

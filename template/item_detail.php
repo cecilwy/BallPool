@@ -71,7 +71,6 @@ $count = count($price_list);
 
                                 <p class="note"><?php include $myPath . '/remarks/index.php'; ?></p>
 
-
                                 <p class="btn01"><a href="https://systemsofa.com/MailSystem/user/?reffere=ball-pool.com"
                                                     target="_blank">ご相談・お見積もり</a></p>
                             </div>

@@ -29,7 +29,6 @@ $description = '';
 
 
             </main>
-
         </div>
         <?php include '../template/bnrs.php'; ?>
     </div>

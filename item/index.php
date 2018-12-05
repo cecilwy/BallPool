@@ -26,7 +26,14 @@ $description = '';
                 </li>
             </ul>
             <main>
-
+                <div class="back-list">
+                    <ul class="list-back">
+                        <li><a href="#"><img src="/item/img/list_back_01.png" alt="ミニボールプール"></a></li>
+                        <li><a href="#"><img src="/item/img/list_back_02.png" alt="ボールプール（中型）"></a></li>
+                        <li><a href="#"><img src="/item/img/list_back_03.png" alt="ボールプール（大型）"></a></li>
+                        <li><a href="#"><img src="/item/img/list_back_04.png" alt="ボールプール関連商品"></a></li>
+                    </ul>
+                </div>
 
             </main>
             <div class="outer-content">
