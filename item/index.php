@@ -141,7 +141,7 @@ $description = '';
 
                         </li>
                         <li>
-                            <a href="#"><img src="img/bnr_others_03.png" alt=""/></a>
+                            <a href="#"><img src="img/bnr_others_03.png" alt="カメさんセット"/></a>
                             <h3>カメさんセット</h3>
                             <h5>￥616,860～</h5>
                         </li>
@@ -152,34 +152,34 @@ $description = '';
 
                         </li>
                         <li>
-                            <a href="#"><img src="img/bnr_others_05.png" alt=""/></a>
+                            <a href="#"><img src="img/bnr_others_05.png" alt="三角遊具"/></a>
                             <h3>三角遊具</h3>
                             <h5>￥305,720～</h5>
                         </li>
 
 
                         <li>
-                            <a href="#"><img src="img/bnr_others_06.png" alt=""/></a>
+                            <a href="#"><img src="img/bnr_others_06.png" alt="丸型遊具"/></a>
                             <h3>丸型遊具</h3>
                             <h5>￥305,720～</h5>
                         </li>
                         <li>
-                            <a href="#"><img src="img/bnr_others_07.png" alt=""/></a>
+                            <a href="#"><img src="img/bnr_others_07.png" alt="ひょうたん型遊具"/></a>
                             <h3>ひょうたん型遊具</h3>
                             <h5>￥305,720～</h5>
                         </li>
                         <li>
-                            <a href="#"><img src="img/bnr_others_09.png" alt=""/></a>
+                            <a href="#"><img src="img/bnr_others_09.png" alt="入口マット"/></a>
                             <h3>入口マット</h3>
                             <h5>￥305,720～</h5>
                         </li>
                         <li>
-                            <a href="#"><img src="img/bnr_others_10.png" alt=""/></a>
+                            <a href="#"><img src="img/bnr_others_10.png" alt="入口マット"/></a>
                             <h3>入口マット</h3>
                             <h5>￥305,720～</h5>
                         </li>
                         <li>
-                            <a href="#"><img src="img/bnr_others_11.png" alt=""/></a>
+                            <a href="#"><img src="img/bnr_others_11.png" alt="半円ボールプール"/></a>
                             <h3>半円ボールプール</h3>
                             <h5>￥305,720～</h5>
                         </li>

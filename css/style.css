@@ -1625,7 +1625,11 @@ iframe {
         .contact-btn-wrapper .contact-btn .contact-btn-inner {
           width: 100%; }
         .contact-btn-wrapper .contact-btn .contact-btn-inner img {
-          width: 98%; } }
+          width: 98%; }
+    #items .items img {
+      width: 100%; }
+  #items .items_three h3 {
+    font-size: 20px; } }
 
 @media only screen and (min-width: 1400px) {
   .modaal-video-container {
