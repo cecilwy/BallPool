@@ -47,7 +47,7 @@ $count = count($price_list);
                         <meta itemprop="position" content="1"/>
                     </li>
                     <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-                        <a itemprop="item" href="#">商品一覧</a>
+                        <a itemprop="item" href="/item/">商品一覧</a>
                         <meta itemprop="position" content="2"/>
                     </li>
                     <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
@@ -190,10 +190,10 @@ $count = count($price_list);
                     <div class="back-list">
                         <h2 class="head01"><span>商品一覧へ戻る</span></h2>
                         <ul class="list-back">
-                            <li><a href="#"><img src="/item/img/list_back_01.png" alt="ミニボールプール"></a></li>
-                            <li><a href="#"><img src="/item/img/list_back_02.png" alt="ボールプール（中型）"></a></li>
-                            <li><a href="#"><img src="/item/img/list_back_03.png" alt="ボールプール（大型）"></a></li>
-                            <li><a href="#"><img src="/item/img/list_back_04.png" alt="ボールプール関連商品"></a></li>
+                            <li><a href="/item/#mini"><img src="/item/img/list_back_01.png" alt="ミニボールプール"></a></li>
+                            <li><a href="/item/#middle"><img src="/item/img/list_back_02.png" alt="ボールプール（中型）"></a></li>
+                            <li><a href="/item/#big"><img src="/item/img/list_back_03.png" alt="ボールプール（大型）"></a></li>
+                            <li><a href="/item/#other"><img src="/item/img/list_back_04.png" alt="ボールプール関連商品"></a></li>
                         </ul>
                     </div>
                 </div>
