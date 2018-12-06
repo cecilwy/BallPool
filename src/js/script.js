@@ -56,4 +56,6 @@ jQuery(function () {
         return false;
     });
 
+    jQuery(".larger").modaal({type:'image'});
+
 });
