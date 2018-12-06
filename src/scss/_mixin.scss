@@ -1,28 +1,5 @@
 @mixin sp {
-  #guide ul li .liInr {
-    width: 100%;
-    display: table;
-    text-align: left;
-  }
-
-  #guide .cancel {
-    margin: 0;
-    width: 100%;
-  }
-
-  #guide ul li .liInr .info {
-    display: inline-block;
-    margin-right: 0;
-    vertical-align: top;
-    width: 100%;
-  }
-
-  #guide ul li .liInr .img {
-    margin-top: 35px;
-    width: 100%;
-  }
-
-  #guide .box.return .note {
-    width: 100%;
+  @media (max-width: ($sp_max_width)) {
+    @content;
   }
 }
