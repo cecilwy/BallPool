@@ -251,7 +251,8 @@ hr {
 .content-wrapper {
   background: url("/img/background.gif");
   background-position: top center;
-  background-size: cover;
+  /*background-size: cover;*/
+  background-repeat: repeat-y;
   padding-bottom: 35px; }
 
 .content {
@@ -1004,6 +1005,12 @@ iframe {
 #items .items_three h3, #items .items_three h4, #items .items_three h5 {
   text-align: center; }
 
+.mb20{ margin-bottom: 20px;}
+.mb25{ margin-bottom: 25px;}
+.mb30{ margin-bottom: 30px;}
+.mb35{ margin-bottom: 35px;}
+.mb40{ margin-bottom: 40px;}
+
 #qa .box p.intro {
   margin-top: 35px;
 }
@@ -1101,14 +1108,148 @@ iframe {
   content: ">";
   font-weight: bold;
   margin: -1px 0 0 24px;
-  position: absolute;
-}
+  position: absolute;}
 
 #qa .blueNote{
   color: #0046a5;
   font-weight: bold;
-  text-align: center !important;
+  text-align: center !important;}
+
+#guide h3,
+#guide p,
+#guide .note li{
+  text-align: left;}
+
+#guide .head01{
+  margin-bottom: 35px;}
+
+#guide h3{
+  border-left: 5px solid #f7254c;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 35px 0 10px;
+  padding-left:10px;}
+
+#guide .size20{
+  font-size: 20px;
+  font-weight: bold;}
+
+#guide .box.flow .head01{
+  font-size: 26px!important;}
+
+#guide .box.flow .head01 span{
+ padding-top: 5px!important;}
+
+#guide ul.steps{
+  background-image: url(/guide/img/arrow.png);
+  background-position: bottom;
+  background-color: #fee2e7;
+  background-repeat: no-repeat;
+  left: 60px;
+  margin-bottom: 80px;
+  position: relative;
+  width: 31px;}
+
+#guide ul.steps h3{
+  position: relative;}
+
+#guide ul li.li01:before,
+#guide ul li.li02:before,
+#guide ul li.li03:before,
+#guide ul li.li04:before,
+#guide ul li.li05:before,
+#guide ul li.li06:before{
+  content: "";
+  width: 84px;
+  height: 84px;
+  position: absolute;}
+
+
+#guide ul li.li01:before{background-image: url(/guide/img/step1.png); margin: 50px 0px 0 -42px;}
+#guide ul li.li02:before{background-image: url(/guide/img/step2.png); margin: 70px 0px 0 -42px;}
+#guide ul li.li03:before{background-image: url(/guide/img/step3.png); margin: 45px 0px 0 -42px;}
+#guide ul li.li04:before{background-image: url(/guide/img/step4.png); margin: 70px 0px 0 -42px;}
+#guide ul li.li05:before{background-image: url(/guide/img/step5.png); margin: 48px 0px 0 -42px;}
+#guide ul li.li06:before{background-image: url(/guide/img/step6.png); margin: 94px 0px 0 -42px;}
+
+#guide ul li .liInr{
+  border-bottom: 1px dotted #a1a0a0;
+  margin-left: 80px;
+  padding: 40px 0;
+  width: 700px;}
+
+#guide ul li.li06 .liInr{
+  border-bottom: none !important;
 }
+
+#guide ul li h3{
+  border-left: none !important;
+  margin-bottom: 30px;
+  padding-left: 0 !important;
+}
+
+#guide ul li .liInr .info{
+  display: inline-block;
+  margin-right: 16px;
+  vertical-align: middle;
+  width: 368px;}
+
+#guide ul li .liInr .img{
+  display: inline-block;
+  vertical-align: middle;
+  width: 293px;}
+
+#guide .cancel{
+  margin: 0 auto;
+  width: 690px;}
+
+#guide ul.note{
+  margin-top: 30px;}
+
+#guide ul.note li{
+  font-size: 12px;
+  text-indent: -1em;
+  padding-left: 1em;}
+
+#guide .box.return{
+  background-image: url("/guide/img/bg01.png");
+  background-repeat: no-repeat;
+  background-position: 95% bottom;}
+
+#guide .box.return .note{
+  width: 690px;
+  margin-bottom: 100px;}
+
+#guide .box.return .note li{
+  font-size: 16px !important;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*!
 	Modaal - accessible modals - v0.4.4
