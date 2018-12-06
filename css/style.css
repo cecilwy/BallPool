@@ -1057,55 +1057,61 @@ iframe {
   padding-top: 5px !important; }
 
 #guide ul.steps {
+  position: relative; }
+
+#guide ul.steps {
   background-image: url(/guide/img/arrow.png);
-  background-position: bottom;
-  background-color: #fee2e7;
+  background-position: bottom left;
   background-repeat: no-repeat;
-  left: 60px;
-  margin-bottom: 80px;
+  margin: 0 0 80px 50px;
   position: relative;
-  width: 31px; }
+  border-left: 32px solid #fee2e7;
+  box-sizing: border-box;
+  width: 790px; }
+
+#guide ul.steps li {
+  width: 100%; }
 
 #guide ul.steps h3 {
   position: relative; }
 
-#guide ul li.li01:before,
-#guide ul li.li02:before,
-#guide ul li.li03:before,
-#guide ul li.li04:before,
-#guide ul li.li05:before,
-#guide ul li.li06:before {
+#guide ul.steps li.li01:before,
+#guide ul.steps li.li02:before,
+#guide ul.steps li.li03:before,
+#guide ul.steps li.li04:before,
+#guide ul.steps li.li05:before,
+#guide ul.steps li.li06:before {
   content: "";
+  left: -16px;
   width: 84px;
   height: 84px;
   margin: 10px 0px 0 -42px;
   position: absolute; }
 
-#guide ul li.li01:before {
+#guide ul.steps li.li01:before {
   background-image: url(/guide/img/step1.png); }
 
-#guide ul li.li02:before {
+#guide ul.steps li.li02:before {
   background-image: url(/guide/img/step2.png); }
 
-#guide ul li.li03:before {
+#guide ul.steps li.li03:before {
   background-image: url(/guide/img/step3.png); }
 
-#guide ul li.li04:before {
+#guide ul.steps li.li04:before {
   background-image: url(/guide/img/step4.png); }
 
-#guide ul li.li05:before {
+#guide ul.steps li.li05:before {
   background-image: url(/guide/img/step5.png); }
 
-#guide ul li.li06:before {
+#guide ul.steps li.li06:before {
   background-image: url(/guide/img/step6.png); }
 
-#guide ul li .liInr {
+#guide ul.steps li .liInr {
   border-bottom: 1px dotted #a1a0a0;
-  margin-left: 80px;
-  padding: 40px 0;
-  width: 700px; }
+  margin-left: 50px;
+  padding: 40px 0; }
 
-#guide ul li.li06 .liInr {
+#guide ul.steps li.li06 .liInr {
   border-bottom: none !important; }
 
 .enlarge {
