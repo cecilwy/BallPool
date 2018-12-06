@@ -39,7 +39,11 @@
   position: relative;
   border-left: 31px solid #fee2e7;
   box-sizing: border-box;
-  width: 790px;}
+  width: 790px;
+  @include sp {
+    width: 100%;
+  }
+}
 
 #guide ul.steps li{
   width: 100%;}
