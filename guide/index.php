@@ -58,14 +58,14 @@ $description = '';
             <div class="liInr">
                 <div class="info">
                     <h3>ご注文・お支払い</h3>
-                    <p>お見積り金額と納期目安をご確認の上、お見積り書(<a href="#">サンプル</a>)の左下がご注文書となりますので、必要事項をご記入頂きメールまたはFAXでご返信下さい。合わせて、ご注文書記載の弊社指定口座までお見積り金額をご入金ください。</p>
+                    <p>お見積り金額と納期目安をご確認の上、お見積り書(<a href="/guide/img/order.jpg" class="larger">サンプル</a>)の左下がご注文書となりますので、必要事項をご記入頂きメールまたはFAXでご返信下さい。合わせて、ご注文書記載の弊社指定口座までお見積り金額をご入金ください。</p>
                     <ul class="note">
                         <li>※ご注文の際に個人名でのご記入の場合、追加送料がかかる場合がございます。個人名義での法人様・店舗様のご注文につきまして事前にお知らせください。</li>
                         <li>※商品代金は前払い・銀行振込のみとさせていただいておりますのでご了承ください。<br>
                         （お振込手数料はお客様負担でお願いいたします。）</li>
                     </ul>
                 </div>
-                <p class="img right"><a href="#"><img src="/guide/img/img03.png" alt="ご注文・お支払い"></a><span class="enlarge">クリックで画像を拡大する</span></p>
+                <p class="img right"><a href="/guide/img/order.jpg" class="larger"><img src="/guide/img/img03.png" alt="ご注文・お支払い"></a><span class="enlarge">クリックで画像を拡大する</span></p>
             </div>
         </li>
         <li class="li04">
