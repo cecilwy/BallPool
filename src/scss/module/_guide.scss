@@ -114,6 +114,7 @@
   margin: 0 auto 0 74px;
   width: 690px;
   @include sp {
+    margin: 0;
     width: 100%;
   }
 }
