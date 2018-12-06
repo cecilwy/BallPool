@@ -65,7 +65,7 @@ $description = '';
                         （お振込手数料はお客様負担でお願いいたします。）</li>
                     </ul>
                 </div>
-                <p class="img right"><a href="/guide/img/order.jpg" class="modal-image"><img src="/guide/img/img03.png" alt="ご注文・お支払い"></a><span class="enlarge">クリックで画像を拡大する</span></p>
+                <p class="img right"><a href="/guide/img/order.jpg" class="modal-image"><img src="/guide/img/img03.png" alt="ご注文・お支払い"></a></p>
             </div>
         </li>
         <li class="li04">
