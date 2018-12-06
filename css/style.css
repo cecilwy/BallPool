@@ -251,7 +251,7 @@ hr {
 .content-wrapper {
   background: url("/img/background.gif");
   background-position: top center;
-  /*background-size: cover;*/
+  background-size: cover;
   background-repeat: repeat-y;
   padding-bottom: 35px; }
 
@@ -1005,11 +1005,14 @@ iframe {
 #items .items_three h3, #items .items_three h4, #items .items_three h5 {
   text-align: center; }
 
-.mb20{ margin-bottom: 20px;}
-.mb25{ margin-bottom: 25px;}
-.mb30{ margin-bottom: 30px;}
-.mb35{ margin-bottom: 35px;}
-.mb40{ margin-bottom: 40px;}
+.mb20{ margin-bottom: 20px; !Important}
+.mb25{ margin-bottom: 25px; !Important}
+.mb30{ margin-bottom: 30px; !Important}
+.mb35{ margin-bottom: 35px; !Important}
+.mb40{ margin-bottom: 40px; !Important}
+.left{text-align: left;}
+.center{text-align: center;}
+.right{text-align: right;}
 
 #qa .box p.intro {
   margin-top: 35px;
@@ -1164,7 +1167,6 @@ iframe {
   height: 84px;
   position: absolute;}
 
-
 #guide ul li.li01:before{background-image: url(/guide/img/step1.png); margin: 50px 0px 0 -42px;}
 #guide ul li.li02:before{background-image: url(/guide/img/step2.png); margin: 70px 0px 0 -42px;}
 #guide ul li.li03:before{background-image: url(/guide/img/step3.png); margin: 45px 0px 0 -42px;}
@@ -1179,8 +1181,13 @@ iframe {
   width: 700px;}
 
 #guide ul li.li06 .liInr{
-  border-bottom: none !important;
-}
+  border-bottom: none !important;}
+
+.enlarge{
+  color: #434343;
+  display: block;
+  font-size: 12px;
+  text-align: right;}
 
 #guide ul li h3{
   border-left: none !important;
@@ -1190,7 +1197,7 @@ iframe {
 
 #guide ul li .liInr .info{
   display: inline-block;
-  margin-right: 16px;
+  margin-right: 34px;
   vertical-align: middle;
   width: 368px;}
 
