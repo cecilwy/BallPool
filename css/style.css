@@ -251,7 +251,6 @@ hr {
 .content-wrapper {
   background: url("/img/background.gif");
   background-position: top center;
-  background-size: cover;
   background-repeat: repeat-y;
   padding-bottom: 35px; }
 
@@ -1229,34 +1228,6 @@ iframe {
 
 #guide .box.return .note li{
   font-size: 16px !important;}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*!
 	Modaal - accessible modals - v0.4.4
