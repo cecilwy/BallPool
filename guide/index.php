@@ -35,6 +35,7 @@ $description = '';
 
 <div class="box flow">
     <h2 class="head01"><span>ご注文から納品までの流れ</span></h2>
+    <div class="ulWrap">
     <ul class="steps">
         <li class="li01">
             <div class="liInr">
@@ -96,6 +97,7 @@ $description = '';
             </div>
         </li>
     </ul>
+    </div>
     <div class="cancel">
     <h3>受注後のキャンセルについて</h3>
     <p>全ての商品が受注生産となっておりますので、ご注文完了後の変更及びキャンセル・ご返金は致しかねます。ご注文前に十分にご確認下さいますようお願い申し上げます。</p>
