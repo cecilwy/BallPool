@@ -35,6 +35,9 @@
 
     p.photo {
       margin-top: 15px;
+      @include sp {
+        margin-top: 5px;
+      }
       img{
       }
     }
@@ -48,7 +51,7 @@
       @include sp {
         width: 90%;
         margin: auto;
-        padding: 5%;
+        padding: 0 5%;
         text-align: center;
         margin-top: 20px;
         margin-bottom: 20px;

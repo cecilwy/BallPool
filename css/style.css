@@ -2004,10 +2004,12 @@ ul.breadcrumb {
       padding: 0;
       padding-top: 30px;
       text-align: center; }
+      #top section#about p.photo {
+        margin-top: 5px; }
       #top section#about p {
         width: 90%;
         margin: auto;
-        padding: 5%;
+        padding: 0 5%;
         text-align: center;
         margin-top: 20px;
         margin-bottom: 20px; }
