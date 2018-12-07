@@ -40,6 +40,7 @@
   border-left: 31px solid #fee2e7;
   box-sizing: border-box;
   width: 790px;
+
   @include sp {
     width: 100%;
   }
@@ -96,6 +97,7 @@
   margin-right: 34px;
   vertical-align: top;
   width: 368px;
+
   @include sp {
     width: 100%;
   }
@@ -105,6 +107,7 @@
   display: inline-block;
   vertical-align: top;
   width: 293px;
+
   @include sp {
     width: 100%;
   }
@@ -113,6 +116,7 @@
 #guide .cancel{
   margin: 0 auto 0 74px;
   width: 690px;
+
   @include sp {
     margin: 0;
     width: 100%;
