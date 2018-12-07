@@ -43,6 +43,10 @@ ul.breadcrumb {
 #customer_order .section05{ background-image: url("/custom_order/img/bg_04.jpg"); background-attachment: fixed; height: 100%;}
 #customer_order .section06{ background-image: url("/custom_order/img/bg_02.jpg");}
 
+#customer_order .section01 .sectionInr{
+  background: rgba(32,32,32,0.7);
+}
+
 #customer_order .section01 h1,
 #customer_order .section02 h2,
 #customer_order .section03 h2,
@@ -78,6 +82,34 @@ ul.breadcrumb {
   text-align: center;
 }
 
+#customer_order .section01 p{
+  color:#fff;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+#customer_order .section03 p{
+  color: #fff;
+}
+
+#customer_order .section02 p,
+#customer_order .section04 p{
+  color: #333;
+}
+
+#customer_order .section03 li p{
+  color: #333;
+}
+
+#customer_order .section01 ul.pointBox{
+  text-align: center;
+}
+
+#customer_order .section01 ul.pointBox li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
 #customer_order ul.info{
   background: #fff;
   display: table;
@@ -101,44 +133,6 @@ ul.breadcrumb {
   margin-bottom: 20px;
 }
 
-#customer_order .size12{
-  display: inline-block;
-  font-size: 12px;
-  margin-top: 40px;
-}
 
-#customer_order .section01 .sectionInr{
-  background: rgba(32,32,32,0.7);
-}
 
-#customer_order .section01 p{
-  color:#fff;
-  margin-bottom: 50px;
-  text-align: center;
-}
 
-#customer_order .section01 ul.pointBox{
-  text-align: center;
-}
-
-#customer_order .section01 ul.pointBox li {
-  display: inline-block;
-  margin: 0 20px;
-}
-
-#customer_order .section03 p{
-  color: #fff;
-}
-
-#customer_order .section03 li p{
-  color: #333;
-}
-
-#customer_order .section02 p,
-#customer_order .section04 p{
-  color: #333;
-}
-
-#customer_order .section06{
-  padding-bottom: 35px;
-}
