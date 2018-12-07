@@ -22,9 +22,9 @@ ul.breadcrumb {
 }
 
 #custom_order .section02 .sectionInr,
-#custom_order  .section03 .sectionInr,
-#custom_order  .section04 .sectionInr,
-#custom_order  .section05 .sectionInr,
+#custom_order .section03 .sectionInr,
+#custom_order .section04 .sectionInr,
+#custom_order .section05 .sectionInr,
 #custom_order .section06 .sectionInr{
   padding-top: 60px;
   @include sp {
@@ -125,6 +125,10 @@ ul.breadcrumb {
     }
 }
 
+#custom_order .section06{
+  padding-bottom: 35px;
+}
+
 #custom_order .section06 .content{
     @include sp {
       width: 100%;
@@ -159,6 +163,10 @@ ul.breadcrumb {
   margin-bottom: 20px;
 }
 
+#custom_order .content-wrapper{
+  background: none;
+  padding-bottom: 0;
+}
 
 
 

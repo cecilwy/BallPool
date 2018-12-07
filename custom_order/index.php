@@ -124,6 +124,7 @@ $description = '';
     </div>
 </div>
 
+<div class="content-wrapper">
 <div class="section06">
     <div class="content">
         <?php include '../template/contactbox.php'; ?>
@@ -132,6 +133,7 @@ $description = '';
         <?php include '../template/bnrs.php'; ?>
 </div>
     <?php include '../template/footer.php'; ?>
+</div>
 </div>
 <script type="text/javascript" src="/js/script.js"></script>
 <?php include '../template/analytics.php' ?>
