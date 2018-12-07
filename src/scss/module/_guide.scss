@@ -138,7 +138,12 @@
 
 #guide .box.return .note{
   width: 690px;
-  margin-bottom: 100px;}
+  margin-bottom: 100px;
+
+  @include sp {
+    width: 100%;
+  }
+}
 
 #guide .box.return .note li{
   font-size: 16px !important;}
