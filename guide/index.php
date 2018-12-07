@@ -162,7 +162,6 @@ $description = '';
         </div>
         <?php include '../template/bnrs.php'; ?>
     </div>
-    <!--main-->
     <?php include '../template/footer.php'; ?>
 </div>
 <script type="text/javascript" src="/js/script.js"></script>
