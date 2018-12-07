@@ -10,7 +10,7 @@ $description = '';
 <!DOCTYPE html>
 <html lang="ja">
 <?php include '../template/meta.php'; ?>
-<body id="customer_order">
+<body id="custom_order">
 <div class="wrapper">
     <?php include '../template/header.php' ?>
     <div class="section01">

@@ -1266,6 +1266,137 @@ iframe {
   font-weight: bold;
   text-align: center !important; }
 
+#custom_order .breadcrumb {
+  padding: 15px 0; }
+
+#custom_order .breadcrumb,
+#custom_order .breadcrumb a,
+#custom_order .breadcrumb li {
+  color: #fff !important; }
+
+ul.breadcrumb {
+  margin-top: 0px; }
+
+#custom_order .sectionInr {
+  margin: 0 auto;
+  width: 1000px;
+  padding-bottom: 100px; }
+
+#custom_order .section02 .sectionInr,
+#custom_order .section03 .sectionInr,
+#custom_order .section04 .sectionInr,
+#custom_order .section05 .sectionInr,
+#custom_order .section06 .sectionInr {
+  padding-top: 60px; }
+
+#custom_order .section01,
+#custom_order .section02,
+#custom_order .section03,
+#custom_order .section04,
+#custom_order .section05,
+#custom_order .section06 {
+  background-size: cover;
+  width: 100%; }
+
+#custom_order .section01 {
+  background-image: url("/custom_order/img/bg_01.jpg");
+  background-attachment: fixed;
+  height: 100%; }
+
+#custom_order .section02 {
+  background-image: url("/custom_order/img/bg_02.jpg"); }
+
+#custom_order .section03 {
+  background-image: url("/custom_order/img/bg_03.jpg");
+  background-attachment: fixed;
+  height: 100%; }
+
+#custom_order .section04 {
+  background-image: url("/custom_order/img/bg_02.jpg"); }
+
+#custom_order .section05 {
+  background-image: url("/custom_order/img/bg_04.jpg");
+  background-attachment: fixed;
+  height: 100%; }
+
+#custom_order .section06 {
+  background-image: url("/custom_order/img/bg_02.jpg"); }
+
+#custom_order .section01 .sectionInr {
+  background: rgba(32, 32, 32, 0.7); }
+
+#custom_order .section01 h1,
+#custom_order .section02 h2,
+#custom_order .section03 h2,
+#custom_order .section04 h2,
+#custom_order .section05 h2 {
+  font-size: 38px;
+  margin: 0 auto 35px;
+  text-align: center;
+  padding: 0 10px;
+  display: table; }
+
+#custom_order .section01 h1,
+#custom_order .section03 h2,
+#custom_order .section05 h2 {
+  border: 4px solid #fff;
+  color: #fff; }
+
+#custom_order .section02 h2,
+#custom_order .section04 h2 {
+  border: 4px solid #333;
+  color: #333; }
+
+#custom_order .section01 p.center,
+#custom_order .section02 p.center,
+#custom_order .section03 p.center,
+#custom_order .section04 p.center,
+#custom_order .section05 p.center {
+  font-size: 28px;
+  margin-bottom: 50px;
+  text-align: center; }
+
+#custom_order .section01 p {
+  color: #fff;
+  margin-bottom: 50px;
+  text-align: center; }
+
+#custom_order .section03 p {
+  color: #fff; }
+
+#custom_order .section02 p,
+#custom_order .section04 p {
+  color: #333; }
+
+#custom_order .section03 li p {
+  color: #333; }
+
+#custom_order .section01 ul.pointBox {
+  text-align: center; }
+
+#custom_order .section01 ul.pointBox li {
+  display: inline-block;
+  margin: 0 20px; }
+
+#custom_order ul.info {
+  background: #fff;
+  display: table;
+  padding: 35px 0;
+  width: 100%; }
+
+#custom_order ul.info li {
+  border-right: 1px dotted #333;
+  box-sizing: border-box;
+  display: table-cell;
+  padding: 15px;
+  width: 33%; }
+
+#custom_order ul.info li.last {
+  border-right: none; }
+
+#custom_order ul.info li img {
+  margin-bottom: 20px; }
+
 /*!
 	Modaal - accessible modals - v0.4.4
 	by Humaan, for all humans.
@@ -1891,7 +2022,16 @@ iframe {
     #items .items img {
       width: 100%; }
   #items .items_three h3 {
-    font-size: 20px; } }
+    font-size: 20px; }
+    #guide ul.steps {
+      width: 100%; }
+    #guide ul li .liInr .info {
+      width: 100%; }
+    #guide ul li .liInr .img {
+      width: 100%; }
+    #guide .cancel {
+      margin: 0;
+      width: 100%; } }
 
 @media only screen and (min-width: 1400px) {
   .modaal-video-container {
