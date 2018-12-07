@@ -20,8 +20,7 @@
   section#about {
     width: 870px;
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.8);
-    opacity: 0.8;
+    background-image: url("/img/top/about-bg.png");
     margin: auto;
     margin-top: 45px;
     padding: 45px;
@@ -34,18 +33,22 @@
       text-align: center;
     }
 
-    .photo {
-      margin-left: 0;
+    p.photo {
+      margin-top: 15px;
+      img{
+      }
     }
 
     p {
       float: left;
-      width: 50%;
+      width: 48%;
       text-align: left;
-      margin-top: 25px;
+      margin-top: 30px;
+      margin-right: 0;
       @include sp {
-        width: 100%;
+        width: 90%;
         margin: auto;
+        padding: 5%;
         text-align: center;
         margin-top: 20px;
         margin-bottom: 20px;
