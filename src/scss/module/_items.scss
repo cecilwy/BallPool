@@ -22,6 +22,14 @@
       text-align: center;
       float: left;
       margin-bottom: 40px;
+      @include sp{
+        width: 48%;
+        margin-right: 2%;
+      }
+    }
+
+    li:nth-child(2){
+      margin-right: 0;
     }
 
     text-align: left;

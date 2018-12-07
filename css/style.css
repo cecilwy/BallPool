@@ -1010,6 +1010,8 @@ iframe {
     text-align: center;
     float: left;
     margin-bottom: 40px; }
+  #items .items li:nth-child(2) {
+    margin-right: 0; }
   #items .items h3, #items .items h4, #items .items h5 {
     text-align: left; }
   #items .items h3 {
@@ -2033,6 +2035,9 @@ ul.breadcrumb {
           width: 100%; }
         .contact-btn-wrapper .contact-btn .contact-btn-inner img {
           width: 98%; }
+      #items .items li {
+        width: 48%;
+        margin-right: 2%; }
     #items .items img {
       width: 100%; }
   #items .items_three h3 {
