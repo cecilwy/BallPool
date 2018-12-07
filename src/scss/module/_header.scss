@@ -64,6 +64,7 @@ header nav ul.menu li a:hover{
   display: none;
   @include sp {
     display: block;
+    z-index:999;
   }
 }
 
