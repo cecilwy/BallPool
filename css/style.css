@@ -1074,9 +1074,6 @@ iframe {
   box-sizing: border-box;
   width: 790px; }
 
-#guide ul.steps li {
-  width: 100%; }
-
 #guide ul.steps h3 {
   position: relative; }
 
@@ -1915,7 +1912,8 @@ ul.breadcrumb {
   header nav {
     display: none; }
     #humberger {
-      display: block; }
+      display: block;
+      z-index: 999; }
     .wrapper {
       min-width: 100%;
       width: 768px; }
@@ -2033,6 +2031,9 @@ ul.breadcrumb {
       width: 100%; }
     #guide ul li .liInr .img {
       width: 100%; }
+  #guide ul li .liInr .img img {
+    margin-top: 10px;
+    width: 100%; }
     #guide .cancel {
       margin: 0;
       width: 100%; }
