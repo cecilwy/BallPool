@@ -93,7 +93,6 @@ header nav ul.menu li a:hover{
   padding: 10px;
 }
 
-
 hr {
   background: #f75b5b;
   /* Old browsers */
@@ -116,9 +115,27 @@ hr {
 
 .modaal-fullscreen ul li{
   width: 100%;
-  padding: 30px;
+  padding: 20px;
 }
 
 .modaal-fullscreen ul li img{
   max-width: 100%;
+}
+
+.modaal-fullscreen ul li.grey{
+  border-top: 5px dashed #ccc;
+  border-bottom: 5px dashed #ccc;
+  margin-bottom: 20px;
+}
+
+.modaal-fullscreen ul li.grey table td{
+  padding: 10px 5px;
+  text-align: left;
+  width: 50%;
+}
+
+.modaal-fullscreen ul li.grey table td a{
+  color: #7d7d7d !important;
+  font-size: 28px;
+  font-weight: bold;
 }

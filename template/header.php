@@ -95,6 +95,20 @@ if(strpos($associative_array[0]['file'],'/company/')) {
     <li><a href="/qa/"><img class="current" src="/img/menu_04_sp.png" alt="よくある質問"></a></li>
     <li><a href="/custom_order/"><img class="current" src="/img/menu_05_sp.png" alt="特注品について"></a></li>
     <li><a href="/company/"><img class="current" src="/img/menu_06_sp.png" alt="会社案内"></a></li>
+    <li class="grey">
+        <table width="100%">
+            <tbody>
+            <tr>
+                <td><a href="/sites/">運営サイトのご案内</a></td>
+                <td><a href="/sites/">プライバシーポリシー</a></td>
+            </tr>
+            <tr>
+                <td><a href="https://www.tenpokagushop.com/corp/recruit/staff.html" target="_blank">スタッフ紹介</a></td>
+                <td><a href="/color/">カラー・素材表</a></td>
+            </tr>
+            </tbody>
+        </table>
+    </li>
     <li><a href="tel:0120-71-1010"><img src="/img/tel_sp.png" alt="0120-71-1010"></a></li>
     <li><a href="https://systemsofa.com/MailSystem/user/?reffere=ball-pool.com" target="_blank"><img src="/img/contact_sp.png" alt="0120-71-1010"></a></li>
 </ul>
