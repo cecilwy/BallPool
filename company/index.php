@@ -27,7 +27,7 @@ $canonical = 'https://www.ball-pool.com/company/';
             </ul>
             <main>
                 <div class="box">
-                    <h2 class="head01"><span>会社概要</span></h2>
+                    <h1 class="head01"><span>会社概要</span></h1>
 
                     <div class="wide_photo">
                         <img src="img/company_pict.jpg" alt="会社写真"/>
