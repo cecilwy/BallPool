@@ -47,7 +47,7 @@ $description = '';
                             <h5>￥90,290～</h5>
                         </li>
                         <li>
-                            <a href="/item/bpks/"><img src="img/bnr_mini_02.jpg" alt="ボールプール カメさんセット"/></a>
+                            <a href="/item/bpkn/"><img src="img/bnr_mini_02.jpg" alt="ボールプール カメさんセット"/></a>
                             <h3>ボールプール カメさんセット</h3>
                             <h4>W:1400 D:1400 H:350</h4>
                             <h5>￥90,290～</h5>
