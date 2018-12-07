@@ -2033,6 +2033,7 @@ ul.breadcrumb {
   #items .items_three h3 {
     font-size: 20px; }
     #guide ul.steps {
+      margin: 0px 0 20px 30px;
       width: 90%; }
     #guide ul li .liInr .info {
       width: 100%; }
@@ -2054,7 +2055,7 @@ ul.breadcrumb {
     #custom_order .section05 .sectionInr,
     #custom_order .section06 .sectionInr {
       box-sizing: border-box;
-      padding: 60px 2% 100px; }
+      padding: 60px 25px 100px; }
     #custom_order .section01 img,
     #custom_order .section02 img,
     #custom_order .section03 img,
