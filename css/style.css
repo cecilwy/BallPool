@@ -1375,6 +1375,9 @@ ul.breadcrumb {
   display: inline-block;
   margin: 0 20px; }
 
+#custom_order .section06 {
+  padding-bottom: 35px; }
+
 #custom_order .section06 p {
   font-size: 14px;
   text-align: left; }
@@ -1397,6 +1400,10 @@ ul.breadcrumb {
 
 #custom_order ul.info li img {
   margin-bottom: 20px; }
+
+#custom_order .content-wrapper {
+  background: none;
+  padding-bottom: 0; }
 
 /*!
 	Modaal - accessible modals - v0.4.4
