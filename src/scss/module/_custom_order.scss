@@ -98,15 +98,18 @@ ul.breadcrumb {
   color:#fff;
   margin-bottom: 50px;
   text-align: center;
+  letter-spacing: -0.08em;
 }
 
 #custom_order .section03 p{
   color: #fff;
+  letter-spacing: -0.08em;
 }
 
 #custom_order .section02 p,
 #custom_order .section04 p{
   color: #333;
+  letter-spacing: -0.08em;
 }
 
 #custom_order .section03 li p{
@@ -172,5 +175,12 @@ ul.breadcrumb {
   padding-bottom: 0;
 }
 
+#custom_order .size12{
+  display: inline-block;
+  font-size: 12px;
+  margin-top: 30px;
+  text-indent: -1em;
+  padding-left: 1em;
+}
 
 

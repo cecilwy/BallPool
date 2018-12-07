@@ -1360,14 +1360,17 @@ ul.breadcrumb {
 #custom_order .section01 p {
   color: #fff;
   margin-bottom: 50px;
-  text-align: center; }
+  text-align: center;
+  letter-spacing: -0.08em; }
 
 #custom_order .section03 p {
-  color: #fff; }
+  color: #fff;
+  letter-spacing: -0.08em; }
 
 #custom_order .section02 p,
 #custom_order .section04 p {
-  color: #333; }
+  color: #333;
+  letter-spacing: -0.08em; }
 
 #custom_order .section03 li p {
   color: #333; }
@@ -1411,6 +1414,13 @@ ul.breadcrumb {
 #custom_order .content-wrapper {
   background: none;
   padding-bottom: 0; }
+
+#custom_order .size12 {
+  display: inline-block;
+  font-size: 12px;
+  margin-top: 30px;
+  text-indent: -1em;
+  padding-left: 1em; }
 
 /*!
 	Modaal - accessible modals - v0.4.4
