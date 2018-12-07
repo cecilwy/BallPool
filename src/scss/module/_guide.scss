@@ -29,7 +29,13 @@
   background-repeat: no-repeat;
   z-index: 999;
   margin-bottom: 80px;
-  display: flex;}
+  display: flex;
+
+  @include sp {
+    background-position: 30px bottom;
+    padding-bottom: 30px;
+  }
+}
 
 #guide ul.steps{
   position:relative;}
@@ -42,7 +48,7 @@
   width: 790px;
 
   @include sp {
-    margin: 0px 0 20px 30px;
+    margin: 0px 0 -10px 30px;
     width: 90%;
   }
 }

@@ -822,7 +822,9 @@ iframe {
   zoom: 1;
   overflow: hidden; }
   #top section#about p.photo {
-    margin-top: 15px; }
+    margin-top: 18px; }
+    #top section#about p.photo img {
+      margin-left: 15px; }
   #top section#about p {
     float: left;
     width: 48%;
@@ -2035,8 +2037,11 @@ ul.breadcrumb {
       width: 100%; }
   #items .items_three h3 {
     font-size: 20px; }
+    #guide .ulWrap {
+      background-position: 30px bottom;
+      padding-bottom: 30px; }
     #guide ul.steps {
-      margin: 0px 0 20px 30px;
+      margin: 0px 0 -10px 30px;
       width: 90%; }
     #guide ul li .liInr .info {
       width: 100%; }
