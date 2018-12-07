@@ -66,22 +66,22 @@ $description = '';
 
                     <ul>
                         <li>
-                            <a href="#">
+                            <a href="/guide/#flow-1">
                                 <img src="/img/top/flow-01.gif" />
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="/guide/#flow-2">
                                 <img src="/img/top/flow-02.gif" />
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="/guide/#flow-3">
                                 <img src="/img/top/flow-03.gif" />
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="/guide/#flow-4">
                                 <img src="/img/top/flow-04.gif" />
                             </a>
                         </li>
