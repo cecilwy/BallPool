@@ -46,9 +46,6 @@
   }
 }
 
-#guide ul.steps li{
-  width: 100%;}
-
 #guide ul.steps h3{
   position: relative;}
 
@@ -109,6 +106,13 @@
   width: 293px;
 
   @include sp {
+    width: 100%;
+  }
+}
+
+#guide ul li .liInr .img img{
+  @include sp {
+    margin-top: 10px;
     width: 100%;
   }
 }
