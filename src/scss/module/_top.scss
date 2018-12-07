@@ -34,11 +34,12 @@
     }
 
     p.photo {
-      margin-top: 15px;
+      margin-top: 18px;
       @include sp {
         margin-top: 5px;
       }
       img{
+        margin-left: 15px;
       }
     }
 
