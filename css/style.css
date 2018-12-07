@@ -1162,9 +1162,6 @@ iframe {
 #guide .box.return .note li {
   font-size: 16px !important; }
 
-#qa .box p.intro {
-  margin-top: 35px; }
-
 #qa .box p {
   font-size: 14px;
   text-align: left; }
@@ -1262,6 +1259,9 @@ iframe {
   color: #0046a5;
   font-weight: bold;
   text-align: center !important; }
+
+#qa .head01 {
+  margin-bottom: 35px; }
 
 #custom_order .breadcrumb {
   padding: 15px 0; }
@@ -2026,7 +2026,7 @@ ul.breadcrumb {
   #items .items_three h3 {
     font-size: 20px; }
     #guide ul.steps {
-      width: 100%; }
+      width: 90%; }
     #guide ul li .liInr .info {
       width: 100%; }
     #guide ul li .liInr .img {
