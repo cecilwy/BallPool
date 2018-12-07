@@ -815,20 +815,20 @@ iframe {
 #top section#about {
   width: 870px;
   text-align: center;
-  background-color: rgba(255, 255, 255, 0.8);
-  opacity: 0.8;
+  background-image: url("/img/top/about-bg.png");
   margin: auto;
   margin-top: 45px;
   padding: 45px;
   zoom: 1;
   overflow: hidden; }
-  #top section#about .photo {
-    margin-left: 0; }
+  #top section#about p.photo {
+    margin-top: 15px; }
   #top section#about p {
     float: left;
-    width: 50%;
+    width: 48%;
     text-align: left;
-    margin-top: 25px; }
+    margin-top: 30px;
+    margin-right: 0; }
 
 #top div.box {
   zoom: 1;
@@ -2004,9 +2004,12 @@ ul.breadcrumb {
       padding: 0;
       padding-top: 30px;
       text-align: center; }
+      #top section#about p.photo {
+        margin-top: 5px; }
       #top section#about p {
-        width: 100%;
+        width: 90%;
         margin: auto;
+        padding: 0 5%;
         text-align: center;
         margin-top: 20px;
         margin-bottom: 20px; }
