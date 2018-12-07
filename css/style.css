@@ -1293,8 +1293,8 @@ ul.breadcrumb {
 #custom_order .section02,
 #custom_order .section03,
 #custom_order .section04,
-#custom_order .section05,
-#custom_order .section06 {
+#custom_order .section05 {
+  background-position: center center;
   background-size: cover;
   width: 100%; }
 
@@ -1377,6 +1377,10 @@ ul.breadcrumb {
 #custom_order .section01 ul.pointBox li {
   display: inline-block;
   margin: 0 20px; }
+
+#custom_order .section06 p {
+  font-size: 14px;
+  text-align: left; }
 
 #custom_order ul.info {
   background: #fff;
@@ -2031,7 +2035,28 @@ ul.breadcrumb {
       width: 100%; }
     #guide .cancel {
       margin: 0;
-      width: 100%; } }
+      width: 100%; }
+    #guide .box.return .note {
+      width: 100%; }
+    #custom_order .sectionInr {
+      width: 100%; }
+    #custom_order .section02 .sectionInr,
+    #custom_order .section03 .sectionInr,
+    #custom_order .section04 .sectionInr,
+    #custom_order .section05 .sectionInr,
+    #custom_order .section06 .sectionInr {
+      box-sizing: border-box;
+      padding: 60px 2% 100px; }
+    #custom_order .section01 img,
+    #custom_order .section02 img,
+    #custom_order .section03 img,
+    #custom_order .section04 img,
+    #custom_order .section05 img {
+      width: 100%; }
+    #custom_order .section01 ul.pointBox li {
+      margin: 0 5px; }
+  #custom_order .section06 .content {
+    width: 100%; } }
 
 @media only screen and (min-width: 1400px) {
   .modaal-video-container {
