@@ -7,7 +7,8 @@ $description = '魔りょくりーんはお子様の口に入ってしまって�
 
 $url = 'https://mat-room.com/api/itemcode/mrc1/prices/';
 $myPath = dirname(__FILE__);
-
+$strength_image = '/item/img/strength04.jpg';
+$strength_txt = 'テスト';
 include '../../template/item_detail.php';
 
 

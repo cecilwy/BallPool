@@ -8,4 +8,6 @@ $description = 'ミニボールプールは携帯ショップや不動産会社�
 $url = 'https://mat-room.com/api/itemcode/bpbn/prices/';
 $myPath = dirname(__FILE__);
 
+$strength_image = '/item/img/strength01.jpg';
+$strength_txt = 'テスト';
 include '../../template/item_detail.php';

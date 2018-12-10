@@ -7,5 +7,6 @@ $description = '2段ボールプールは小さいながらも存在感のある
 
 $url = 'https://mat-room.com/api/itemcode/bp2s/prices/';
 $myPath = dirname(__FILE__);
-
+$strength_image = '/item/img/strength01.jpg';
+$strength_txt = 'テスト';
 include '../../template/item_detail.php';

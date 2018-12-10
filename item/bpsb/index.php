@@ -7,6 +7,7 @@ $description = 'ボールプールBセットはAセットと共に人気の商�
 
 $url = 'https://mat-room.com/api/itemcode/bpsb/prices/';
 $myPath = dirname(__FILE__);
-
+$strength_image = '/item/img/strength02.jpg';
+$strength_txt = 'テスト';
 include '../../template/item_detail.php';
 

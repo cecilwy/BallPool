@@ -6,5 +6,6 @@ $keyword = 'ボールプール，ボールプール用ボール，カラーボ�
 $description = '足形シールは入口付近などのピクトグラムとして使用できるシールとなります。はボールプール内に浮島のように入れる遊具になります。お子様の遊びの幅が広がります。既製品からオーダーメイド・OEM生産などボールプールのことならなんでもご相談ください。専門スタッフが丁寧にご対応させていただきます。また、カラーボールも自社輸入だから大量在庫を所有しております。ボールプール製作/ボールプール用ボール専門店【PONCHACCHA】';
 $url = 'https://mat-room.com/api/itemcode/as1/prices/';
 $myPath = dirname(__FILE__);
-
+$strength_image = '/item/img/strength04.jpg';
+$strength_txt = 'テスト';
 include '../../template/item_detail.php';

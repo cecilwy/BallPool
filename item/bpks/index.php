@@ -7,5 +7,6 @@ $description = 'かめさんセットはミニボールプールを可愛くア�
 
 $url = 'https://mat-room.com/api/itemcode/bpks/prices/';
 $myPath = dirname(__FILE__);
-
+$strength_image = '/item/img/strength04.jpg';
+$strength_txt = 'テスト';
 include '../../template/item_detail.php';

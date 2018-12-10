@@ -7,6 +7,7 @@ $description = '滑り台2台・クライミングセットは大型施設など
 
 $url = 'https://mat-room.com/api/itemcode/bpsd2c/prices/';
 $myPath = dirname(__FILE__);
-
+$strength_image = '/item/img/strength03.jpg';
+$strength_txt = 'テスト';
 include '../../template/item_detail.php';
 

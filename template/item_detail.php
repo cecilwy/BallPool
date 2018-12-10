@@ -72,8 +72,12 @@ $count = count($price_list);
                                 <p class="btn01"><a href=https://systemsofa.com/MailSystem/user/?reffere=coto-kito.com" target="_blank">ご相談・お見積もり</a></p>
                             </div>
                         </div>
-                        <div class="strength"><img src="/item/img/strength.jpg" alt="強み"></div>
 
+                        <?php if($strength_image != ''){ ?>
+                            <div class="strength" style="background-image: url(<?= $strength_image ?>)">
+                                <p class="strength-txt"><?= $strength_txt ?></p>
+                            </div>
+                        <?php } ?>
                         <?php
                         $file_path = $myPath . '/variation/index.php';
                         if (file_exists($file_path)) {

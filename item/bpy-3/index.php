@@ -7,7 +7,8 @@ $description = '丸形遊具ははボールプール内に浮島のように入�
 
 $url = 'https://mat-room.com/api/itemcode/bpy-3/prices/';
 $myPath = dirname(__FILE__);
-
+$strength_image = '/item/img/strength04.jpg';
+$strength_txt = 'テスト';
 include '../../template/item_detail.php';
 
 

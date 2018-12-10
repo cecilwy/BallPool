@@ -7,6 +7,7 @@ $description = 'ボールプールAセットは弊社で一番人気のボール
 
 $url = 'https://mat-room.com/api/itemcode/bpsa/prices/';
 $myPath = dirname(__FILE__);
-
+$strength_image = '/item/img/strength02.jpg';
+$strength_txt = 'テスト';
 include '../../template/item_detail.php';
 

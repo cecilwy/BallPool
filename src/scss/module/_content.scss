@@ -86,6 +86,7 @@
     margin-left: -0.3em;
     @include sp {
       width: 100%;
+      max-height: none;
     }
   }
   .item-detail div.item-photo{
@@ -129,12 +130,27 @@
     margin-left: 4px;}
 
   .strength {
-    padding-top: 30px;
+    margin-top: 50px;
     clear: left;
-    img{
-      @include sp {
-        width: 100%;
-      }
+    position: relative;
+    display: table;
+    zoom: 1;
+    overflow: hidden;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 368px;
+    @include sp {
+      height: 266px;
+      background-size: contain;
+    }
+    .strength-txt{
+      display: table-cell;
+      vertical-align: middle;
+      font-size: 24px;
+      font-weight: bold;
+      text-align: right;
+      padding-right: 20px;
     }
   }
 

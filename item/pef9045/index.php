@@ -7,7 +7,8 @@ $description = '入口マットは、ゴム製のラバーマットで2種類の
 
 $url = 'https://mat-room.com/api/itemcode/pef9045/prices/';
 $myPath = dirname(__FILE__);
-
+$strength_image = '/item/img/strength04.jpg';
+$strength_txt = 'テスト';
 include '../../template/item_detail.php';
 
 

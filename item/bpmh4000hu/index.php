@@ -7,6 +7,8 @@ $description = '半円ボールプールは円形ボールプールの半分の�
 
 $url = 'https://mat-room.com/api/itemcode/bpmh4000hu/prices/';
 $myPath = dirname(__FILE__);
+$strength_image = '/item/img/strength03.jpg';
+$strength_txt = 'テスト';
 
 include '../../template/item_detail.php';
 

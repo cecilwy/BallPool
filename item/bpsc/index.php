@@ -7,7 +7,8 @@ $description = 'ボールプールCセットは円形のボールプールです
 
 $url = 'https://mat-room.com/api/itemcode/bpsc/prices/';
 $myPath = dirname(__FILE__);
-
+$strength_image = '/item/img/strength02.jpg';
+$strength_txt = 'テスト';
 include '../../template/item_detail.php';
 
 

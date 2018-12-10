@@ -7,5 +7,6 @@ $description = 'カラーボール単色は、白・透明・黄・赤・青・�
 
 $url = 'https://mat-room.com/api/itemcode/ball11/prices/';
 $myPath = dirname(__FILE__);
-
+$strength_image = '/item/img/strength04.jpg';
+$strength_txt = 'テスト';
 include '../../template/item_detail.php';

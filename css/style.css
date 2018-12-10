@@ -427,8 +427,23 @@ ul.breadcrumb strong {
   margin-left: 4px; }
 
 .strength {
-  padding-top: 30px;
-  clear: left; }
+  margin-top: 50px;
+  clear: left;
+  position: relative;
+  display: table;
+  zoom: 1;
+  overflow: hidden;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 368px; }
+  .strength .strength-txt {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 20px; }
 
 .variation {
   margin-top: 40px;
@@ -994,41 +1009,6 @@ iframe {
     text-align: left; }
   #color .item li img {
     width: 160px; }
-
-#color .toolchip {
-  position: relative; }
-
-#color .toolchip::before,
-#color .toolchip::after {
-  position: absolute;
-  transition: all 0.3s ease 0s;
-  opacity: 0; }
-
-#color .toolchip::before {
-  content: "";
-  border: 10px solid transparent;
-  border-bottom-color: #fff;
-  top: 10px;
-  left: 10px; }
-
-#color .toolchip::after {
-  content: attr(data-tooltip);
-  display: block;
-  position: absolute;
-  padding: 20px;
-  background: #fff;
-  color: #000;
-  border-radius: 5px;
-  top: 10px;
-  left: 0; }
-
-#color .toolchip:hover::before {
-  top: 16px;
-  opacity: 1; }
-
-#color .toolchip:hover::after {
-  top: 36px;
-  opacity: 1; }
 
 .contact-btn-wrapper {
   overflow: hidden;
@@ -2010,13 +1990,15 @@ ul.breadcrumb {
       margin-top: 20px;
       padding-left: 0; }
     .item-detail div.item-photo {
-      width: 100%; }
+      width: 100%;
+      max-height: none; }
   .item-detail div.item-photo {
     max-width: 100%;
     border: none;
     margin-left: 0; }
-    .strength img {
-      width: 100%; }
+    .strength {
+      height: 266px;
+      background-size: contain; }
     .variation ul.variation-pict {
       margin-left: 35px; }
     .variation ul.variation-pict li {
