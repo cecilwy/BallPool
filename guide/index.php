@@ -41,7 +41,7 @@ $description = '';
             <div class="liInr">
                 <div class="info">
                     <h3>Webサイトよりお見積り依頼</h3>
-                    <p>ご希望の商品をお選びいただき、<a href="/contact/">お問い合わせフォーム</a>より張地（カラー）・その他必要事項をご記入いただき送信してください。</p>
+                    <p>ご希望の商品をお選びいただき、<a href="//systemsofa.com/MailSystem/user/?reffere=coto-kito.com" target="_blank">お問い合わせフォーム</a>より張地（カラー）・その他必要事項をご記入いただき送信してください。</p>
                 </div>
                 <p class="img"><img src="/guide/img/img01.png" alt="Webサイトよりお見積り依頼"></p>
             </div>
