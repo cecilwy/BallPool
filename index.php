@@ -20,7 +20,7 @@ $description = 'ボールプールドットコムはボールプールの製造�
                         <p>ボールプールは、サイドガードに囲まれた中にカラフルなボールプール用ボールが満たされたものです。小さな子供のための遊びや運動の場として使用されています。<br/><br/>
                             ボールプールはショッピングセンター、イベント会場、遊園地、アミューズメント施設、ファストフードレストラン、大小のゲームセンター、託児所などで設置されています。また小さなものはご家庭用としても使用できますし、ボールプール用のボールを入れなければキッズコーナーとしてもご利用できます。<br/><br/>
                             最近ではボールプールカフェなどの店舗も大人気です。安心感があるので、読書をしたり、睡眠をとったりされています。大人数人が入るのに十分な大きさがあります。</p>
-                        <p class="photo"><img src="img/top/about-photo.png" alt=""/></p>
+                        <p class="photo"><img src="img/top/about-photo.png" alt="ボールプールとは"/></p>
                     </div>
                 </section>
 
@@ -64,22 +64,22 @@ $description = 'ボールプールドットコムはボールプールの製造�
                     <ul>
                         <li>
                             <a href="/guide/#flow-1">
-                                <img src="/img/top/flow-01.gif"/>
+                                <img src="/img/top/flow-01.gif" alt="購入までの流れ"/>
                             </a>
                         </li>
                         <li>
                             <a href="/guide/#flow-2">
-                                <img src="/img/top/flow-02.gif"/>
+                                <img src="/img/top/flow-02.gif" alt="配送について"/>
                             </a>
                         </li>
                         <li>
                             <a href="/guide/#flow-3">
-                                <img src="/img/top/flow-03.gif"/>
+                                <img src="/img/top/flow-03.gif" alt="お支払いについて"/>
                             </a>
                         </li>
                         <li>
                             <a href="/guide/#flow-4">
-                                <img src="/img/top/flow-04.gif"/>
+                                <img src="/img/top/flow-04.gif" alt="返品交換について"/>
                             </a>
                         </li>
                     </ul>

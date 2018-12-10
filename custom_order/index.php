@@ -27,7 +27,7 @@ $description = '弊社の業務用家具製造の技術と経験を活かして�
             </ul>
 
             <main>
-    <p class="mb30"><img src="/custom_order/img/header.jpg"></p>
+    <p class="mb30"><img src="/custom_order/img/header.jpg" alt="特注品のご案内"></p>
     <h1>特注品について</h1>
     <p>ボールプールドットコムの製品は安心・安全の日本国内自社工場製。<br>
         「空きスペースピッタリに設置したい」「オリジナルデザインのボールプールが欲しい」<br>
@@ -47,15 +47,15 @@ $description = '弊社の業務用家具製造の技術と経験を活かして�
     <p class="center">スペースにピッタリ合うカスタムオーダー製品の製作</p>
         <ul class="info">
         <li>
-        <img src="/custom_order/img/img_01.jpg">
+        <img src="/custom_order/img/img_01.jpg" alt="レイアウトをご提案">
         <p>「既製品のサイズでは現在の空きスペースを有効活用できない」とお悩みの方にも、スペースに合わせてレイアウトをご提案いたします。</p>
         </li>
         <li>
-        <img src="/custom_order/img/img_02.jpg">
+        <img src="/custom_order/img/img_02.jpg" alt="予定スペースの図面や寸法について">
         <p>いただくのは設置予定スペースの図面や寸法が分かる手描きレイアウトでも問題ありません。</p>
         </li>
         <li class="last">
-        <img src="/custom_order/img/img_03.jpg">
+        <img src="/custom_order/img/img_03.jpg" alt="細いパーツなどの製作も柔軟に対応">
         <p>完全自社工場で設計・製造を行っておりますので、小さな隙間にはまる細いパーツなどの製作も柔軟に対応できます。</p>
         </li>
         </ul>
@@ -68,15 +68,15 @@ $description = '弊社の業務用家具製造の技術と経験を活かして�
     <p class="center">既製品+特注品の組み合わせで、低コストを実現</p>
         <ul class="info">
         <li>
-        <img src="/custom_order/img/img_04.jpg">
+        <img src="/custom_order/img/img_04.jpg" alt="ご希望の設置寸法に合う商品を選定">
         <p>ボールプールドットコムでは、既製品を豊富に取り揃えております。特注製作であっても、まず既製品ラインナップからご希望の設置寸法に合う商品を選定します。</p>
         </li>
         <li>
-        <img src="/custom_order/img/img_05.jpg">
+        <img src="/custom_order/img/img_05.jpg" alt="ほぼ既製品価格にコストを抑えることが可能">
         <p>既製品ではどうしても対応できないパーツのみを特注にすることで、ほぼ既製品価格にコストを抑えることが可能です。</p>
         </li>
         <li class="last">
-        <img src="/custom_order/img/img_06.jpg">
+        <img src="/custom_order/img/img_06.jpg" alt="既製品の組み合わせで対応可能">
         <p>こんなレイアウトでも、実はすべて既製品の組み合わせでできています。</p>
         </li>
         </ul>
@@ -89,15 +89,15 @@ $description = '弊社の業務用家具製造の技術と経験を活かして�
         <p class="center">現場の採寸・設計・設置など、面倒な作業もすべてお任せください</p>
         <ul class="info">
         <li>
-        <img src="/custom_order/img/img_07.jpg">
+        <img src="/custom_order/img/img_07.jpg" alt="現場の採寸（現地調査）から設計、設置作業まですべて弊社で対応">
         <p>現場の採寸（現地調査）から設計、設置作業まですべて弊社で行わせていただくことも可能です。<br><span class="size12">※現地調査・設置は原則、近畿圏内を対象とさせていただいておりますが一度お問い合わせください。</span></p>
         </li>
         <li>
-        <img src="/custom_order/img/img_08.jpg">
+        <img src="/custom_order/img/img_08.jpg" alt="現場の採寸に合わせて設計し、専門スタッフがすき間なくピッタリ設置">
         <p>現場の採寸に合わせて設計し、専門スタッフがすき間なくピッタリ設置いたします。</p>
         </li>
         <li class="last">
-        <img src="/custom_order/img/img_09.jpg">
+        <img src="/custom_order/img/img_09.jpg" alt="ご希望のお客様には専門スタッフが安全に設置">
         <p>設置作業は難しいものではありません。お客様ご自身で行っていただいた方がコストカットになりますが、ご希望のお客様には専門スタッフが安全に設置を行います。</p>
         </li>
         </ul>
@@ -109,15 +109,15 @@ $description = '弊社の業務用家具製造の技術と経験を活かして�
         <h2>貴社製品・貴社ブランドのOEM生産もお任せください！</h2>
         <ul class="info">
         <li>
-        <img src="/custom_order/img/img_10.jpg">
+        <img src="/custom_order/img/img_10.jpg" alt="大小複雑な商品設計に十分対応できる経験とスキル">
         <p>ボールプールドットコムを運営する株式会社ワークスでは、ソファーなどの店舗用家具の特注品製造を行っており、大小複雑な商品設計に十分対応できる経験とスキルがあります。</p>
         </li>
         <li>
-        <img src="/custom_order/img/img_11.jpg">
+        <img src="/custom_order/img/img_11.jpg" alt="高品質な商品を比較的安価に提供">
         <p>数多くのメーカー様のＯＥＭ生産を手掛けており、高い生産能力を保有する自社工場の設備による高度な加工技術で、高品質な商品を比較的安価に提供させていただくことが可能です。</p>
         </li>
         <li class="last">
-        <img src="/custom_order/img/img_12.jpg">
+        <img src="/custom_order/img/img_12.jpg" alt="小ロットでの製作も、お客様のご要望に合わせた商品製作をご提案">
         <p>小ロットでの製作も承っておりますので、お気軽に当社までお問い合わせください。お客様のご要望に合わせた商品製作をご提案させていただきます。</p>
         </li>
         </ul>
