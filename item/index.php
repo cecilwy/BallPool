@@ -166,12 +166,12 @@ $description = '';
                             <h5>￥144,270～</h5>
                         </li>
                         <li>
-                            <a href="/item/as1/"><img src="img/bnr_others_09.png" alt="足型シール"/></a>
+                            <a href="/item/as1/"><img src="img/bnr_others_08.png" alt="足型シール"/></a>
                             <h3>足型シール</h3>
                             <h5>￥1,290～</h5>
                         </li>
                         <li>
-                            <a href="/item/pef9045/"><img src="img/bnr_others_08.png" alt="入り口マット"/></a>
+                            <a href="/item/pef9045/"><img src="img/bnr_others_09.png" alt="入り口マット"/></a>
                             <h3>入口マット</h3>
                             <h5>￥21,980～</h5>
                         </li>
