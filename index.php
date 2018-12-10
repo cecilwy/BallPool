@@ -12,8 +12,8 @@ $description = '';
     <?php include './template/header.php' ?>
     <div class="content-wrapper">
         <main>
-        <div id="mv"><img src="img/top/mv.jpg" alt="ボールプールの特注・製作・販売の専門サイト"/></div>
-        <div class="content">
+            <div id="mv"><img src="img/top/mv.jpg" alt="ボールプールの特注・製作・販売の専門サイト"/></div>
+            <div class="content">
                 <section id="about">
                     <h1 class="head01">ボールプールとは</h1>
                     <div>
@@ -26,7 +26,6 @@ $description = '';
 
                 <div class="box">
                     <h2 class="head01">商品カテゴリ</h2>
-
                     <ul>
                         <li>
                             <a href="item/#mini"><img src="img/top/category-01.jpg" alt="ミニボールプール"/></a>
@@ -45,12 +44,10 @@ $description = '';
                             <a href="item/#other"><img src="img/top/category-04.jpg" alt="ミニボールプール"/></a>
                             <p>ボールプール用ボールやメンテナンス用品などを取り揃えています。</p>
                         </li>
-
                     </ul>
-
                 </div>
-            </main>
 
+            </div>
 
             <div class="outer-content">
                 <div class="color-select">
@@ -67,29 +64,29 @@ $description = '';
                     <ul>
                         <li>
                             <a href="/guide/#flow-1">
-                                <img src="/img/top/flow-01.gif" />
+                                <img src="/img/top/flow-01.gif"/>
                             </a>
                         </li>
                         <li>
                             <a href="/guide/#flow-2">
-                                <img src="/img/top/flow-02.gif" />
+                                <img src="/img/top/flow-02.gif"/>
                             </a>
                         </li>
                         <li>
                             <a href="/guide/#flow-3">
-                                <img src="/img/top/flow-03.gif" />
+                                <img src="/img/top/flow-03.gif"/>
                             </a>
                         </li>
                         <li>
                             <a href="/guide/#flow-4">
-                                <img src="/img/top/flow-04.gif" />
+                                <img src="/img/top/flow-04.gif"/>
                             </a>
                         </li>
                     </ul>
                 </div>
             </div>
+        </main>
         <?php include './template/bnrs.php'; ?>
-        </div>
     </div>
     <!--main-->
     <?php include './template/footer.php'; ?>
