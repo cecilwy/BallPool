@@ -255,7 +255,7 @@ $canonical = 'https://www.ball-pool.com/company/';
                         <tr>
                             <th>平成28年4月</th>
                             <td>【店舗家具ショップドットコム】ホームページを開設<br/>
-                                <a href="//www.tempokagushop.com" target="_blank">www.tempokagushop.com</a></td>
+                                <a href="//www.tenpokagushop.com/wism/" target="_blank">www.tempokagushop.com</a></td>
                         </tr>
 
 
