@@ -2109,6 +2109,10 @@ ul.breadcrumb {
   #custom_order .section06 .content {
     width: 100%; } }
 
+@media all and (-ms-high-contrast: none) {
+  *::-ms-backdrop .head01, *::-ms-backdrop .head02, *::-ms-backdrop .head03, .selector .head01, .selector .head02, .selector .head03 {
+    margin-top: 10px; } }
+
 @media only screen and (min-width: 1400px) {
   .modaal-video-container {
     padding-bottom: 0;
