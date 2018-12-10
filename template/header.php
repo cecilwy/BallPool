@@ -64,7 +64,7 @@ if(strpos($associative_array[0]['file'],'/company/')) {
     <nav>
         <ul>
             <li><a href="tel:0120-71-1010"><img src="/img/tel.png" alt="0120-71-1010"></a></li>
-            <li><a href="/contact/"><img src="/img/contact.png" alt="0120-71-1010"></a></li>
+            <li><a href="//systemsofa.com/MailSystem/user/?reffere=coto-kito.com" target="_blank"><img src="/img/contact.png" alt="お問い合わせフォーム"></a></li>
         </ul>
         <ul class="menu">
             <li><a href="/guide/"><img class="<?= $guidance_current ?>" src="/img/menu_01<?= $guidance_ext ?>.png" alt="ご利用ガイド"></a></li>
@@ -113,5 +113,3 @@ if(strpos($associative_array[0]['file'],'/company/')) {
     <li><a href="https://systemsofa.com/MailSystem/user/?reffere=ball-pool.com" target="_blank"><img src="/img/contact_sp.png" alt="0120-71-1010"></a></li>
 </ul>
 </div>
-
-

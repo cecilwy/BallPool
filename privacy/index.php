@@ -79,7 +79,7 @@ $description = '';
                                     </tr>
                                     <tr>
                                         <th>メール</th>
-                                        <td>問い合わせフォームより（<a href="/contact/">お問い合わせフォーム</a>）</td>
+                                        <td>問い合わせフォームより（<a href="//systemsofa.com/MailSystem/user/?reffere=coto-kito.com" target="_blank">お問い合わせフォーム</a>）</td>
                                     </tr>
                                     <tr>
                                         <th>販売責任者</th>

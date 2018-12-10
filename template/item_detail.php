@@ -73,8 +73,7 @@ $canonical = now_url();
 
                                 <p class="note"><?php include $myPath . '/remarks/index.php'; ?></p>
 
-                                <p class="btn01"><a href="https://systemsofa.com/MailSystem/user/?reffere=ball-pool.com"
-                                                    target="_blank">ご相談・お見積もり</a></p>
+                                <p class="btn01"><a href=https://systemsofa.com/MailSystem/user/?reffere=coto-kito.com" target="_blank">ご相談・お見積もり</a></p>
                             </div>
                         </div>
                         <div class="strength"><img src="/item/img/strength.jpg" alt="強み"></div>
@@ -176,8 +175,7 @@ $canonical = now_url();
                                 </ul>
                             </div>
                         <?php } ?>
-                        <p class="btn01"><a href="https://systemsofa.com/MailSystem/user/?reffere=ball-pool.com"
-                                            target="_blank">ご相談・お見積もり</a></p>
+                        <p class="btn01"><a href="//systemsofa.com/MailSystem/user/?reffere=coto-kito.com" target="_blank">ご相談・お見積もり</a></p>
                     </div>
                 </main>
                 <div class="outer-content">

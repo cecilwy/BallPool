@@ -54,8 +54,8 @@ $description = '';
 
                         </li>
                         <li>
-                            <a href="/item/bp2s/"><img src="img/bnr_mini_03.jpg" alt="2段ボールプールセット"/></a>
-                            <h3>2段ボールプールセット</h3>
+                            <a href="/item/bp2s/"><img src="img/bnr_mini_03.jpg" alt="2段ミニボールプールセット"/></a>
+                            <h3>2段ミニボールプールセット</h3>
                             <h4>W:1600 D:1600 H:400</h4>
                             <h5>￥121,250～</h5>
                         </li>
@@ -132,56 +132,58 @@ $description = '';
                         <li>
                             <a href="/item/ball11/"><img src="img/bnr_others_01.png" alt="ボールプールAセット"/></a>
                             <h3>カラーボール単色</h3>
-                            <h5>￥11,930～</h5>
+                            <h5>￥18,310～</h5>
                         </li>
                         <li>
                             <a href="/item/ball20/"><img src="img/bnr_others_02.png" alt="ボールプールBセット"/></a>
                             <h3>カラーボールミックス</h3>
-                            <h5>￥11,930～</h5>
+                            <h5>￥18,310～</h5>
 
                         </li>
                         <li>
                             <a href="/item/bpks/"><img src="img/bnr_others_03.png" alt="カメさんセット"/></a>
                             <h3>カメさんセット</h3>
-                            <h5>￥616,860～</h5>
+                            <h5>￥58,670～</h5>
                         </li>
                         <li>
                             <a href="/item/bpy-1/"><img src="img/bnr_others_04.png" alt="ボールプールBセット"/></a>
                             <h3>四角遊具</h3>
-                            <h5>￥610,980～</h5>
-
+                            <h5>￥91,490～</h5>
                         </li>
                         <li>
                             <a href="/item/bpy-2/"><img src="img/bnr_others_05.png" alt="三角遊具"/></a>
                             <h3>三角遊具</h3>
-                            <h5>￥305,720～</h5>
+                            <h5>￥81,360～</h5>
                         </li>
-
-
                         <li>
                             <a href="/item/bpy-3/"><img src="img/bnr_others_06.png" alt="丸型遊具"/></a>
                             <h3>丸型遊具</h3>
-                            <h5>￥305,720～</h5>
+                            <h5>￥81,360～</h5>
                         </li>
                         <li>
                             <a href="/item/bpy-4/"><img src="img/bnr_others_07.png" alt="ひょうたん型遊具"/></a>
                             <h3>ひょうたん型遊具</h3>
-                            <h5>￥305,720～</h5>
+                            <h5>￥144,270～</h5>
                         </li>
                         <li>
-                            <a href="/item/as1/"><img src="img/bnr_others_09.png" alt="入り口マット"/></a>
+                            <a href="/item/as1/"><img src="img/bnr_others_09.png" alt="足型シール"/></a>
+                            <h3>足型シール</h3>
+                            <h5>￥1,290～</h5>
+                        </li>
+                        <li>
+                            <a href="/item/pef9045/"><img src="img/bnr_others_08.png" alt="入り口マット"/></a>
                             <h3>入口マット</h3>
-                            <h5>￥305,720～</h5>
+                            <h5>￥21,980～</h5>
                         </li>
                         <li>
                             <a href="/item/mrc1/"><img src="img/bnr_others_10.png" alt="魔りょくりーん"/></a>
                             <h3>魔りょくりーん</h3>
-                            <h5>￥305,720～</h5>
+                            <h5>￥2,780～</h5>
                         </li>
                         <li>
                             <a href="/item/rkg1/"><img src="img/bnr_others_11.png" alt="半円ボールプール"/></a>
-                            <h3>半円ボールプール</h3>
-                            <h5>￥305,720～</h5>
+                            <h3>連結金具</h3>
+                            <h5>￥6,760～</h5>
                         </li>
                     </ul>
                 </div>
