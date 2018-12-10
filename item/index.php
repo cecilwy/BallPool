@@ -54,8 +54,8 @@ $description = '';
 
                         </li>
                         <li>
-                            <a href="/item/bp2s/"><img src="img/bnr_mini_03.jpg" alt="2段ボールプールセット"/></a>
-                            <h3>2段ボールプールセット</h3>
+                            <a href="/item/bp2s/"><img src="img/bnr_mini_03.jpg" alt="2段ミニボールプールセット"/></a>
+                            <h3>2段ミニボールプールセット</h3>
                             <h4>W:1600 D:1600 H:400</h4>
                             <h5>￥121,250～</h5>
                         </li>
