@@ -2114,7 +2114,7 @@ ul.breadcrumb {
     width: 100%; } }
 
 @media all and (-ms-high-contrast: none) {
-  *::-ms-backdrop, .head01, .head02, .head03 {
+  #top .head01, #top .head02, #top .head03 {
     margin-top: 25px !important; } }
 
 @media only screen and (min-width: 1400px) {
