@@ -2110,7 +2110,7 @@ ul.breadcrumb {
     width: 100%; } }
 
 @media all and (-ms-high-contrast: none) {
-  *::-ms-backdrop .head01, *::-ms-backdrop .head02, *::-ms-backdrop .head03, .selector .head01, .selector .head02, .selector .head03 {
+  *::-ms-backdrop, .head01, .head02, .head03 {
     margin-top: 25px !important; } }
 
 @media only screen and (min-width: 1400px) {
