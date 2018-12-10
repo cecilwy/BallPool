@@ -17,10 +17,6 @@ jQuery(function () {
     });
 
 
-    var w = window.innerWidth;
-    jQuery('.bnrs').width(w);
-
-
     jQuery("a img").each(function () {
         if (String(jQuery(this).attr("src")).match(/_off\.(.*)$/)) {
             var img = new Image();
