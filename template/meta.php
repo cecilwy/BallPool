@@ -11,6 +11,7 @@
     <!-- smartphone meta-->
     <meta name="viewport" content="width=768px,user-scalable=0, shrink-to-fit=no">
     <link rel="apple-touch-icon" href="http://example.com/webclipicon.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <!-- ogp-->
     <meta property="fb:app_id" content="99999999999">
     <meta property="og:url" content="http://example.com/">
