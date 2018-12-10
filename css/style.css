@@ -2111,7 +2111,7 @@ ul.breadcrumb {
 
 @media all and (-ms-high-contrast: none) {
   *::-ms-backdrop .head01, *::-ms-backdrop .head02, *::-ms-backdrop .head03, .selector .head01, .selector .head02, .selector .head03 {
-    margin-top: 10px; } }
+    margin-top: 25px !important; } }
 
 @media only screen and (min-width: 1400px) {
   .modaal-video-container {
