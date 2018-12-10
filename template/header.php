@@ -100,7 +100,7 @@ if(strpos($associative_array[0]['file'],'/company/')) {
             <tbody>
             <tr>
                 <td><a href="/sites/">運営サイトのご案内</a></td>
-                <td><a href="/sites/">プライバシーポリシー</a></td>
+                <td><a href="/privacy/">プライバシーポリシー</a></td>
             </tr>
             <tr>
                 <td><a href="https://www.tenpokagushop.com/corp/recruit/staff.html" target="_blank">スタッフ紹介</a></td>
