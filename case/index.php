@@ -31,7 +31,7 @@ $description = '';
                         <?php if (isSmartPhone()) { ?>
                             <div class="items">
                                 <div class="item item--left">
-                                    <img src="img/img-01.jpg" alt="">
+                                    <img src="img/img-01.jpg" alt="アミューズメント施設の納入・設置事例">
                                 </div>
                                 <div class="item item--right r-txt">
                                     <h2>アミューズメント施設の納入・設置事例<br/>
@@ -46,7 +46,7 @@ $description = '';
 
                             <div class="items">
                                 <div class="item item--left">
-                                    <img src="img/img-02.jpg" alt="">
+                                    <img src="img/img-02.jpg" alt="アミューズメント施設の納入・設置事例">
                                 </div>
                                 <div class="item item--right r-txt">
                                     <h2>アミューズメント施設の納入・設置事例<br/>
@@ -60,7 +60,7 @@ $description = '';
 
                             <div class="items">
                                 <div class="item item--left">
-                                    <img src="img/img-03.jpg" alt="">
+                                    <img src="img/img-03.jpg" alt="公共施設の納入・設置事例">
                                 </div>
                                 <div class="item item--right r-txt">
                                     <h2>公共施設の納入・設置事例<br/>
@@ -74,7 +74,7 @@ $description = '';
 
                             <div class="items">
                                 <div class="item item--left">
-                                    <img src="img/img-04.jpg" alt="">
+                                    <img src="img/img-04.jpg" alt="幼児教室の納入・設置事例">
                                 </div>
                                 <div class="item item--right r-txt">
                                     <h2>幼児教室の納入・設置事例<br/>
@@ -92,7 +92,7 @@ $description = '';
 
                             <div class="items">
                                 <div class="item item--left">
-                                    <img src="img/img-01.jpg" alt="">
+                                    <img src="img/img-01.jpg" alt="アミューズメント施設の納入・設置事例">
                                 </div>
                                 <div class="item item--right r-txt">
                                     <h2>アミューズメント施設の納入・設置事例<br/>
@@ -115,14 +115,14 @@ $description = '';
                                     </p>
                                 </div>
                                 <div class="item item--right">
-                                    <img src="img/img-02.jpg" alt="">
+                                    <img src="img/img-02.jpg" alt="アミューズメント施設の納入・設置事例">
                                 </div>
                             </div>
 
 
                             <div class="items">
                                 <div class="item item--left">
-                                    <img src="img/img-03.jpg" alt="">
+                                    <img src="img/img-03.jpg" alt="公共施設の納入・設置事例">
                                 </div>
                                 <div class="item item--right r-txt">
                                     <h2>公共施設の納入・設置事例<br/>
