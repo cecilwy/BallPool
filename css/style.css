@@ -2115,7 +2115,7 @@ ul.breadcrumb {
 
 @media all and (-ms-high-contrast: none) {
   #top .head01, #top .head02, #top .head03 {
-    margin-top: 25px !important; } }
+    padding-top: 25px !important; } }
 
 @media only screen and (min-width: 1400px) {
   .modaal-video-container {
