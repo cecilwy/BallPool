@@ -28,11 +28,10 @@
             </ul>
             <ul class="footer-contact">
                 <li><a href="tel:0120-71-1010"><img src="/img/tel.png" alt="0120-71-1010"></a></li>
-                <li><a href="https://systemsofa.com/MailSystem/user/?reffere=ball-pool.com" target="_blank"><img src="/img/contact.png" alt="0120-71-1010"></a></li>
+                <li><a href="javascript:void(0);" onClick="window.open('https://systemsofa.com/MailSystem/user/?reffere=coto-kito.com', 'mywindow4', 'width=780, height=850, menubar=no, toolbar=no, scrollbars=yes');"><img src="/img/contact.png" alt="0120-71-1010"></a></li>
             </ul>
         </div>
         <br class="clear_noie">
     </div>
     <div class="copy">Copyright &copy; Ball pool.com. All Right Reserved.</div>
 </footer>
-

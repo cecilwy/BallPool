@@ -12,7 +12,7 @@
         </div>
         <div class="contact-btn">
             <div class="contact-btn-inner">
-                <a href="#"><img src="/contact/img/btn_email.png" alt="メールでのお問い合わせ" /></a>
+                <a href="javascript:void(0);" onClick="window.open('https://systemsofa.com/MailSystem/user/?reffere=coto-kito.com', 'mywindow4', 'width=780, height=850, menubar=no, toolbar=no, scrollbars=yes');"><img src="/contact/img/btn_email.png" alt="メールでのお問い合わせ" /></a>
                 <p>※お問い合わせいただきました順にご対応をさせていただきますが、対応までお時間をいただく場合もございます。</p>
             </div>
         </div>
