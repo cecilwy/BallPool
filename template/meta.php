@@ -8,7 +8,6 @@
     <link rel="icon" href="/favicon.ico" type="image/vnd.microsoft.icon">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="format-detection" content="telephone=no">
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <!-- smartphone meta-->
     <meta name="viewport" content="width=768px,user-scalable=0, shrink-to-fit=no">
     <link rel="apple-touch-icon" href="http://example.com/webclipicon.png">

@@ -16,6 +16,11 @@ jQuery(function () {
         infinite: true,
     });
 
+    jQuery('.list-slider').on('afterChange', function(slick){
+        var w = jQuery('.slick-track').width();
+        jQuery('.bnrs').width(w);
+    });
+
     jQuery("a img").each(function () {
         if (String(jQuery(this).attr("src")).match(/_off\.(.*)$/)) {
             var img = new Image();

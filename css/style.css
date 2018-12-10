@@ -555,7 +555,8 @@ ul.list-back {
   zoom: 1;
   overflow: hidden;
   margin-top: 30px;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  min-width: 100%; }
 
 .slick-slide {
   width: 369px !important; }
