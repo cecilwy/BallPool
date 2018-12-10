@@ -821,7 +821,7 @@ iframe {
   #contact .form-btn .btn-submit {
     background-color: #ff506d; }
 
-#top h1 {
+#top #mv {
   width: 999px;
   margin: auto; }
 
@@ -2028,9 +2028,9 @@ ul.breadcrumb {
       width: 100%; }
     #contact h1 img {
       width: 100%; }
-    #top h1 {
+    #top #mv {
       width: 100%; }
-    #top h1 img {
+    #top #mv img {
       width: 100%; }
     #top section#about {
       width: 100%;
