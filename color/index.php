@@ -78,19 +78,19 @@ $description = '';
                                 <ul class="icon_box">
                                     <li class="toolchip" data-tooltip="水や中性洗剤で汚れの落ちやすい商品を示すマークです。"
                                         style="cursor: pointer;"><img src="./img/icons/cloth_icon_08.gif"
-                                                                      alt="お手入れ楽々　簡単ケア"></li>
+                                                                      alt="お手入れ楽々　簡単ケア" title="お手入れ楽々　簡単ケア"></li>
                                     <li class="toolchip" data-tooltip="抗菌加工で表面に付着した菌の繁殖を抑えられる商品を示すマークです。"
                                         style="cursor: pointer;"><img src="./img/icons/cloth_icon_05.gif"
-                                                                      alt="抗菌　菌の増殖を防ぐ"></li>
+                                                                      alt="抗菌　菌の増殖を防ぐ" title="抗菌　菌の増殖を防ぐ"></li>
                                     <li class="toolchip" data-tooltip="アルコール系薬剤のメンテナンスに強い商品を示すマークです。"
                                         style="cursor: pointer;"><img src="./img/icons/cloth_icon_06.gif"
-                                                                      alt="耐アルコール　消毒可能"></li>
+                                                                      alt="耐アルコール　消毒可能" title="耐アルコール　消毒可能"></li>
                                     <li class="toolchip" data-tooltip="塩素系薬剤のメンテナンスに強い商品を示すマークです。"
                                         style="cursor: pointer;"><img src="./img/icons/cloth_icon_04.gif"
-                                                                      alt="漂白OK　消毒可能"></li>
+                                                                      alt="漂白OK　消毒可能" title="漂白OK　消毒可能"></li>
                                     <li class="toolchip" data-tooltip="防炎協会認定のJIS1091難燃テストに合格した商品を示すマークです。"
                                         style="cursor: pointer;"><img src="./img/icons/cloth_icon_01.gif"
-                                                                      alt="難燃　燃えにくい"></li>
+                                                                      alt="難燃　燃えにくい" title="難燃　燃えにくい"></li>
                                 </ul>
                             </td>
                         </tr>
@@ -132,13 +132,13 @@ $description = '';
                                 <ul class="icon_box">
                                     <li class="toolchip" data-tooltip="水や中性洗剤で汚れの落ちやすい商品を示すマークです。"
                                         style="cursor: pointer;"><img src="./img/icons/cloth_icon_08.gif"
-                                                                      alt="お手入れ楽々　簡単ケア"></li>
+                                                                      alt="お手入れ楽々　簡単ケア" title="お手入れ楽々　簡単ケア"></li>
                                     <li class="toolchip" data-tooltip="衣料や鞄の粗悪な染料の移行を防ぐ商品を示すマークです。"
                                         style="cursor: pointer;"><img src="./img/icons/cloth_icon_12.gif"
-                                                                      alt="耐移行　色移りしにくい"></li>
+                                                                      alt="耐移行　色移りしにくい" title="耐移行　色移りしにくい"></li>
                                     <li class="toolchip" data-tooltip="防炎協会認定のJIS1091難燃テストに合格した商品を示すマークです。"
                                         style="cursor: pointer;"><img src="./img/icons/cloth_icon_01.gif"
-                                                                      alt="難燃　燃えにくい"></li>
+                                                                      alt="難燃　燃えにくい" title="難燃　燃えにくい"></li>
                                 </ul>
 
                             </td>
@@ -178,16 +178,16 @@ $description = '';
                                 <ul class="icon_box">
                                     <li class="toolchip" data-tooltip="汚れが付きにくく、落としやすい加工を施している商品を示すマークです。"
                                         style="cursor: pointer;"><img src="./img/icons/cloth_icon_11.gif"
-                                                                      alt="防汚　汚れにくい"></li>
+                                                                      alt="防汚　汚れにくい" title="防汚　汚れにくい"></li>
                                     <li class="toolchip" data-tooltip="塩素系薬剤のメンテナンスに強い商品を示すマークです。"
                                         style="cursor: pointer;"><img src="./img/icons/cloth_icon_04.gif"
-                                                                      alt="漂白OK　消毒可能"></li>
+                                                                      alt="漂白OK　消毒可能" title="漂白OK　消毒可能"></li>
                                     <li class="toolchip" data-tooltip="抗菌加工で表面に付着した菌の繁殖を抑えられる商品を示すマークです。"
                                         style="cursor: pointer;"><img src="./img/icons/cloth_icon_05.gif"
-                                                                      alt="抗菌　菌の増殖を防ぐ"></li>
+                                                                      alt="抗菌　菌の増殖を防ぐ" title="抗菌　菌の増殖を防ぐ"></li>
                                     <li class="toolchip" data-tooltip="アルコール系薬剤のメンテナンスに強い商品を示すマークです。"
                                         style="cursor: pointer;"><img src="./img/icons/cloth_icon_06.gif"
-                                                                      alt="耐アルコール　消毒可能"></li>
+                                                                      alt="耐アルコール　消毒可能" title="耐アルコール　消毒可能"></li>
                                 </ul>
                             </td>
                         </tr>
@@ -231,17 +231,18 @@ $description = '';
                                 <ul class="icon_box">
                                     <li class="toolchip" data-tooltip="汚れが付きにくく、落としやすい加工を施している商品を示すマークです。"
                                         style="cursor: pointer;"><img src="./img/icons/cloth_icon_11.gif"
-                                                                      alt="防汚　汚れにくい"></li>
+                                                                      alt="防汚　汚れにくい" title="防汚　汚れにくい"></li>
                                     <li class="toolchip" data-tooltip="表面でアルコールの影響が受けにくくなっている商品を示すマークです。"
                                         style="cursor: pointer;"><img src="./img/icons/cloth_icon_13.gif"
-                                                                      alt="準耐アルコール　消毒可能"></li>
+                                                                      alt="準耐アルコール　消毒可能" title="準耐アルコール　消毒可能"></li>
                                     <li class="toolchip" data-tooltip="塩素系薬剤のメンテナンスに強い商品を示すマークです。"
                                         style="cursor: pointer;"><img src="./img/icons/cloth_icon_04.gif"
-                                                                      alt="漂白OK　消毒可能"></li>
+                                                                      alt="漂白OK　消毒可能" title="漂白OK　消毒可能"></li>
                                     <li class="toolchip" data-tooltip="衣料や鞄の粗悪な染料の移行を防ぐ商品を示すマークです。"
                                         style="cursor: pointer;"><img src="./img/icons/cloth_icon_12.gif"
-                                                                      alt="耐移行　色移りしにくい"></li>
-                                    <li class="toolchip" data-tooltip="鉛・水銀・カドミウム・六価クロム・ポリ臭化ビフェニール、ポリ臭化ジフェニルエーテルを使用していない商品を示すマークです。"><img src="./img/icons/cloth_icon_10.gif" alt="6有害物質不使用　安心・安全"></li>
+                                                                      alt="耐移行　色移りしにくい" title="耐移行　色移りしにくい"></li>
+                                    <li class="toolchip" data-tooltip="鉛・水銀・カドミウム・六価クロム・ポリ臭化ビフェニール、ポリ臭化ジフェニルエーテルを使用していない商品を示すマークです。">
+                                        <img src="./img/icons/cloth_icon_10.gif" alt="6有害物質不使用　安心・安全" title="6有害物質不使用　安心・安全"></li>
                                 </ul>
 
                             </td>
@@ -282,10 +283,11 @@ $description = '';
                             <td>張り生地ランク：Cランク</td>
                             <td rowspan="2">
                                 <ul class="icon_box">
-                                    <li class="toolchip" data-tooltip="防炎試験に合格可能な商品を示すマークです。" style="cursor: pointer;"><img src="./img/icons/cloth_icon_14.gif" alt="防炎　燃えにくい"></li>
-                                    <li class="toolchip" data-tooltip="表面でアルコールの影響が受けにくくなっている商品を示すマークです。" style="cursor: pointer;"><img src="./img/icons/cloth_icon_13.gif" alt="準耐アルコール　消毒可能"></li>
-                                    <li class="toolchip" data-tooltip="塩素系薬剤のメンテナンスに強い商品を示すマークです。" style="cursor: pointer;"><img src="./img/icons/cloth_icon_04.gif" alt="漂白OK　消毒可能"></li>
-                                    <li class="toolchip" data-tooltip="鉛・水銀・カドミウム・六価クロム・ポリ臭化ビフェニール、ポリ臭化ジフェニルエーテルを使用していない商品を示すマークです。" style="cursor: pointer;"><img src="./img/icons/cloth_icon_10.gif" alt="6有害物質不使用　安心・安全"></li>
+                                    <li class="toolchip" data-tooltip="防炎試験に合格可能な商品を示すマークです。" style="cursor: pointer;"><img src="./img/icons/cloth_icon_14.gif" alt="防炎　燃えにくい" title="防炎　燃えにくい"></li>
+                                    <li class="toolchip" data-tooltip="表面でアルコールの影響が受けにくくなっている商品を示すマークです。" style="cursor: pointer;"><img src="./img/icons/cloth_icon_13.gif" alt="準耐アルコール　消毒可能" title="準耐アルコール　消毒可能"></li>
+                                    <li class="toolchip" data-tooltip="塩素系薬剤のメンテナンスに強い商品を示すマークです。" style="cursor: pointer;"><img src="./img/icons/cloth_icon_04.gif" alt="漂白OK　消毒可能" title="漂白OK　消毒可能"></li>
+                                    <li class="toolchip" data-tooltip="鉛・水銀・カドミウム・六価クロム・ポリ臭化ビフェニール、ポリ臭化ジフェニルエーテルを使用していない商品を示すマークです。" style="cursor: pointer;">
+                                        <img src="./img/icons/cloth_icon_10.gif" alt="6有害物質不使用　安心・安全" title="6有害物質不使用　安心・安全"></li>
                                 </ul></td>
                         </tr>
                         <tr>
@@ -320,10 +322,10 @@ $description = '';
                             <td>張り生地ランク：Cランク</td>
                             <td rowspan="2">
                                 <ul class="icon_box">
-                                    <li class="toolchip" data-tooltip="汚れが付きにくく、落としやすい加工を施している商品を示すマークです。" style="cursor: pointer;"><img src="./img/icons/cloth_icon_11.gif" alt="防汚　汚れにくい"></li>
-                                    <li class="toolchip" data-tooltip="表面でアルコールの影響が受けにくくなっている商品を示すマークです。" style="cursor: pointer;"><img src="./img/icons/cloth_icon_13.gif" alt="準耐アルコール　消毒可能"></li>
-                                    <li class="toolchip" data-tooltip="塩素系薬剤のメンテナンスに強い商品を示すマークです。" style="cursor: pointer;"><img src="./img/icons/cloth_icon_04.gif" alt="漂白OK　消毒可能"></li>
-                                    <li class="toolchip" data-tooltip="防炎協会認定のJIS1091難燃テストに合格した商品を示すマークです。" style="cursor: pointer;"><img src="./img/icons/cloth_icon_01.gif" alt="難燃　燃えにくい"></li>
+                                    <li class="toolchip" data-tooltip="汚れが付きにくく、落としやすい加工を施している商品を示すマークです。" style="cursor: pointer;"><img src="./img/icons/cloth_icon_11.gif" alt="防汚　汚れにくい" title="防汚　汚れにくい"></li>
+                                    <li class="toolchip" data-tooltip="表面でアルコールの影響が受けにくくなっている商品を示すマークです。" style="cursor: pointer;"><img src="./img/icons/cloth_icon_13.gif" alt="準耐アルコール　消毒可能" title="準耐アルコール　消毒可能"></li>
+                                    <li class="toolchip" data-tooltip="塩素系薬剤のメンテナンスに強い商品を示すマークです。" style="cursor: pointer;"><img src="./img/icons/cloth_icon_04.gif" alt="漂白OK　消毒可能" title="漂白OK　消毒可能"></li>
+                                    <li class="toolchip" data-tooltip="防炎協会認定のJIS1091難燃テストに合格した商品を示すマークです。" style="cursor: pointer;"><img src="./img/icons/cloth_icon_01.gif" alt="難燃　燃えにくい" title="難燃　燃えにくい"></li>
                                 </ul>
                             </td>
                         </tr>
@@ -360,10 +362,14 @@ $description = '';
                             <td>張り生地ランク：Cランク</td>
                             <td rowspan="2">
                                 <ul class="icon_box">
-                                    <li class="toolchip" data-tooltip="鉛・水銀・カドミウム・六価クロム・ポリ臭化ビフェニール、ポリ臭化ジフェニルエーテルを使用していない商品を示すマークです。" style="cursor: pointer;"><img src="./img/icons/cloth_icon_10.gif" alt="6有害物質不使用　安心・安全"></li>
-                                    <li class="toolchip" data-tooltip="表面でアルコールの影響が受けにくくなっている商品を示すマークです。" style="cursor: pointer;"><img src="./img/icons/cloth_icon_13.gif" alt="準耐アルコール　消毒可能"></li>
-                                    <li class="toolchip" data-tooltip="塩素系薬剤のメンテナンスに強い商品を示すマークです。" style="cursor: pointer;"><img src="./img/icons/cloth_icon_04.gif" alt="漂白OK　消毒可能"></li>
-                                    <li class="toolchip" data-tooltip="防炎協会認定のJIS1091難燃テストに合格した商品を示すマークです。" style="cursor: pointer;"><img src="./img/icons/cloth_icon_01.gif" alt="難燃　燃えにくい"></li>
+                                    <li class="toolchip" data-tooltip="鉛・水銀・カドミウム・六価クロム・ポリ臭化ビフェニール、ポリ臭化ジフェニルエーテルを使用していない商品を示すマークです。" style="cursor: pointer;">
+                                        <img src="./img/icons/cloth_icon_10.gif" alt="6有害物質不使用　安心・安全" title="6有害物質不使用　安心・安全"></li>
+                                    <li class="toolchip" data-tooltip="表面でアルコールの影響が受けにくくなっている商品を示すマークです。" style="cursor: pointer;">
+                                        <img src="./img/icons/cloth_icon_13.gif" alt="準耐アルコール　消毒可能" title="準耐アルコール　消毒可能"></li>
+                                    <li class="toolchip" data-tooltip="塩素系薬剤のメンテナンスに強い商品を示すマークです。" style="cursor: pointer;">
+                                        <img src="./img/icons/cloth_icon_04.gif" alt="漂白OK　消毒可能" title="漂白OK　消毒可能"></li>
+                                    <li class="toolchip" data-tooltip="防炎協会認定のJIS1091難燃テストに合格した商品を示すマークです。" style="cursor: pointer;">
+                                        <img src="./img/icons/cloth_icon_01.gif" alt="難燃　燃えにくい" title="難燃　燃えにくい"></li>
                                 </ul>
                             </td>
                         </tr>
@@ -404,7 +410,8 @@ $description = '';
                             <td>張り生地ランク：Dランク</td>
                             <td rowspan="2">
                                 <ul class="icon_box">
-                                    <li class="toolchip" data-tooltip="防炎協会認定のJIS1091難燃テストに合格した商品を示すマークです。" style="cursor: pointer;"><img src="./img/icons/cloth_icon_01.gif" alt="難燃　燃えにくい"></li>
+                                    <li class="toolchip" data-tooltip="防炎協会認定のJIS1091難燃テストに合格した商品を示すマークです。" style="cursor: pointer;">
+                                        <img src="./img/icons/cloth_icon_01.gif" alt="難燃　燃えにくい" title="難燃　燃えにくい"></li>
                                 </ul>
                             </td>
                         </tr>
