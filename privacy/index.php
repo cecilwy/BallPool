@@ -1,10 +1,9 @@
 <?php
 
 //メタ情報をここで設定
-$title = 'プライバシーポリシー';
-$keyword = '';
-$description = '';
-
+$title = 'プライバシーポリシー/ボールプール製作/ボールプール用ボール専門店【PONCHACCHA】';
+$keyword = 'ボールプール，ボールプール用ボール，カラーボール，製造，販売，特注，オーダーメイド，専門店，ポンチャッチャ，業務用，プライバシーポリシー';
+$description = 'プライバシーポリシーは弊社のお客様との約束を記載させていただいております。はボールプール内に浮島のように入れる遊具になります。お子様の遊びの幅が広がります。既製品からオーダーメイド・OEM生産などボールプールのことならなんでもご相談ください。専門スタッフが丁寧にご対応させていただきます。また、カラーボールも自社輸入だから大量在庫を所有しております。ボールプール製作/ボールプール用ボール専門店【PONCHACCHA】';
 ?>
 
 <!DOCTYPE html>
@@ -21,7 +20,7 @@ $description = '';
                     <meta itemprop="position" content="1"/>
                 </li>
                 <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-                    <strong><a itemprop="item" href="#"><?= $title ?></a></strong>
+                    <strong><a itemprop="item" href="#">プライバシーポリシー</a></strong>
                     <meta itemprop="position" content="3"/>
                 </li>
             </ul>

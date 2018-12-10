@@ -29,10 +29,6 @@ if (isset($arr['parts_array'])) {
     $parts_array = $arr['parts_array'];
 }
 $count = count($price_list);
-
-//現在のURLを取得して$canonicalにセット
-$canonical = now_url();
-
 ?>
 
     <!DOCTYPE html>
@@ -227,26 +223,4 @@ function is_url_exist($url)
     }
     curl_close($ch);
     return $status;
-}
-
-function now_url( $prm = 0 ){
-    $return_url = "";
-    $scheme = empty($_SERVER['HTTPS']) ? 'http://' : 'https://'; // httpとhttpsの検知
-
-    // 渡された引数によって返す値を変える
-    switch( $prm ){
-        case 1:     // URLのクエリまで(クエリの?の前に/が入る)
-            $return_url = $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
-            break;
-        case 2:     // ドメインまで(最後に/は付かない)
-            $return_url = $_SERVER['HTTP_HOST'];
-            break;
-        default:    // 現在のファイル名まで(URLにてファイル名が省略されていても非省略に変換される)
-            $return_url = $_SERVER['HTTP_HOST'].$_SERVER['SCRIPT_NAME'];
-            break;
-    }
-
-    $return_url = str_replace("index.php","",$return_url);  // index.phpを除去
-    $return_url = str_replace("//","/",$return_url);        // スラッシュが重複した部分を直す
-    return $scheme.$return_url;                             // スキームを追加して返す
 }

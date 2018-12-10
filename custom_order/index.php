@@ -1,9 +1,9 @@
 <?php
 
 //メタ情報をここで設定
-$title = '特注品について';
-$keyword = '';
-$description = '';
+$title = '特注品/ボールプール製作/ボールプール用ボール専門店【PONCHACCHA】';
+$keyword = 'ボールプール，ボールプール用ボール，カラーボール，製造，販売，特注，オーダーメイド，専門店，ポンチャッチャ，業務用，オリジナル，OEM生産，手作り，日本製';
+$description = '弊社の業務用家具製造の技術と経験を活かして、どんな特注品でもお受けいたします。何なりとご相談ください。はボールプール内に浮島のように入れる遊具になります。お子様の遊びの幅が広がります。既製品からオーダーメイド・OEM生産などボールプールのことならなんでもご相談ください。専門スタッフが丁寧にご対応させていただきます。また、カラーボールも自社輸入だから大量在庫を所有しております。ボールプール製作/ボールプール用ボール専門店【PONCHACCHA】';
 
 ?>
 
@@ -21,7 +21,7 @@ $description = '';
                     <meta itemprop="position" content="1"/>
                 </li>
                 <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-                    <strong><a itemprop="item" href="#"><?= $title ?></a></strong>
+                    <strong><a itemprop="item" href="#">特注品</a></strong>
                     <meta itemprop="position" content="3"/>
                 </li>
             </ul>

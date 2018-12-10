@@ -1,9 +1,9 @@
 <?php
 
 //メタ情報をここで設定
-$title = '施工事例';
-$keyword = '';
-$description = '';
+$title = '施工事例/ボールプール製作/ボールプール用ボール専門店【PONCHACCHA】';
+$keyword = 'ボールプール，ボールプール用ボール，カラーボール，製造，販売，特注，オーダーメイド，専門店，ポンチャッチャ，業務用，施工事例，オリジナル，設置，ショッピングモール，学校，公共施設';
+$description = '施工事例では、過去に弊社で納品させて頂きました、ボールプールをご紹介しております。はボールプール内に浮島のように入れる遊具になります。お子様の遊びの幅が広がります。既製品からオーダーメイド・OEM生産などボールプールのことならなんでもご相談ください。専門スタッフが丁寧にご対応させていただきます。また、カラーボールも自社輸入だから大量在庫を所有しております。ボールプール製作/ボールプール用ボール専門店【PONCHACCHA】';
 
 ?>
 
@@ -21,7 +21,7 @@ $description = '';
                         <meta itemprop="position" content="1"/>
                     </li>
                     <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-                        <strong><a itemprop="item" href="#"><?= $title ?></a></strong>
+                        <strong><a itemprop="item" href="#">施工事例</a></strong>
                         <meta itemprop="position" content="3"/>
                     </li>
                 </ul>
