@@ -1,9 +1,9 @@
 <?php
 
 //メタ情報をここで設定
+$title = '';
 $keyword = '';
 $description = '';
-$canonical = '';
 
 $url = 'https://mat-room.com/api/itemcode/bpm4000hu/prices/';
 $myPath = dirname(__FILE__);
