@@ -7,6 +7,6 @@ $description = '足形シールは入口付近などのピクトグラムとし�
 $url = 'https://mat-room.com/api/itemcode/as1/prices/';
 $myPath = dirname(__FILE__);
 $strength_image = '/item/img/strength04.jpg';
-$strength_txt = '<span>子供にとって、遊びは生活のすべて</span>幼児期のボールプールあそびによって得られる多様な経験は無限大。ご家庭や携帯ショップなどの小スペースのキッズコーナーにぴったりのサイズ感。<br>
+$strength_txt = '幼児期のボールプールあそびによって得られる多様な経験は無限大。ご家庭や携帯ショップなどの小スペースのキッズコーナーにぴったりのサイズ感。
 ボール500～1000個程度、お子様　1～2人用のボールプールです。';
 include '../../template/item_detail.php';
