@@ -5,7 +5,7 @@ window.jQuery = jQuery;
 
 const modaal = require('modaal');
 const slickcarousel = require('slick-carousel');
-
+import 'jquery-ui-dist/jquery-ui.min';
 
 jQuery(function () {
     jQuery('.list-slider').slick({
@@ -57,4 +57,8 @@ jQuery(function () {
         return false;
     });
 
+    jQuery('.toolchip').tooltip({
+        show:false,
+        hide:false
+    });
 });

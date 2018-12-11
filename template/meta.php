@@ -20,6 +20,7 @@ $canonical = now_url();
     <!-- canonical url-->
     <link rel="canonical" href="<?= $canonical ?>">
     <!-- stylesheet-->
+    <link href="/css/jquery-ui.css" rel="stylesheet">
     <link href="/css/style.css" rel="stylesheet">
 </head>
 <?php
